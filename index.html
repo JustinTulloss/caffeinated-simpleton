@@ -5,14 +5,17 @@
   <head>
     <title>Caffeinated Simpleton</title>
     <link rel="stylesheet" type="text/css" href="/css/blog.css">
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
   </head>
   <body>
-    <h1>Caffeinated Simpleton</h1>
-    <ol>
-      {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ol>
+    <section>
+      <h1>Caffeinated Simpleton</h1>
+      <ol>
+        {% for post in site.posts %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ol>
+    </section>
   </body>
 </html>
 
