@@ -14,6 +14,9 @@ I didn't really want to use Jekyll since I'm not a big [Ruby][3] fan, but there'
 no reason for static content to not be static, and Jekyll is currently the best
 tool out there to fulfill that ideal.
 
+This is very much a work on progress, and will hopefully improve over time.
+Sorry for the mess!
+
 [1]: https://github.com/mojombo/jekyll
 [2]: http://wordpress.org/
 [3]: http://www.ruby-lang.org/
