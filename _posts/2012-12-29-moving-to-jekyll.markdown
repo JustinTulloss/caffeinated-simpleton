@@ -1,3 +1,6 @@
+---
+layout: post
+---
 Moving to Jekyll
 ================
 

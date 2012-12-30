@@ -1,0 +1,18 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caffeinated Simpleton</title>
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+  </head>
+  <body>
+    <h1>Caffeinated Simpleton</h1>
+    <ol>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ol>
+  </body>
+</html>
+

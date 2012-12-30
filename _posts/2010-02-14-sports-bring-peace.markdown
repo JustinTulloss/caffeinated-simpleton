@@ -1,0 +1,49 @@
+---
+layout: !binary |-
+  cG9zdA==
+status: !binary |-
+  cHVibGlzaA==
+published: true
+title: !binary |-
+  U3BvcnRzIEJyaW5nIFBlYWNl
+author: !binary |-
+  anVzdGlu
+author_login: !binary |-
+  anVzdGlu
+author_email: !binary |-
+  am10dWxsb3NzQGdtYWlsLmNvbQ==
+author_url: !binary |-
+  aHR0cDovLw==
+wordpress_id: 330
+wordpress_url: !binary |-
+  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MzMw
+date: 2010-02-14 20:35:53.000000000 -08:00
+categories:
+- !binary |-
+  V2hhdCBJJ20gdGhpbmtpbmc=
+tags:
+- !binary |-
+  c3BvcnRz
+- !binary |-
+  Q2hyaXN0b3BoZXIgSGl0Y2hlbnM=
+- !binary |-
+  aW5zdGluY3Rz
+- !binary |-
+  V29ybGQgUGVhY2U=
+comments: []
+---
+<a href="http://justin.harmonize.fm/wp-content/uploads/2010/02/torch-mob.jpg"><img class="alignright size-full wp-image-333" title="Your typical sports fans." src="http://justin.harmonize.fm/wp-content/uploads/2010/02/torch-mob.jpg" alt="" width="350" height="298" /></a>In a typically whiny and smug <a href="http://www.newsweek.com/id/233007" target="_blank">editorial in this week's Newsweek</a>, <a id="aptureLink_QXckUmtqJm" href="http://en.wikipedia.org/wiki/Christopher%20Hitchens">Christopher Hitchens</a> rants that sports are the cause of much needless political strife and that celebrating the athletes that make these spectacles possible degrades us all. He equates sports fans to children or some sort of uneducated, redneck mob that follows manufactured allegiances to murder, war, and ignorance. This all is, of course, ridiculous, not to mention offensive to the thoughtful, well-educated individuals who understand and care about sports.
+
+Hitchens' main line of reasoning stems from a few anecdotes that he brings together to create an overly pessimistic picture of sports creating international tension. This kind of journalism is sickening, but typical, as it poses a number of loosely similar stories as facts that reach a hard conclusion without even suggesting alternative sides of the story. It is nothing more than tabloid-esque entertainment, but nevertheless I am compelled to present a different vision of sports in America and the world as a whole.
+
+<a href="http://justin.harmonize.fm/wp-content/uploads/2010/02/chimpgun.jpg"><img class="alignleft size-full wp-image-340" title="Early humans before sports." src="http://justin.harmonize.fm/wp-content/uploads/2010/02/chimpgun.jpg" alt="" width="300" height="210" /></a>Since humanity has formed into nations, cultures, religions, and a number of other ways of organizing themselves, there has been a basic problem. In a world in which it is more likely that you do not know somebody than you do know them, how do we interact, probe each others strengths and weaknesses, find common ground, and establish community with people we have no interaction with? Discussing economics, religion, or politics is more likely to breed conflict than mutual understanding. You cannot compete with somebody who is willing to die rather than give ground on a subject. Competitions, as a natural tribal instinct, had to evolve into a different form. I am always going to want to best by sister at any give topic. My family will want to best the neighbors. The town will want to best the next town over. The state will want to best the next state. If we ever find alien life forms, Earth will want to show their superiority. There should be a way to fulfill this natural need to compete without killing everyone. Sports is that way.
+
+This point seems to play right into sports opponents hands. They would say that sports are still a reflection of animal instincts that we can grow out of, that's it's somehow base. I strongly disagree. Sports are the civilized competition, the way we teach and learn how to resolve differences without resorting to violence. Sports are islands of peace in a world riddled with genuine conflict. They provide tribal community without pushing us towards its violence.
+
+The key to sports peaceful nature is that they, in and of themselves, don't matter. They are not a higher cause. When they become representative of a higher cause, trouble ensues, but when they are kept to the level of competition for competition's sake, then there is no reason for animosity to endure, or to break into violence. This allows for community on both sides of the competition, which allows us to ignore the potentially violent differences individuals have in their everyday lives.
+
+<a href="http://justin.harmonize.fm/wp-content/uploads/2010/02/uiuc.png"><img class="alignright size-full wp-image-338" title="University of Illinois at Urbana-Champaign" src="http://justin.harmonize.fm/wp-content/uploads/2010/02/uiuc.png" alt="" width="115" height="149" /></a>College is a great example. While I probably do not have an causes that I will violently enforce, many people that are thrown together on the same university do. Israelis and Palestinians sit next to each other in lecture. Blacks and whites, Armenians and Turks, and hundreds of other traditionally irreconcilable cultures, religions, and nationalities interact with each other every day. How is it possible to create a cohesive community out of such a widely varied population? Sports. A few chosen athletes are tasked with representing this created community in a way that we can all join together and push past our differences. This community now has a face, something to fight for, but not in a violent way. We can peacefully come together around this one cause.
+
+<a href="http://justin.harmonize.fm/wp-content/uploads/2010/02/bovswoody1.jpg"><img class="alignleft size-full wp-image-336" title="Bo Vs Woody" src="http://justin.harmonize.fm/wp-content/uploads/2010/02/bovswoody1.jpg" alt="" width="351" height="212" /></a>The same concept applies to localities, states, and nations. If I meet an older, latino, blue-collar worker on a bus or in a bar, I have nothing obviously in common with this man. Throw on an Ohio State sweatshirt, and suddenly we can talk for hours. What's more, throw a Michigan sweatshirt on the man, and we can still have a civil conversation. We are rivals, but not the kind that you can't have a beer with. In fact, I am offered an understanding of how the man thinks that I would not normally have. I know he hates me the same way I hate him, and we can bond over that. The same principle applies to a San Francisco shirt in San Francisco, or a Die Mannschaft jersey in Germany.
+
+Sports at their core are about peaceful competition. So how is there so much violence? The violence is caused by the same things that cause violence outside of sports, sports are sometimes just mixed up into the equation. Violence is frequently caused by money, religion, cultural differences, and a whole slew of other things. When the sports teams representing two sides that are already entangled in a conflict meet, one of two things can happen. The competition can remind everybody of their shared interests, or they can serve as a catalyst to a violent conflict. While I believe that the majority of the data suggests the former, I have no proof of this. The important point is, the violence is not caused by the sport itself. It's caused by the things that always drive us apart. Sports themselves, when played out as they are intended, can only bring peace.

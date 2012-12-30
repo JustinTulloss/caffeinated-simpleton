@@ -1,0 +1,31 @@
+---
+layout: !binary |-
+  cG9zdA==
+status: !binary |-
+  cHVibGlzaA==
+published: true
+title: !binary |-
+  V2VsY29tZSE=
+author: !binary |-
+  anVzdGlu
+author_login: !binary |-
+  anVzdGlu
+author_email: !binary |-
+  am10dWxsb3NzQGdtYWlsLmNvbQ==
+author_url: !binary |-
+  aHR0cDovLw==
+wordpress_id: 5
+wordpress_url: !binary |-
+  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9NQ==
+date: 2008-08-16 23:01:36.000000000 -07:00
+categories:
+- !binary |-
+  V2hhdCBJJ20gZG9pbmc=
+tags: []
+comments: []
+---
+Welcome to my personal blog! My old personal blog was deleted without warning, so I'm starting a new one here. I'm freeloading off of the harmonize.fm server, but as it's my company's server, and the company is 49% mine, I don't think they'll mind. 
+
+I've started this blog because now that I'm not working on harmonize for ridiculous hours and searching for a job doesn't take huge amounts of time, I have more time to write. In addition, I'm trying to learn Erlang to a much deeper level and I think that I might have some things to say in that process.
+
+I hope you enjoy it!

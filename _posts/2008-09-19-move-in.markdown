@@ -1,0 +1,96 @@
+---
+layout: !binary |-
+  cG9zdA==
+status: !binary |-
+  cHVibGlzaA==
+published: true
+title: !binary |-
+  TW92ZSBJbg==
+author: !binary |-
+  anVzdGlu
+author_login: !binary |-
+  anVzdGlu
+author_email: !binary |-
+  am10dWxsb3NzQGdtYWlsLmNvbQ==
+author_url: !binary |-
+  aHR0cDovLw==
+wordpress_id: 92
+wordpress_url: !binary |-
+  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vaW5kZXgucGhwLzIwMDgvMDkv
+  bW92ZS1pbi8=
+date: 2008-09-19 22:56:55.000000000 -07:00
+categories:
+- !binary |-
+  V2hhdCBJJ20gZG9pbmc=
+tags:
+- !binary |-
+  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
+comments:
+- id: 30
+  author: !binary |-
+    RGF2ZQ==
+  author_email: !binary |-
+    ZGF2ZUBkYXZlem9yLm5ldA==
+  author_url: !binary |-
+    aHR0cDovL3d3dy5kYXZlem9yLm5ldA==
+  date: !binary |-
+    MjAwOC0wOS0yMCAyMDoyNTo1NyAtMDcwMA==
+  date_gmt: !binary |-
+    MjAwOC0wOS0yMSAwMToyNTo1NyAtMDcwMA==
+  content: That&#39;s glamorous as hell.  Good luck dude.
+- id: 1592
+  author: !binary |-
+    QWxhbmE=
+  author_email: !binary |-
+    Y2FybGFfc2FuY0Bob3RtYWlsLmNvbQ==
+  author_url: !binary |-
+    aHR0cDovL3d3dy5jYXBpdGFsYmFyLm5ldA==
+  date: !binary |-
+    MjAxMi0wNC0xNyAwMzowNzowMSAtMDcwMA==
+  date_gmt: !binary |-
+    MjAxMi0wNC0xNyAxMTowNzowMSAtMDcwMA==
+  content: this is a great post to check out.http://www.capitalbar.net
+- id: 2047
+  author: !binary |-
+    R3JlZ29yaW8=
+  author_email: !binary |-
+    bWFpbEByZmhjb21wYW55LmNvbQ==
+  author_url: !binary |-
+    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
+    NDA2MDAzODky
+  date: !binary |-
+    MjAxMi0wNS0yMiAwODo0MToxMiAtMDcwMA==
+  date_gmt: !binary |-
+    MjAxMi0wNS0yMiAxNjo0MToxMiAtMDcwMA==
+  content: We definitely need more smart people like you aornud.
+- id: 2089
+  author: !binary |-
+    SG9kZ2V5
+  author_email: !binary |-
+    bWFkaHV0c29uQHlhaG9vLmNvLnVr
+  author_url: !binary |-
+    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
+    NDA2MDE4MDM0
+  date: !binary |-
+    MjAxMi0wNS0yMyAxODowMToyMSAtMDcwMA==
+  date_gmt: !binary |-
+    MjAxMi0wNS0yNCAwMjowMToyMSAtMDcwMA==
+  content: Haha. I woke up down today. You've cehreed me up!
+- id: 2131
+  author: !binary |-
+    VGVqdQ==
+  author_email: !binary |-
+    aW5mb0BzaWNrYW5kd2lyZWQuZGU=
+  author_url: !binary |-
+    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
+    NDA2MDI1NjI0
+  date: !binary |-
+    MjAxMi0wNS0yMyAyMTowNDowMiAtMDcwMA==
+  date_gmt: !binary |-
+    MjAxMi0wNS0yNCAwNTowNDowMiAtMDcwMA==
+  content: Articles like this really grease the sthfas of knowledge.
+---
+<img src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1918.jpg" width="260" height="195" alt="PICT1918.JPG" style="float:right;" />
+
+<p>I arrived in San Francisco early this afternoon after spending an uneventful day and night on the road. Palm is putting me up in an apartment in downtown San Francisco for a month until I find a more permanent arrangement. The apartment is on the 25th floor of 26 in a mid-level high rise. It's a beautiful apartment. It's right in the financial district, which is perhaps too high rent and too low excitement for permanent living, but it's fantastic for the time being.</p>
+<p>You can see two different views from the apartment here, as well as a picture of the living room. I played with the lighting a bit since it's just past dusk. I clearly have a lot of learning to do if I'm ever going to get the most out of this camera.<img src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1914.jpg" width="480" height="360" alt="PICT1914.JPG" style="margin-top:10px; margin-right:10px; margin-bottom:10px; margin-left:10px;" /> <img src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1916.jpg" width="360" height="480" alt="PICT1916.JPG" style="margin-top:10px; margin-right:10px; margin-bottom:10px; margin-left:10px;" /></p>
