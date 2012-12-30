@@ -3333,7 +3333,7 @@ Taking advantage of SIMD instructions is a bit tricky. They're not supported on 
 GCC comes with a number of SIMD optimized replacements for common libc functions. Memcmp is one of those functions that GCC optimizes. However, turning on this optimization is a bit tricky. Again, since every platform supports different instructions, you have to be very specific about what features are supported in order to get the maximum optimization. GCC will always create the most compatible binary it can unless specifically told otherwise, which is the right thing to do.
 
 To compile with GCC's optimized memcmp, we run the following:
-<pre lang="none">gcc -Wall findneedle.c -O3 -march=opteron -o findneedle</pre>
+{% highlight sh %}gcc -Wall findneedle.c -O3 -march=opteron -o findneedle{% endhighlight %}
 This tells gcc to optimize as much as it can (-O3) and that it can expect to be running on a processor with the same features as the Opteron (x86-64, SSE1-3). I'm running this on an Intel Core Duo, which supports the same feature set. This gives us a version of the findneedle program that does not use the standard memcmp implementation, but instead uses GCC's SIMD optimized version.
 <h3>The Results</h3>
 My test was simple: I timed how long it took to a 16K needle in a 328MB haystack.
