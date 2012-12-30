@@ -1,2 +1,2 @@
 deploy:
-	jekyll && rsync -avz --delete _site/ 50.56.216.31:/usr/share/nginx/www
+	jekyll && rsync -avz --delete _site/ justin.harmonize.fm:/usr/share/nginx/www
