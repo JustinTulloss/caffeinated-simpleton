@@ -36,13 +36,14 @@ header {
     background-color: #444;
 }
 
-header a {
+header a, header a:visited {
     text-decoration: none;
     color: white;
 }
 
 header a:hover {
     color: #aaa;
+    text-decoration: none;
 }
 
 header nav {
