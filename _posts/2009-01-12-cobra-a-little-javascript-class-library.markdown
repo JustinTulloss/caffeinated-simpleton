@@ -32880,7 +32880,7 @@ comments:
     rel=\"nofollow\">north face jacekts</a> ztgocpnwh xqiiveqjg vxpprihbo \r\nRelated
     articles: \r\nhttp://forum.allmacsoft.com/Forum/newreply.php?do=newreply&amp;noquote=1&amp;p=40835\r\nhttp://oil-trade.info/newreply.php?do=newreply&amp;p=90785&amp;noquote=1\r\nhttp://www.createblog.com/forums/index.php?act=Post&amp;CODE=02&amp;f=1&amp;t=202017&amp;qpid=2930735"
 ---
-In <a href="http://justin.harmonize.fm/index.php/2008/12/a-better-object-oriented-javascript/">my last post</a>, I talked a bit about the problems I saw with trying to express new types and objects in JavaScript. It's not so much that anything is difficult to do, it's that doing different things requires very different (and sometimes very verbose) syntax. I tried a few different things to trick JavaScript into behaving differently, but in the end, I realized that perhaps just keeping things simple was the best thing to do. I wrote down a few small features for my little library.
+In <a href="/Development/2008/12/15/a-better-object-oriented-javascript.html">my last post</a>, I talked a bit about the problems I saw with trying to express new types and objects in JavaScript. It's not so much that anything is difficult to do, it's that doing different things requires very different (and sometimes very verbose) syntax. I tried a few different things to trick JavaScript into behaving differently, but in the end, I realized that perhaps just keeping things simple was the best thing to do. I wrote down a few small features for my little library.
 <ul>
 	<li>Classes. Not really the full blown classes of Java lore, but more a shortcut way of doing ClassName.prototype.functionName = function(args).</li>
 	<li>Inheritance. I wanted my classes to support the prototypal inheritance built into JavaScript.</li>
@@ -32891,7 +32891,8 @@ I also wanted some convention for how to deal with private methods and propertie
 
 My final bit of inspiration was Python. Python doesn't care about privacy, it just trusts the developer not to mess things up. I like this philosophy. I also like the explicit self in python methods.  A lot of people don't like self, but I think it makes it very obvious what instance your code is acting on. I took these things to heart and wrote Cobra, a class system for JavaScript that's really simple and looks a whole lot like Python.  Without further ado, let me show you some examples of Cobra.
 <h3>Classes</h3>
-<pre lang="javascript">/* This is our base class. In its initialization function,
+{% highlight js %}
+/* This is our base class. In its initialization function,
  * all it does is set things that are true for
  * all living animals.
  */
@@ -32938,9 +32939,10 @@ var Tiger = new Class({
         Class.super(Tiger, '__init__', self);
         self.weight = 'quite a bit';
     }
-});</pre>
+});
+{% endhighlight %}
 If we try using these classes, you'll see that they work as they should:
-<code>
+<pre>
 &gt;&gt;&gt; sneakers = new Cat();
 Object breathes=true claws=true furry=true
 &gt;&gt;&gt; sneakers.breathes
@@ -32956,34 +32958,35 @@ MEOW
 &gt;&gt;&gt; tigger = new Tiger()
 Object breathes=true claws=true furry=true
 &gt;&gt;&gt; tigger.says()
-GRRRRR</code>
+GRRRRR
+</pre>
 
 You've probably noticed something very strange at this point (at least for the JavaScript world). Every instance method takes "self" as its first parameter. This parameter is the instance. Whether "this" is currently bound to the window or any other random object, "self" will always be the instance of the class. It's a nice property, and you can still use "this" however you may wish. Just remember that your methods have to take "self" as their first arguments or weird things will happen.
 <h3>Singletons</h3>
 As I mentioned in my last post, I've had some issues creating singletons in JavaScript*.There is more than one way to do it, and you have to change a whole lot to go from one form to the other. If you no longer want your object to be a singleton, that might be a whole new refactoring pain. So I created a simple Singleton class that uses the same syntax as the Class type above, but it immediately discards its class and returns a single instance. This is nice because creating it is exactly the same as creating a class. You don't have to think about it at all, and if you eventually realize a singleton was a bad idea, it's trivial to convert it to a class.
-<pre lang="javascript">var sanFranciscoZoo = new Singleton({
+{% highlight js %}var sanFranciscoZoo = new Singleton({
     __init__: function(self) {
         self.cats = [new Tiger(), new Tiger(), new Cat()];
     }
-});</pre>
+});{% endhighlight %}
 That's pretty much it.
 <h3>Namespaces, statics, and privacy</h3>
 Everything else needs to be solved by convention. By looking at a method, it's easy to tell whether it is static or not. If "self" is the first parameter, then it's not static. So how do you create static methods? Well, for now, you don't. If you have a group of static methods, stick them in an Object, which can be used as a namespace. You can even do the equivalent of C++'s "using":
-<pre lang="javascript">with (MyApp.Utils) {
+{% highlight js %}with (MyApp.Utils) {
     //this would normally be referenced as MyApp.Utils.utilityFunction();
     utilityFunction();
-}</pre>
+}{% endhighlight %}
 How about privacy? It's handled the same as Python. Everything stuck into "self" is public, so use a leading underscore to indicate that others shouldn't touch that data or method.
-<pre lang="javascript">var Secretive = new Class({
+{% highlight js %}var Secretive = new Class({
     __init__: function(self) {
          self._doNotTouch = 5;
     }
     _doNotCall: function(self, add) {
         self._doNotTouch += add;
     }
-});</pre>
+});{% endhighlight %}
 I know that a lot of people don't like the underscore approach (including <a href="http://javascript.crockford.com/">JavaScript hero Doug Crockford</a>), but it's simple, consistent, and clear. I'm stickin' with it.
 <h3>Try It</h3>
-I would love it if people would try it out on their own and tell me what they think. The source is available <a href="http://www.bitbucket.org/jmtulloss/cobra/">on bitbucket</a>. Any problems can be reported in the comments or be filed <a href="http://www.bitbucket.org/jmtulloss/cobra/issues/">here</a>. There certainly might be some, I just whipped this up a few hours ago.
+I would love it if people would try it out on their own and tell me what they think. The source is available <a href="https://github.com/JustinTulloss/cobra">on github</a>. Any problems can be reported in the comments or be filed <a href="https://github.com/JustinTulloss/cobra/issues">here</a>. There certainly might be some, I just whipped this up a few hours ago.
 
-*When I say singleton, I mean a single instance of a class. In the design pattern world, this means that doing "new MySingleton()" would always return the same instance. I find that deceptive, so I just want it to throw an error when you try to make a "new" singleton.
+*When I say singleton, I mean a single instance of a class. In the design pattern world, this means that doing `new MySingleton()` would always return the same instance. I find that deceptive, so I just want it to throw an error when you try to make a "new" singleton.
