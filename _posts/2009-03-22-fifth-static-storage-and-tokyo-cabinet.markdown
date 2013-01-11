@@ -75,23 +75,23 @@ To accomplish this, I ended up with the wrapper below.
 <script src="http://gist.github.com/83113.js"></script>
 
 Whew. Pretty intense stuff. There's all sorts of new stuff here for the beginning lisper, so let's step through this line by line, though we'll skip a few of the less interesting lines.
-<pre lang="clojure"> (declare *db*)</pre>
-This is pretty straightforward. It declares *db* in the tokyo-cabinet namespace. *&lt;var name&gt;* is the convention for declaring globals in lisp.
-<pre lang="clojure">(defmacro use [filename &amp; body]</pre>
+{% highlight clj %} (declare *db*){% endhighlight %}
+This is pretty straightforward. It declares \*db\* in the tokyo-cabinet namespace. \*&lt;var name&gt;\* is the convention for declaring globals in lisp.
+{% highlight clj %}(defmacro use [filename &amp; body]{% endhighlight %}
 Macros are what lispers tend to rave about, and this is my first one. Macros in lisp are basically the same concept as in C, you can substitute whatever you like into the place where it's used at compile time. The difference is that lisp's macro system is part of the language itself, so you can do absolutely anything. They do have their drawbacks, however, in that they're exceptionally difficult to debug. After all, the whole thing is being substituted into your original source, so errors come up as if they had happened inline.
 
 The "&amp;" symbol might also be new to some of you. It allows for the macro to be passed an arbitrary number of arguments after the name of the database that we're operating on. In our case, we'll be executing the passed expressions in the context of the open database. Therefore any calls to put and/or get will operate on that particular database.
-<pre lang="clojure">`(with-open [hdb# (HDB.)]</pre>
-Oh boy. This line is basically magic. The backtick (`) is a form quote macro. This means that everything after from the backtick until the following expression is closed is the source that will be substituted into the caller's source. There are two forms of form quotes in clojure, backtick (`) and quote ('). They have one important difference. The backtick version namespaces all things declared with the macro to the current namespace. So in this case, anything declared would be namespaced to tokyo-cabinet. The quote version does not do this.
+{% highlight clj %}`(with-open [hdb# (HDB.)]{% endhighlight %}
+Oh boy. This line is basically magic. The backtick (\`) is a form quote macro. This means that everything after from the backtick until the following expression is closed is the source that will be substituted into the caller's source. There are two forms of form quotes in clojure, backtick (\`) and quote ('). They have one important difference. The backtick version namespaces all things declared with the macro to the current namespace. So in this case, anything declared would be namespaced to tokyo-cabinet. The quote version does not do this.
 
-The # macro is the next confusing thing. When you have a macro, there's a chance that you will be overwriting a symbol in the original source. If the caller of "use" already had "hdb" defined, I would overwrite it. The # macro automatically generates a unique name, so all references to #hdb will actually refer to something like hdb_1829_auto. Finally we're using <a href="http://clojure.org/api#with-open">with-open</a>. This macro binds hdb# to the HDB() instance for all the expressions passed to it. It then calls .close on hdb# when it exits. It basically does exactly what we want.
-<pre lang="clojure">(.open hdb# ~filename (bit-or HDB/OWRITER HDB/OCREAT))</pre>
+The # macro is the next confusing thing. When you have a macro, there's a chance that you will be overwriting a symbol in the original source. If the caller of "use" already had "hdb" defined, I would overwrite it. The # macro automatically generates a unique name, so all references to #hdb will actually refer to something like hdb\_1829\_auto. Finally we're using <a href="http://clojure.org/api#with-open">with-open</a>. This macro binds hdb# to the HDB() instance for all the expressions passed to it. It then calls .close on hdb# when it exits. It basically does exactly what we want.
+{% highlight clj %}(.open hdb# ~filename (bit-or HDB/OWRITER HDB/OCREAT)){% endhighlight %}
 The new thing here is the "~". The tilde is the unquote macro. Since we're in a quoted form (due to the backtick on the previous line), we can't actually access filename. filename would need to be defined in our caller. The tilde pops us out of the quoting for a second to pull in the passed filename. After that, we continue to be quoted.
 
-We still have a problem here. "get" and "put" both refer to tokyo-cabinet/*db*, but *db* is not defined. Luckily, we can easily fix that.
-<pre lang="clojure">(binding [*db* hdb#]</pre>
-This binds hdb# to *db* for whatever expressions are passed in. Since we're using the backtick instead of the quote, this is automatically converted to tokyo-cabinet/*db*, which is what we want.
-<pre lang="clojure">(do ~@body))))</pre>
+We still have a problem here. "get" and "put" both refer to tokyo-cabinet/\*db\*, but \*db\* is not defined. Luckily, we can easily fix that.
+{% highlight clj %}(binding [*db* hdb#]{% endhighlight %}
+This binds hdb# to \*db\* for whatever expressions are passed in. Since we're using the backtick instead of the quote, this is automatically converted to tokyo-cabinet/*db*, which is what we want.
+{% highlight clj %}(do ~@body)))){% endhighlight %}
 "~@" is the last bit of magic. Basically this is the same as ~, except you can pass a sequence and it will apply ~ to every member. This is what we want, for every expression passed to be executed in the context we've defined.
 
 As time goes on, I will add more of the Java API into this wrapper. You can follow the <a href="http://github.com/jmtulloss/tokyo-cabinet-clj/tree/master">project on github</a> if you're interested in the updates.
