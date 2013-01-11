@@ -77,7 +77,7 @@ To accomplish this, I ended up with the wrapper below.
 Whew. Pretty intense stuff. There's all sorts of new stuff here for the beginning lisper, so let's step through this line by line, though we'll skip a few of the less interesting lines.
 {% highlight clj %} (declare *db*){% endhighlight %}
 This is pretty straightforward. It declares \*db\* in the tokyo-cabinet namespace. \*&lt;var name&gt;\* is the convention for declaring globals in lisp.
-{% highlight clj %}(defmacro use [filename &amp; body]{% endhighlight %}
+{% highlight clj %}(defmacro use [filename & body]{% endhighlight %}
 Macros are what lispers tend to rave about, and this is my first one. Macros in lisp are basically the same concept as in C, you can substitute whatever you like into the place where it's used at compile time. The difference is that lisp's macro system is part of the language itself, so you can do absolutely anything. They do have their drawbacks, however, in that they're exceptionally difficult to debug. After all, the whole thing is being substituted into your original source, so errors come up as if they had happened inline.
 
 The "&amp;" symbol might also be new to some of you. It allows for the macro to be passed an arbitrary number of arguments after the name of the database that we're operating on. In our case, we'll be executing the passed expressions in the context of the open database. Therefore any calls to put and/or get will operate on that particular database.
