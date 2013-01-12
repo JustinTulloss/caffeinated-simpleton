@@ -38,8 +38,8 @@ SELECT justin_term_taxonomy.term_taxonomy_id, justin_terms.name
         justin_term_taxonomy.term_id=justin_terms.term_id;
 ```
 
-But I couldn't figure out how the taxonomy terms related to the posts. This
-diagram was super helpful for that.
+But I couldn't figure out how the taxonomy terms related to the posts. [This
+diagram][6] was super helpful for that.
 
 ![WordPress Database Schema](//codex.wordpress.org/images/9/9e/WP3.0-ERD.png)
 
@@ -100,3 +100,4 @@ for those URLs, so this is far from perfect.
 [3]: http://justin.harmonize.fm/index.php/2009/09/an-introduction-to-javascripts-this/index.html
 [4]: https://justin.harmonize.fm/Development/2009/09/26/an-introduction-to-javascripts-this.html
 [5]: http://justin.harmonize.fm
+[6]: http://codex.wordpress.org/Database_Description
