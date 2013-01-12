@@ -21,8 +21,6 @@ date: 2008-09-07 22:54:33.000000000 -07:00
 categories:
 - !binary |-
   RGV2ZWxvcG1lbnQ=
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
 tags:
 - !binary |-
   V2ViIFN0YW5kYXJkcw==

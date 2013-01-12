@@ -22,8 +22,6 @@ date: 2008-09-09 16:56:31.000000000 -07:00
 categories:
 - !binary |-
   V2hhdCBJJ20gdGhpbmtpbmc=
-- !binary |-
-  UG9saXRpY3M=
 tags:
 - !binary |-
   UG9saXRpY3M=
