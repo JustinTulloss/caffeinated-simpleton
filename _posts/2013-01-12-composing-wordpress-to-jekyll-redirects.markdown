@@ -9,7 +9,7 @@ even though they are probably all long dead in Google's search index. In any
 event, I'm a firm believer that no URL should ever die, least of all my own.
 Please ignore any dead images you find on this site.
 
-The problem is, it's not a straightforward [nginx rewrite][2]to go from the old
+The problem is, it's not a straightforward [nginx rewrite][2] to go from the old
 url to the new one. The new URL contains the category, which the old one didn't.
 So, I decided to hardcore a generated list of WordPress urls to rewrite to
 Jekyll URLs by getting their equivalents from MySQL, where I still have a dump
