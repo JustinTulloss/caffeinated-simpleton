@@ -1,10 +1,11 @@
 ---
 layout: post
+category: Development
 ---
 
 I re-enabled [Disqus][1] on this site this morning. It went relatively smoothly
-with a nifty little tool to follow the redirects I set up in my last post and
-migrate the old comments over.
+with a nifty little tool to follow the redirects I set up [in my last pos][4]
+and migrate the old comments over.
 
 However, I'm running this over SSL because everything should be run over SSL
 and especially blog comment systems that have your logged in user state to
@@ -34,3 +35,4 @@ I have no idea if it will just stop working at some point. Hopefully not!
 [1]: http://disqus.com
 [2]: http://stackoverflow.com/questions/10004213/how-do-i-force-disqus-to-use-https-on-all-requests
 [3]: http://help.disqus.com/customer/portal/articles/526768-introducing-disqus-2012-and-f-a-q-
+[4]: /Development/2013/01/12/composing-wordpress-to-jekyll-redirects.html
