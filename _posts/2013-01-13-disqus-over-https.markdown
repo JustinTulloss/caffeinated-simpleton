@@ -13,7 +13,7 @@ work at all, with Chrome telling me that it had blocked the attempt to load
 the Disqus JavaScript from an insecure domain.
 
 The [rest of the internet][2] and [Disqus's own help site][3] suggest that
-they don't support SSL is Disqus 2012, but in fact they do. This is all that's
+they don't support SSL in Disqus 2012, but in fact they do. This is all that's
 needed to enable SSL for your Disqus plugin.
 
 ```diff
