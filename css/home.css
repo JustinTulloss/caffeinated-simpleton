@@ -4,5 +4,55 @@ ol {
 }
 
 section {
-    margin: 5%;
+    padding: 5%;
+    margin-top: 400px;
+    background: white;
+}
+
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -3;
+    background: #444;
+    height: 400px;
+}
+
+#header h1 {
+    z-index: 0;
+    color: white;
+    margin: 0;
+    position: absolute;
+    padding: 5%;
+}
+
+#header img {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+@media all and (max-width: 200px) {
+    #header img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) and (min-width: 201px) {
+    #header img {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 600px) and (min-width: 401px) {
+    #header img {
+        width: 33%;
+    }
+}
+
+@media all and (min-width: 801px) {
+    #header img {
+        width: 20%;
+    }
 }
