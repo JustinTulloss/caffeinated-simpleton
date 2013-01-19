@@ -435,7 +435,9 @@ I think most people who happen upon this lonely corner of the internet are alrea
 JavaScript's scoping rules are dumb. Variables default to the global scope unless told otherwise and the <code>this</code> keyword, which is supposed to point to the current instance, actually points to the global object unless told otherwise. These scoping rules cause huge problems for beginning JavaScript programmers and trip up the most experienced programmers if they aren't paying attention. Since these odd scoping rules default to the global object, and not to some error state, errors can go by unnoticed for long periods of time.
 <h4>Object Syntax</h4>
 JavaScript claims to be a prototypal language. It lies. It's a language that also has prototypes. In a true prototypal language, there are objects. Objects can be derived from other objects, either by copying the parent object or by linking to it. JavaScript does something similar with its objects' built in <code>prototype</code> attribute. Its prototype points to an object that it replicates the behavior of. However, it doesn't replicate this behavior until <em>after you create a new object.</em> Let me demonstrate with some unsupported features of JavaScript:
-<pre lang="javascript">//This is my base object. It's a pretty simple 4 step dance.
+
+```js
+//This is my base object. It's a pretty simple 4 step dance.
 Dance = {
     danceAround: function() {},
     steps: 4
@@ -451,9 +453,13 @@ Tango = {
 Tango.__proto__ = MyDance;
 
 // This works then:
-Tango.danceAround();</pre>
+Tango.danceAround();
+```
+
 That's true prototypal behavior. There's no "new" keyword, just behaviors that can be stolen by other objects.  Unfortunately, JavaScript was thrown together in (I believe) about 15 minutes, minus a 5 minute coffee break. The writers realized that people were going to flip if it didn't resemble the popular languages of the time, so they implemented a prototype-based language, pulled the prototypes into a separate property, and added a "new" keyword. This led to syntax like the following:
-<pre lang="javascript">//This is my base object. It's a pretty simple 4 step dance.
+
+```js
+//This is my base object. It's a pretty simple 4 step dance.
 Dance = {
     danceAround: function() {},
     steps: 4
@@ -463,7 +469,9 @@ Tango = function() {
     this.dip = function();
     this.steps = 37;
 }
-Tango.prototype = Dance;</pre>
+Tango.prototype = Dance;
+```
+
 That's not quite as pretty. Not only is it not as pretty, but there are some fundamental flaws. The <code>dip</code> function gets recreated every time a new <code>Tango</code> object is instantiated. This isn't a big deal most of the time, but once a year the king has a ball and all of a sudden you have 1000 partners tangoing about, and with them, 1000 identical copies of the <code>dip</code> function.
 
 Another flaw is that the prototype is not in the lookup path of the object until a new instance is instantiated. In this example, <code>Tango.danceAround</code> is not defined. This is because prototypes are not applied to objects until a new instance of the object is instantiated. A "class" in most languages is a definition of object behavior. Instances of a class are objects that behave as defined by the class. This is very close to how prototypes behave in JavaScript.
@@ -473,30 +481,43 @@ To summarize, JavaScript isn't quite a prototype based language, it isn't quite 
 Fortunately, JavaScript is awesome in most ways. It's so flexible that fixing the issues I've spelled out above is no problem.
 <h4>Fixing Scope</h4>
 You can't entirely fix JavaScript scoping. Local variables which aren't declared with <code>var</code> become global, and there's nothing you can do about that.[1. If you don't care about standards or cross-platform compatibility, check out FireFox's built in <code>__parent__</code> attribute, which lets you mess around with enclosing scopes.] You can, however, fix the <code>this</code> object. You can wrap any given object method in another method which asserts that its <code>this</code> will be set to a specific object.
-<pre lang="javascript">MyDance = {
+
+```js
+MyDance = {
      danceAround: function() { console.log(this.cheer) },
      cheer: "WHOOO!"
 }
 
 MyDance.danceAround = function() {
     MyDance.danceAround.apply(MyDance, arguments);
-}</pre>
-This is called binding, and it makes <code>this</code> be what you would want it to be in most instances. My initial thought was to just bind all object methods to their instances at the time of instantiation. However, I don't really like this idea. For one thing, it changes the language. For another, some libraries (I'm looking at you jQuery) like to mess around with <code>this</code>. If <code>this</code> is expected to be something, I do not want to change that. What I needed was a shadow <code>this</code>, a variable that was always present and always pointed to the instance of the object.  Luckily, there was an easy solution. <a href="http://www.python.org/">Python</a> always passes its instance object as the first parameter of any method of a class. I could replicate this behavior easily using essentially the same binding code and have the code look familiar to Python programmers everywhere. So I did. Every instance method in <a href="http://bitbucket.org/jmtulloss/cobra/">Cobra</a> has "self" passed to it as the first parameter, which is automatically guaranteed to be the instance, no matter what. No binding required.
+}
+```
+
+This is called binding, and it makes <code>this</code> be what you would want it to be in most instances. My initial thought was to just bind all object methods to their instances at the time of instantiation. However, I don't really like this idea. For one thing, it changes the language. For another, some libraries (I'm looking at you jQuery) like to mess around with <code>this</code>. If <code>this</code> is expected to be something, I do not want to change that. What I needed was a shadow <code>this</code>, a variable that was always present and always pointed to the instance of the object.  Luckily, there was an easy solution. <a href="http://www.python.org/">Python</a> always passes its instance object as the first parameter of any method of a class. I could replicate this behavior easily using essentially the same binding code and have the code look familiar to Python programmers everywhere. So I did. Every instance method in <a href="https://github.com/JustinTulloss/cobra">Cobra</a> has "self" passed to it as the first parameter, which is automatically guaranteed to be the instance, no matter what. No binding required.
 <h4>Fixing Object Syntax</h4>
 It is fairly easy to get JavaScript to <a href="http://javascript.crockford.com/prototypal.html">behave like a true prototypal language</a>. However, I don't much care for true prototypal behavior since it still leaves an ugly syntax. My solution was to create a "Class" object that will implicitly apply prototypes.
 
 Instead of:
-<pre lang="javascript">MyNewThingy.prototype.doSomeStuff = function () {};
-MyNewThingy.prototype.doMoreStuff = function() {};</pre>
+
+```js
+MyNewThingy.prototype.doSomeStuff = function () {};
+MyNewThingy.prototype.doMoreStuff = function() {};
+```
+
 We can do:
-<pre lang="javascript">MyNewThingy = new Class ({
+
+```js
+MyNewThingy = new Class ({
     doSomeStuff: function() {},
     doMoreStuff: function() {}
-});</pre>
+});
+```
 These end up being <em>exactly</em> the same, except the latter is clearer and cleaner in my opinion.
 
 Inheritance is a bit tricky in the first case. To achieve prototypal inheritance, I have to do some magic.
-<pre lang="javascript">Base = {
+
+```js
+Base = {
    basicStuff: function() {}
 }
 ThingyPrototype = new function() {
@@ -505,17 +526,23 @@ ThingyPrototype = new function() {
 }
 ThingyPrototype.prototype = Base;
 
-ChildThingy.prototype = ThingyPrototype;</pre>
+ChildThingy.prototype = ThingyPrototype;
+```
+
 Now <code>ChildThingy</code> inherits from <code>Base</code> and has some of its own functions in its prototype. Cobra takes care of all of this for you:
-<pre lang="javascript">Base = new Class({
+
+```js
+Base = new Class({
     basicStuff: function() {}
 });
 ChildThingy = new Class({
     __extends__: Base,
     childsOwnStuff: function() {}
-});</pre>
+});
+```
+
 Again, I think this is a lot clearer and cleaner.
 
-If you put both these fixes together, you end up with <a href="http://bitbucket.org/jmtulloss/cobra/">Cobra</a>, which you can read all about <a href="http://justin.harmonize.fm/index.php/2009/01/cobra-a-little-javascript-class-library/">here</a>.
+If you put both these fixes together, you end up with <a href="https://github.com/JustinTulloss/cobra">Cobra</a>, which you can read all about <a href="http://justin.harmonize.fm/index.php/2009/01/cobra-a-little-javascript-class-library/">here</a>.
 
 To wrap things up, augmenting JavaScript to fix its flaws is not a bad thing. The question is what to add. I haven't used Cobra for anything yet, but it's my current pet project. We'll see if it really makes JavaScript that much more pleasant.
