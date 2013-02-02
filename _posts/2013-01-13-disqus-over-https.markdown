@@ -4,7 +4,7 @@ category: Development
 ---
 
 I re-enabled [Disqus][1] on this site this morning. It went relatively smoothly
-with a nifty little tool to follow the redirects I set up [in my last pos][4]
+with a nifty little tool to follow the redirects I set up [in my last post][4]
 and migrate the old comments over.
 
 However, I'm running this over SSL because everything should be run over SSL
