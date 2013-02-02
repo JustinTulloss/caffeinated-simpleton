@@ -58,6 +58,14 @@ header nav {
 
 .content h1:first-child {
     margin-top: 0;
+    text-align: center;
+}
+
+time {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ccc;
 }
 
 @media all and (max-width: 400px) {
