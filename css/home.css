@@ -12,6 +12,13 @@ nav table td {
     width: 16.66%;
 }
 
+@media all and (max-width: 480px) {
+    nav table td {
+        width: 100%;
+        display: block;
+    }
+}
+
 nav table td:hover {
     background-color: rgb(39, 157, 197);
     -webkit-transition: background-color 100ms linear;
