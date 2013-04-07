@@ -13,11 +13,11 @@ nav table td {
 
 nav table td:hover {
     background-color: rgb(39, 157, 197);
-    -webkit-transition: background-color 150ms linear;
-    -moz-transition: background-color 150ms linear;
-    -o-transition: background-color 150ms linear;
-    -ms-transition: background-color 150ms linear;
-    transition: background-color 150ms linear;
+    -webkit-transition: background-color 100ms linear;
+    -moz-transition: background-color 100ms linear;
+    -o-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
 }
 
 nav table td a,
@@ -25,6 +25,9 @@ nav table td a:hover,
 nav table td a:visited {
     color: white;
     text-decoration: none;
+    display: inline-block;
+    height: 60px;
+    width: 100%;
 }
 
 #posts {
