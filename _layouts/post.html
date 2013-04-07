@@ -12,14 +12,7 @@ mixpanel.init("16c06d1a0632fd99ebc0f3a56987a9c1");
     <meta name="viewport" content="initial-scale=1.0">
   </head>
   <body>
-    <header>
-      <nav class="social">
-        <a target="_blank" href="https://github.com/JustinTulloss">GitHub</a>
-        <a target="_blank" href="https://www.facebook.com/justin.tulloss">Facebook</a>
-        <a target="_blank" href="https://twitter.com/justin_tulloss">Twitter</a>
-      </nav>
-      <a href="/" class="home">Caffeinated Simpleton</a>
-    </header>
+    {% include header.html %}
     <section class="content">
       <h1>{{ page.title }}</h1>
       <time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
