@@ -9,6 +9,7 @@ nav table {
 
 nav table td {
     background-color: #0086B3;
+    width: 16.66%;
 }
 
 nav table td:hover {
