@@ -22,7 +22,7 @@ Phabricator install wherever you see it.
 
 ### Prerequisites
  - An arc user
- - A certificate (can be found at https://secure.phabricator.com/settings/pane/conduit/)
+ - A certificate (can be found at [/settings/pane/conduit/](https://secure.phabricator.com/settings/pane/conduit/))
 
 ### Making the call
 
@@ -35,8 +35,8 @@ The interesting and undocumented parts of this are the `authToken` and
    - `clientDescription` - An optional description of your client.
    - `user` - The user you have the certificate for
    - `host` - In this example, https://secure.phabricator.com. This must be the
-     exact HTTP address of your phabricator install. It's <scheme>://<host> with
-     no path.
+     exact HTTP address of your phabricator install. It's `<scheme>://<host>`
+     with no path.
    - `authToken` - The UTC time in _seconds_. I got stuck on this part as
      JavaScript's `Date.now()` returns the time in milliseconds, and that took a
      while to realize.
