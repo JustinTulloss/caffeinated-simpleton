@@ -1,87 +1,54 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  Q29icmEgaXMgUmVhZHkgdG8gUmVsZWFzZQ==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Cobra is Ready to Release
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 346
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MzQ2
+wordpress_url: http://justin.harmonize.fm/?p=346
 date: 2010-02-15 00:06:40.000000000 -08:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  SmF2YVNjcmlwdA==
-- !binary |-
-  Q29icmE=
+- JavaScript
+- Cobra
 comments:
 - id: 496
-  author: !binary |-
-    Um9iZXJ0IE1hc3Nh
-  author_email: !binary |-
-    Tm9uZQ==
-  author_url: !binary |-
-    aHR0cDovL3R3aXR0ZXIuY29tL0dyZXBzeQ==
-  date: !binary |-
-    MjAxMC0xMC0xNyAxNDozMTowNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMC0xNyAxOTozMTowNiAtMDcwMA==
+  author: Robert Massa
+  author_email: None
+  author_url: http://twitter.com/Grepsy
+  date: '2010-10-17 14:31:06 -0700'
+  date_gmt: '2010-10-17 19:31:06 -0700'
   content: Hi Justin, I&#39;d love to try Cobra. A small and simple library like this
     is exacly what I need. It would be nice if you&#39;d host the source somewhere.
     (github page doesn&#39;t exist anymore)
 - id: 497
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAxMC0xMC0xNyAxODo1MjowMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMC0xMC0xNyAyMzo1MjowMiAtMDcwMA==
-  content: ! 'It&#39;s on github: <a href="http://github.com/JustinTulloss/cobra"
-    rel="nofollow">http://github.com/JustinTulloss/cobra</a>'
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2010-10-17 18:52:02 -0700'
+  date_gmt: '2010-10-17 23:52:02 -0700'
+  content: 'It&#39;s on github: <a href="http://github.com/JustinTulloss/cobra" rel="nofollow">http://github.com/JustinTulloss/cobra</a>'
 - id: 633
-  author: !binary |-
-    MTIzNDU2
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy4xMjM0NTYuY29t
-  date: !binary |-
-    MjAxMS0wNy0xNyAwMjo1MjoyNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0xNyAxMDo1MjoyNyAtMDcwMA==
-  content: ! '<strong>Great website...</strong>
+  author: '123456'
+  author_email: ''
+  author_url: http://www.123456.com
+  date: '2011-07-17 02:52:27 -0700'
+  date_gmt: '2011-07-17 10:52:27 -0700'
+  content: |-
+    <strong>Great website...</strong>
 
-
-    [...]we like to honor many other internet sites on the web, even if they aren’t
-    linked to us, by linking to them. Under are some webpages worth checking out[...]…...'
+    [...]we like to honor many other internet sites on the web, even if they aren’t linked to us, by linking to them. Under are some webpages worth checking out[...]…...
 - id: 1979
-  author: !binary |-
-    QXJmYXQ=
-  author_email: !binary |-
-    aGVhcHN0ZXJzQHNpby5taWRjby5uZXQ=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA1Njc2
-  date: !binary |-
-    MjAxMi0wNS0yMSAwMzo0NzozNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxMTo0NzozNiAtMDcwMA==
-  content: ! 'Ramf3n: Hola de nuevo, me gustareda cnteomar un detalle ( a mi entender
+  author: Arfat
+  author_email: heapsters@sio.midco.net
+  author_url: http://www.facebook.com/profile.php?id=100003406005676
+  date: '2012-05-21 03:47:36 -0700'
+  date_gmt: '2012-05-21 11:47:36 -0700'
+  content: 'Ramf3n: Hola de nuevo, me gustareda cnteomar un detalle ( a mi entender
     importante ). Se trata de texto , es una etiqueta que define el contenido de la
     pe1gina y la me1s importante y SOLO tiene que aparecer 1 fanica vez por pe1gina,
     en mi web mundo-anuncio.org he corregido eso y las metadescripciones, en este
@@ -97,18 +64,12 @@ comments:
     evitar tanta subcarpeta: web.com/categoria/subcategoria/anuncio/ (se podreda reducir
     un nivel con lo que propongo, aparte ayudareda al seo el te9rmino: /anuncios/anuncio.htmlSaludos!'
 - id: 1998
-  author: !binary |-
-    QXp0bGFu
-  author_email: !binary |-
-    cGFybGN1cnkyMDAzQHlhaG9vLmNvbS5zZw==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTg0NDkw
-  date: !binary |-
-    MjAxMi0wNS0yMSAxMDoyNjo1OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxODoyNjo1OCAtMDcwMA==
-  content: ! 'Aqued va el feedback reiibcdo       En principio esto lo hicimos para
+  author: Aztlan
+  author_email: parlcury2003@yahoo.com.sg
+  author_url: http://www.facebook.com/profile.php?id=100003405984490
+  date: '2012-05-21 10:26:58 -0700'
+  date_gmt: '2012-05-21 18:26:58 -0700'
+  content: 'Aqued va el feedback reiibcdo       En principio esto lo hicimos para
     que fuera me1s sencillo para la mayoreda de usuarios, pero ased como va avanzando
     el proyecto queda claro que hemos de mejorar ese aspecto. Lo que haremos sere1
     af1adir opciones a las categorias para poder definir keywords, description y formato
@@ -119,18 +80,12 @@ comments:
     because OSClass catch all the PHP errors when we install a plugin.@Dmitry: Can
     you give us more information? When it happens?'
 - id: 2111
-  author: !binary |-
-    UGllZHJhcw==
-  author_email: !binary |-
-    aW5nbGV3b29kY3JjQGltcHVsc2UubmV0LmF1
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDI2NDMw
-  date: !binary |-
-    MjAxMi0wNS0yMyAxOTozODo1MyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMzozODo1MyAtMDcwMA==
-  content: ! 'Ramf3n: Hola de nuevo, me gustareda conemtar un detalle ( a mi entender
+  author: Piedras
+  author_email: inglewoodcrc@impulse.net.au
+  author_url: http://www.facebook.com/profile.php?id=100003406026430
+  date: '2012-05-23 19:38:53 -0700'
+  date_gmt: '2012-05-24 03:38:53 -0700'
+  content: 'Ramf3n: Hola de nuevo, me gustareda conemtar un detalle ( a mi entender
     importante ). Se trata de texto , es una etiqueta que define el contenido de la
     pe1gina y la me1s importante y SOLO tiene que aparecer 1 fanica vez por pe1gina,
     en mi web mundo-anuncio.org he corregido eso y las metadescripciones, en este
@@ -146,18 +101,12 @@ comments:
     evitar tanta subcarpeta: web.com/categoria/subcategoria/anuncio/ (se podreda reducir
     un nivel con lo que propongo, aparte ayudareda al seo el te9rmino: /anuncios/anuncio.htmlSaludos!'
 - id: 2140
-  author: !binary |-
-    Smlncw==
-  author_email: !binary |-
-    cG9zdC1kaXBsb21lQGVlc2kuZXU=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA3NDEx
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMjo1MDo0MyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNjo1MDo0MyAtMDcwMA==
-  content: ! 'Aqued va el feedback rcbdeiio       En principio esto lo hicimos para
+  author: Jigs
+  author_email: post-diplome@eesi.eu
+  author_url: http://www.facebook.com/profile.php?id=100003406007411
+  date: '2012-05-23 22:50:43 -0700'
+  date_gmt: '2012-05-24 06:50:43 -0700'
+  content: 'Aqued va el feedback rcbdeiio       En principio esto lo hicimos para
     que fuera me1s sencillo para la mayoreda de usuarios, pero ased como va avanzando
     el proyecto queda claro que hemos de mejorar ese aspecto. Lo que haremos sere1
     af1adir opciones a las categorias para poder definir keywords, description y formato
@@ -168,34 +117,24 @@ comments:
     because OSClass catch all the PHP errors when we install a plugin.@Dmitry: Can
     you give us more information? When it happens?'
 - id: 4740
-  author: !binary |-
-    bXNyZmFjdXN5
-  author_email: !binary |-
-    ZGpwc3VzQGVyeXJiby5jb20=
-  author_url: !binary |-
-    aHR0cDovL2p6eXV2aG9heGJ3ZS5jb20v
-  date: !binary |-
-    MjAxMi0wOS0wOCAwMDoyNzoxNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wOCAwODoyNzoxNCAtMDcwMA==
+  author: msrfacusy
+  author_email: djpsus@eryrbo.com
+  author_url: http://jzyuvhoaxbwe.com/
+  date: '2012-09-08 00:27:14 -0700'
+  date_gmt: '2012-09-08 08:27:14 -0700'
   content: 9jgfx4  <a href="http://emwellpwlims.com/" rel="nofollow">emwellpwlims</a>,
     [url=http://giatvzafzrxz.com/]giatvzafzrxz[/url], [link=http://xcfyyfcszybf.com/]xcfyyfcszybf[/link],
     http://cgfciiuyvxpw.com/
 - id: 13870
-  author: !binary |-
-    RmVsaXNhIFNhbnRpZ28=
-  author_email: !binary |-
-    UHJpYm5vd0BnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5TRUFSQ0hFTkdJTkVPUFRJTUlaQVRJT05USVBTLklORk8=
-  date: !binary |-
-    MjAxMi0xMS0wMiAxODoyNTowOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0wMyAwMjoyNTowOSAtMDcwMA==
-  content: ! 'Hello Web Admin, I noticed that your On-Page SEO is is missing a few
-    factors, for one you do not use all three H tags in your post, also I notice that
-    you are not using bold or italics properly in your SEO optimization. On-Page SEO
-    means more now than ever since the new Google update: Panda. No longer are backlinks
+  author: Felisa Santigo
+  author_email: Pribnow@gmail.com
+  author_url: http://www.SEARCHENGINEOPTIMIZATIONTIPS.INFO
+  date: '2012-11-02 18:25:09 -0700'
+  date_gmt: '2012-11-03 02:25:09 -0700'
+  content: 'Hello Web Admin, I noticed that your On-Page SEO is is missing a few factors,
+    for one you do not use all three H tags in your post, also I notice that you are
+    not using bold or italics properly in your SEO optimization. On-Page SEO means
+    more now than ever since the new Google update: Panda. No longer are backlinks
     and simply pinging or sending out a RSS feed the key to getting Google PageRank
     or Alexa Rankings, You now NEED On-Page SEO. So what is good On-Page SEO?First
     your keyword must appear in the title.Then it must appear in the URL.You have

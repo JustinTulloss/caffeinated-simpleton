@@ -1,35 +1,22 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  RnVuIHdpdGggRWxlY3RvcmFsIE1hcHMh
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Fun with Electoral Maps!
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 56
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9NTY=
+wordpress_url: http://justin.harmonize.fm/?p=56
 date: 2008-09-09 23:27:15.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  UG9saXRpY3M=
-- !binary |-
-  TWNDYWlu
-- !binary |-
-  T2JhbWE=
-- !binary |-
-  RWxlY3Rpb24=
+- Politics
+- McCain
+- Obama
+- Election
 comments: []
 ---
 At <a href="http://www.realclearpolitics.com/">Real Clear Politics</a>, you can play with electoral maps based on current poll numbers and what you think is going to happen. <a href="http://www.realclearpolitics.com/epolls/maps/obama_vs_mccain/">Try it now</a>, it's lots of fun!

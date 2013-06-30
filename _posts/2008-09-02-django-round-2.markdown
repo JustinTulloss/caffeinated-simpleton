@@ -1,105 +1,71 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  RGphbmdvIHJvdW5kIDI=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Django round 2
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 14
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTQ=
+wordpress_url: http://justin.harmonize.fm/?p=14
 date: 2008-09-02 18:10:20.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  UHl0aG9u
-- !binary |-
-  V2ViIEZyYW1ld29ya3M=
-- !binary |-
-  RGphbmdv
-- !binary |-
-  UHlsb25z
+- Python
+- Web Frameworks
+- Django
+- Pylons
 comments:
 - id: 5
-  author: !binary |-
-    ZG5lbmU=
-  author_email: !binary |-
-    ZGhhbmFuamF5Lm5lbmVAZ21haWwuY29t
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0wMyAwODoyNzozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wMyAxMzoyNzozOSAtMDcwMA==
+  author: dnene
+  author_email: dhananjay.nene@gmail.com
+  author_url: ''
+  date: '2008-09-03 08:27:39 -0700'
+  date_gmt: '2008-09-03 13:27:39 -0700'
   content: Nice one. Quite well written.
 - id: 6
-  author: !binary |-
-    bm9ubw==
-  author_email: !binary |-
-    dGVzdEB0ZXN0LmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0wNSAwODo0NzoxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wNSAxMzo0NzoxMiAtMDcwMA==
+  author: nono
+  author_email: test@test.com
+  author_url: ''
+  date: '2008-09-05 08:47:12 -0700'
+  date_gmt: '2008-09-05 13:47:12 -0700'
   content: well use an other template engine.<br><br>But you should not mix python
     in you html so Django makes sense.<br>If you like sqlAlch. there is a project
     that is integrating it.<br><br>Is pylons not the problem that it is lose?
 - id: 8
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOC0wOS0wNSAxNDoxMzozOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wNSAxOToxMzozOCAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2008-09-05 14:13:38 -0700'
+  date_gmt: '2008-09-05 19:13:38 -0700'
   content: I agree that you shouldn&#39;t use python in your templates, but there
     is a limit to this. For instance, lets say I wanted to print every pingback for
-    a blog entry. I should be able to do something like:<br><br>{% raw %}{% for ping in object.pingback_set.all()
-    %}{% endraw %}<br><br>You can&#39;t do something as simple as this in the django template
-    engine. There are other instances where arbitrary python is nice. Let&#39;s say
-    you want to put the current time on the page. Or set the title to the name of
-    the file. All these things benefit from being able to execute normal python, and
-    are not outside the realm of the template engine.
+    a blog entry. I should be able to do something like:<br><br>{% raw %}{% for ping
+    in object.pingback_set.all() %}{% endraw %}<br><br>You can&#39;t do something
+    as simple as this in the django template engine. There are other instances where
+    arbitrary python is nice. Let&#39;s say you want to put the current time on the
+    page. Or set the title to the name of the file. All these things benefit from
+    being able to execute normal python, and are not outside the realm of the template
+    engine.
 - id: 9
-  author: !binary |-
-    QWxleCBZYWtvdmxldg==
-  author_email: !binary |-
-    YWxleC5zLnlha292bGV2QGdtYWlsLmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0wNSAyMDo0NjozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wNiAwMTo0NjozOSAtMDcwMA==
+  author: Alex Yakovlev
+  author_email: alex.s.yakovlev@gmail.com
+  author_url: ''
+  date: '2008-09-05 20:46:39 -0700'
+  date_gmt: '2008-09-06 01:46:39 -0700'
   content: Hello.<br><br>This will do:<br>   {% raw %}{% for ping in object.pingback_set.all
-    %}{% endraw %}<br><br>Current time, the name of the file, etc. - just pass them into a template
-    as variables if you need them.<br>Web designer is not supposed to learn Python
-    to create a template, programmer will make available any variables/info to her
-    ;-)
+    %}{% endraw %}<br><br>Current time, the name of the file, etc. - just pass them
+    into a template as variables if you need them.<br>Web designer is not supposed
+    to learn Python to create a template, programmer will make available any variables/info
+    to her ;-)
 - id: 10
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOC0wOS0wNSAyMToyNjo1MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wNiAwMjoyNjo1MCAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2008-09-05 21:26:50 -0700'
+  date_gmt: '2008-09-06 02:26:50 -0700'
   content: I disagree. I think that content should be provided by the controller,
     but things that have to do with the look should be provided by the template.<br><br>In
     one project, I have a base that every template inherits from. There are some basic
@@ -107,94 +73,62 @@ comments:
     a PC, do another. I don&#39;t want to pass this display data with actual content
     every time, it&#39;s much better if the template just figures it out itself.
 - id: 11
-  author: !binary |-
-    bWlrZSBiYXllcg==
-  author_email: !binary |-
-    bWlrZV9tcEB6enpjb21wdXRpbmcuY29t
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0wOCAwMzoyMDo1NiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wOCAwODoyMDo1NiAtMDcwMA==
-  content: ! 'web designer doesn&#39;t need to learn Python just because there&#39;s
+  author: mike bayer
+  author_email: mike_mp@zzzcomputing.com
+  author_url: ''
+  date: '2008-09-08 03:20:56 -0700'
+  date_gmt: '2008-09-08 08:20:56 -0700'
+  content: 'web designer doesn&#39;t need to learn Python just because there&#39;s
     some python in the template - this is a common overreaction to a problem that
     doesn&#39;t really exist.  I wrote an old rant about this here:  <a href="http://techspot.zzzeek.org/?p=3">http://techspot.zzzeek.org/?p=3</a>'
 - id: 109
-  author: !binary |-
-    dmVyc2ExMDY=
-  author_email: !binary |-
-    dmVyc2ExMDZAZ21haWwuY29t
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOS0wMi0wOCAyMTo1OToyMyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMi0wOSAwMjo1OToyMyAtMDgwMA==
+  author: versa106
+  author_email: versa106@gmail.com
+  author_url: ''
+  date: '2009-02-08 21:59:23 -0800'
+  date_gmt: '2009-02-09 02:59:23 -0800'
   content: thanks!
 - id: 621
-  author: !binary |-
-    dHJhY2tiYWNrIGJhY2tsaW5rcw==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL2JpdC5seS9wY3pSTDY=
-  date: !binary |-
-    MjAxMS0wNy0wNSAyMDoxMToxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0wNiAwNDoxMToxMiAtMDcwMA==
-  content: ! '<strong>[...]here''s an awesome post you should check out[...]...</strong>
+  author: trackback backlinks
+  author_email: ''
+  author_url: http://bit.ly/pczRL6
+  date: '2011-07-05 20:11:12 -0700'
+  date_gmt: '2011-07-06 04:11:12 -0700'
+  content: |-
+    <strong>[...]here's an awesome post you should check out[...]...</strong>
 
-
-    [...]This site is worth checking out if you want to read a great post.[...]...'
+    [...]This site is worth checking out if you want to read a great post.[...]...
 - id: 1414
-  author: !binary |-
-    d2hhdCBpcyBzZXJ2ZXI=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3doYXRpc3NlcnZlci5vcmc=
-  date: !binary |-
-    MjAxMi0wMi0yNCAxMzozMzo0NiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMi0yNCAyMTozMzo0NiAtMDgwMA==
-  content: ! '<strong>what is server...</strong>
+  author: what is server
+  author_email: ''
+  author_url: http://whatisserver.org
+  date: '2012-02-24 13:33:46 -0800'
+  date_gmt: '2012-02-24 21:33:46 -0800'
+  content: |-
+    <strong>what is server...</strong>
 
-
-    [...]Django round 2[...]...'
+    [...]Django round 2[...]...
 - id: 1611
-  author: !binary |-
-    RW1hbnVlbGE=
-  author_email: !binary |-
-    Y2xlYmVycGFyYWRlbGE0QGhvdG1haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5qb3JuYWxtYXJjYS5jb20=
-  date: !binary |-
-    MjAxMi0wNC0xOSAwOTowMjo1OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0xOSAxNzowMjo1OCAtMDcwMA==
+  author: Emanuela
+  author_email: cleberparadela4@hotmail.com
+  author_url: http://www.jornalmarca.com
+  date: '2012-04-19 09:02:58 -0700'
+  date_gmt: '2012-04-19 17:02:58 -0700'
   content: information was very great to read.http://www.jornalmarca.com
 - id: 1666
-  author: !binary |-
-    aXpsZQ==
-  author_email: !binary |-
-    MjcwMVNjaG9vbGVyQGJpZ3N0cmluZy5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5rb3JlYW50dXJrLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNC0yMyAwNDoyNTozNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0yMyAxMjoyNTozNiAtMDcwMA==
+  author: izle
+  author_email: 2701Schooler@bigstring.com
+  author_url: http://www.koreanturk.com/
+  date: '2012-04-23 04:25:36 -0700'
+  date_gmt: '2012-04-23 12:25:36 -0700'
   content: Great 1 weblog operator achievement blog site article excellent sharings
     on this weblog at all times have entertaining
 - id: 1963
-  author: !binary |-
-    SmFpcGFs
-  author_email: !binary |-
-    eS5zdHJ1aGllZmViQHdlYi5kZQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTk3MzU3
-  date: !binary |-
-    MjAxMi0wNS0yMCAyMTo0MzoxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAwNTo0MzoxNSAtMDcwMA==
+  author: Jaipal
+  author_email: y.struhiefeb@web.de
+  author_url: http://www.facebook.com/profile.php?id=100003405997357
+  date: '2012-05-20 21:43:15 -0700'
+  date_gmt: '2012-05-21 05:43:15 -0700'
   content: I understand where you're conimg from, but I have to disagree with your
     statement that  Django tries to be everything,  as I find the exact opposite to
     be the case.Django is amazing for what it does, and that is help you quickly develop
@@ -209,200 +143,133 @@ comments:
     framework.  That could be Pylons, it could be TurboGears, Zope   Who knows?  No
     matter what I chose, though, Django will still be my  go-to  tool for rapid development.
 - id: 1997
-  author: !binary |-
-    RGFuaWk=
-  author_email: !binary |-
-    dmFqcEB3aWxzb25jZW50ZXIub3Jn
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTgyMDI4
-  date: !binary |-
-    MjAxMi0wNS0yMSAwOTo1OToyNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxNzo1OToyNSAtMDcwMA==
+  author: Danii
+  author_email: vajp@wilsoncenter.org
+  author_url: http://www.facebook.com/profile.php?id=100003405982028
+  date: '2012-05-21 09:59:25 -0700'
+  date_gmt: '2012-05-21 17:59:25 -0700'
   content: Have you looked at TurboGears2? It has an admin infratece, and is built
     on top of Pylons. There's also Rum, which provides a db admin UI for SQLAlchemy
     models, FormAlchemy also quickly turns SA models into an admin tool, and there's
     Sprox which is used under the hood for TG2 s admin (which should work with fairly
     vanilla Pylons apps soon I believe).
 - id: 2112
-  author: !binary |-
-    QWRyaWFuYQ==
-  author_email: !binary |-
-    cG9taWVmYW5Abm93Lm1mbmV0Lm5lLmpw
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDEwNDY5
-  date: !binary |-
-    MjAxMi0wNS0yMyAxOTo0MDoyOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMzo0MDoyOSAtMDcwMA==
+  author: Adriana
+  author_email: pomiefan@now.mfnet.ne.jp
+  author_url: http://www.facebook.com/profile.php?id=100003406010469
+  date: '2012-05-23 19:40:29 -0700'
+  date_gmt: '2012-05-24 03:40:29 -0700'
   content: We made a decision  to go for Django. It's widlly accepted, very well documented
     and it behaves very intuitive.An other great advantage is the JQuery integration.
     (well it's easy to be done!)But that is only our conclusion for now. Is there
     someone who can change our minds?
 - id: 2127
-  author: !binary |-
-    VGVyZXNh
-  author_email: !binary |-
-    Zml0dGhAbGFuZGNhcmVyZXNlYXJjaC5jby5ueg==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDEzOTMz
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMDo1MzoyOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNDo1MzoyOCAtMDcwMA==
+  author: Teresa
+  author_email: fitth@landcareresearch.co.nz
+  author_url: http://www.facebook.com/profile.php?id=100003406013933
+  date: '2012-05-23 20:53:28 -0700'
+  date_gmt: '2012-05-24 04:53:28 -0700'
   content: Yippeee, I've been using Django for a little while now and am very glad
     that it's made 1.0. Finally I can start real denvlopmeet instead of just test
     projects.One thing that I've noticed is that Django is very resource intensive  on
     every request, CPU usage was in the 70 percents, my old server was struggling
     to keep up.Here's me hoping that 1.0 will be faster, better and stronger!
 - id: 2685
-  author: !binary |-
-    c3pvcmN4aw==
-  author_email: !binary |-
-    bnRjeGJsQGlmdWZnYS5jb20=
-  author_url: !binary |-
-    aHR0cDovL3l4YnhjeGZycWZ4Zy5jb20v
-  date: !binary |-
-    MjAxMi0wNi0yMCAyMjoyNjo0NCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0yMSAwNjoyNjo0NCAtMDcwMA==
+  author: szorcxk
+  author_email: ntcxbl@ifufga.com
+  author_url: http://yxbxcxfrqfxg.com/
+  date: '2012-06-20 22:26:44 -0700'
+  date_gmt: '2012-06-21 06:26:44 -0700'
   content: Y00mVR  <a href="http://stotswwrclyq.com/" rel="nofollow">stotswwrclyq</a>,
     [url=http://ylvmbmhiqmhn.com/]ylvmbmhiqmhn[/url], [link=http://novgnvzgettb.com/]novgnvzgettb[/link],
     http://zqffbhvfodua.com/
 - id: 3361
-  author: !binary |-
-    Q2x1bXN6b29wR3Vwcw==
-  author_email: !binary |-
-    bGVzbGlld2Fsc2hlMTk4MkB5YWhvby5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0wNy0xNiAxMToxNTo0NCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0xNiAxOToxNTo0NCAtMDcwMA==
-  content: ! "Controversial And Grueling Technique Elongates Limbs, Risks Everyday
-    Lives \r\n \r\nImagine, if you will, a surgeon breaking your leg bones in four
-    places, then attaching a steel scaffold frame to the outside of your limbs with
-    metal pins jutting into your bones. \r\n \r\n<a href=\"http://trimeshloader.sourceforge.net/wikka.php?wakka=YouCanEnhanceYourHeightWithShoeLifts\"
+  author: ClumszoopGups
+  author_email: lesliewalshe1982@yahoo.com
+  author_url: ''
+  date: '2012-07-16 11:15:44 -0700'
+  date_gmt: '2012-07-16 19:15:44 -0700'
+  content: "Controversial And Grueling Technique Elongates Limbs, Risks Everyday Lives
+    \r\n \r\nImagine, if you will, a surgeon breaking your leg bones in four places,
+    then attaching a steel scaffold frame to the outside of your limbs with metal
+    pins jutting into your bones. \r\n \r\n<a href=\"http://trimeshloader.sourceforge.net/wikka.php?wakka=YouCanEnhanceYourHeightWithShoeLifts\"
     rel=\"nofollow\">Shoe lifts </a> \r\n<a href=\"http://www.forosti.com/entry.php?14587-Can-Females-Use-Heel-Lifts\"
     rel=\"nofollow\">orthopedic shoe lifts </a>"
 - id: 3398
-  author: !binary |-
-    R2VvcmdlIFJvYmluc29u
-  author_email: !binary |-
-    RmFzY2lAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vZ2VvcmdlLnJvYmluc29uLjk0ODQ5
-    NA==
-  date: !binary |-
-    MjAxMi0wNy0xNyAxOTo0NDoxNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0xOCAwMzo0NDoxNCAtMDcwMA==
+  author: George Robinson
+  author_email: Fasci@gmail.com
+  author_url: http://www.facebook.com/george.robinson.948494
+  date: '2012-07-17 19:44:14 -0700'
+  date_gmt: '2012-07-18 03:44:14 -0700'
   content: Wonderful web site. Plenty of useful info here related with many kind of
     topics about <a href="https://www.rx247.net/Levitra.html" rel="nofollow">levitra
     prices</a>. I¡¦m sending it to a few buddies ans also sharing in delicious. And
     certainly, thank you for your sweat!
 - id: 3399
-  author: !binary |-
-    TWFkaXNvbiBCYXJiZXI=
-  author_email: !binary |-
-    U2FuZGlub0BnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vbWJhcmJlcjIy
-  date: !binary |-
-    MjAxMi0wNy0xNyAyMDowMzoxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0xOCAwNDowMzoxNyAtMDcwMA==
+  author: Madison Barber
+  author_email: Sandino@gmail.com
+  author_url: http://www.facebook.com/mbarber22
+  date: '2012-07-17 20:03:17 -0700'
+  date_gmt: '2012-07-18 04:03:17 -0700'
   content: Terrific work! This is the type of info that are supposed to be shared
     across the web, topics like this "<a href="http://www.carlmontpharmacy.com/generic_cialis.php"
     rel="nofollow">generic cialis dosage</a>" are really amazing. Disgrace on Google
     for not positioning this post upper! Come on over and seek advice from my website
     . Thank you =)
 - id: 3929
-  author: !binary |-
-    d2VtSWNlcmVl
-  author_email: !binary |-
-    aWNldHBsZWF0QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL21hZ2FzaW5uYWlyam9yZGFucy5pbmZv
-  date: !binary |-
-    MjAxMi0wOC0wNiAxMzo1MDo0MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0wNiAyMTo1MDo0MiAtMDcwMA==
+  author: wemIceree
+  author_email: icetpleat@gmail.com
+  author_url: http://magasinnairjordans.info
+  date: '2012-08-06 13:50:42 -0700'
+  date_gmt: '2012-08-06 21:50:42 -0700'
   content: kdadekj <a href="http://magasinnairjordans.info" rel="nofollow">chaussures
     air jordan</a> likpfrrx&lt;a href=&quot;http://magasinnairjordans.info/8random..9]random..9]"&gt;air
     jordan pas cher</a> emqfqnnp http://magasinnairjordans.info
 - id: 4228
-  author: !binary |-
-    UGVlcmV3bHlTbW93bA==
-  author_email: !binary |-
-    aWNvY2hlbGVkQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2Zyc3VwcmFzZGVjaGF1c3N1cmVzLmNvbS8=
-  date: !binary |-
-    MjAxMi0wOC0xOCAxMjoxMzoxOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0xOCAyMDoxMzoxOSAtMDcwMA==
+  author: PeerewlySmowl
+  author_email: icocheled@gmail.com
+  author_url: http://frsuprasdechaussures.com/
+  date: '2012-08-18 12:13:19 -0700'
+  date_gmt: '2012-08-18 20:13:19 -0700'
   content: lbbznszbl <a href="http://frsuprasdechaussures.com/" / rel="nofollow">supra
     shoes</a> wppuuujf <a href="http://frsuprasdechaussures.com/" rel="nofollow">supra
     shoes</a> pieeelea http://frsuprasdechaussures.com/
 - id: 4979
-  author: !binary |-
-    Q2VhdHROZXh5Q2lmZg==
-  author_email: !binary |-
-    ZnJlZHdlc3NhY3M4OThlQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2FjaGF0bG9uZ2NoYW1wcGxpYWdlb25saW5lLmNvbS8=
-  date: !binary |-
-    MjAxMi0wOS0xNiAxNzozMDozMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0xNyAwMTozMDozMCAtMDcwMA==
+  author: CeattNexyCiff
+  author_email: fredwessacs898e@gmail.com
+  author_url: http://achatlongchamppliageonline.com/
+  date: '2012-09-16 17:30:30 -0700'
+  date_gmt: '2012-09-17 01:30:30 -0700'
   content: tffmqibp <a href="http://achatlongchamppliageonline.com/#8959" rel="nofollow">sac
     longchamp soldess</a> xdmdabji <a href="http://achatlongchamppliageonline.com/#3513"
     rel="nofollow">sac longchampa</a> ebvpzxdo http://achatlongchamppliageonline.com/
 - id: 5015
-  author: !binary |-
-    bmx2dWFidw==
-  author_email: !binary |-
-    bGRqaWp3QHB4Zmdxdy5jb20=
-  author_url: !binary |-
-    aHR0cDovL3JqcHVlemJnaWloby5jb20v
-  date: !binary |-
-    MjAxMi0wOS0xNyAyMDowNzo1OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0xOCAwNDowNzo1OCAtMDcwMA==
+  author: nlvuabw
+  author_email: ldjijw@pxfgqw.com
+  author_url: http://rjpuezbgiiho.com/
+  date: '2012-09-17 20:07:58 -0700'
+  date_gmt: '2012-09-18 04:07:58 -0700'
   content: dH9K8o  <a href="http://dlihshucyvxd.com/" rel="nofollow">dlihshucyvxd</a>,
     [url=http://uyimtyktmkjy.com/]uyimtyktmkjy[/url], [link=http://ojegdgjdtjxr.com/]ojegdgjdtjxr[/link],
     http://xwywyjrghdqs.com/
 - id: 5153
-  author: !binary |-
-    dHpvaXho
-  author_email: !binary |-
-    dXFqbHFtQGlrYmVldy5jb20=
-  author_url: !binary |-
-    aHR0cDovL3N6bW5neHl6ZHlscS5jb20v
-  date: !binary |-
-    MjAxMi0wOS0yMiAyMToxNDowNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0yMyAwNToxNDowNiAtMDcwMA==
+  author: tzoixh
+  author_email: uqjlqm@ikbeew.com
+  author_url: http://szmngxyzdylq.com/
+  date: '2012-09-22 21:14:06 -0700'
+  date_gmt: '2012-09-23 05:14:06 -0700'
   content: nOkzGs  <a href="http://zbsxeqplzado.com/" rel="nofollow">zbsxeqplzado</a>,
     [url=http://uufoymsoumqf.com/]uufoymsoumqf[/url], [link=http://cstxjxjyqcoz.com/]cstxjxjyqcoz[/link],
     http://kqtowlsdbryv.com/
 - id: 5530
-  author: !binary |-
-    Q2x1bXN6b29wR3Vwcw==
-  author_email: !binary |-
-    amltdG9rZXJzb25lMTk5MkBob3RtYWlsLmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0xMC0wMSAyMzoyMToyNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wMiAwNzoyMToyNiAtMDcwMA==
-  content: ! "The Dangers When it relies on medical procedures you can find always
-    risks which can be involved too. With this variety you are going to be thinking
-    about really prolonged recovery intervals in which you will not be able to accomplish
+  author: ClumszoopGups
+  author_email: jimtokersone1992@hotmail.com
+  author_url: ''
+  date: '2012-10-01 23:21:26 -0700'
+  date_gmt: '2012-10-02 07:21:26 -0700'
+  content: "The Dangers When it relies on medical procedures you can find always risks
+    which can be involved too. With this variety you are going to be thinking about
+    really prolonged recovery intervals in which you will not be able to accomplish
     a lot whatsoever. This might not sound just like a threat but this is just the
     beginning if it all goes effectively.The procedure requires breaking your legs
     and adding metallic plates amongst with a gap which is crammed when your bones
@@ -418,16 +285,12 @@ comments:
     because you would like to develop taller? \r\n \r\n<a href=\"http://aaabbbccc.sclub.com.tw/viewthread.php?tid=260972&amp;extra=\"
     rel=\"nofollow\">shoe lifts inserts</a>  \r\nhttp://www.swiss-schoggi.ch/thread.php?threadid=313650"
 - id: 5543
-  author: !binary |-
-    Q2x1bXN6b29wR3Vwcw==
-  author_email: !binary |-
-    am9obnRva2Vyc29uajE5OTJAaG90bWFpbC5jby51aw==
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0xMC0wMiAwNjozOToyMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wMiAxNDozOToyMCAtMDcwMA==
-  content: ! "Under certainly are a couple of explanation why you ought to hold away
+  author: ClumszoopGups
+  author_email: johntokersonj1992@hotmail.co.uk
+  author_url: ''
+  date: '2012-10-02 06:39:20 -0700'
+  date_gmt: '2012-10-02 14:39:20 -0700'
+  content: "Under certainly are a couple of explanation why you ought to hold away
     from <a href=\"http://forum.rakuya-com.com/viewthread.php?tid=1121500&amp;extra=\"
     rel=\"nofollow\">shoe lifts inserts </a> whether or not you want to develop taller.The
     PriceThe initial factor that pops into thoughts is the cost of the medical procedures.
@@ -440,63 +303,43 @@ comments:
     href=\"http://www.bomberoslatinoamericanos.com/wordpressbomberos/groups/solutions-to-decide-shoe-lifts-insoles/\"
     rel=\"nofollow\">shoe inserts for height</a>  \r\nhttp://ftp.origprod.com/groups/foldertest1/wiki/d5b56/Leg_Lengthening_Exercises_Or_Cheaper_Heel_Lifts.html"
 - id: 5562
-  author: !binary |-
-    Q2x1bXN6b29wR3Vwcw==
-  author_email: !binary |-
-    anVuZXRva2Vyc29uZTE5NjJAeWFob28uY29t
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0xMC0wMiAxNTozMToxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wMiAyMzozMToxNyAtMDcwMA==
-  content: ! "Many individuals throughout the globe desire to grow taller even so
-    some will go to diverse measures to achieve the satisfaction of currently being
-    a bit taller. Some people will devote hundreds on devices that claim to raise
-    your top then they might also splash the funds on merchandise such as lotions
-    and powders that are explained to aid you far too. Some even so can get so desperate
-    they will go and consider going through <a href=\"http://popress.net/groups/admin/wiki/e04f1/How_To_Lengthen_Your_Legs_To_Build_Up_Height.html\"
+  author: ClumszoopGups
+  author_email: junetokersone1962@yahoo.com
+  author_url: ''
+  date: '2012-10-02 15:31:17 -0700'
+  date_gmt: '2012-10-02 23:31:17 -0700'
+  content: "Many individuals throughout the globe desire to grow taller even so some
+    will go to diverse measures to achieve the satisfaction of currently being a bit
+    taller. Some people will devote hundreds on devices that claim to raise your top
+    then they might also splash the funds on merchandise such as lotions and powders
+    that are explained to aid you far too. Some even so can get so desperate they
+    will go and consider going through <a href=\"http://popress.net/groups/admin/wiki/e04f1/How_To_Lengthen_Your_Legs_To_Build_Up_Height.html\"
     rel=\"nofollow\">Heel lifts </a> which genuinely is just not the best solution
     whilst a closing issue to consider. \r\n \r\n<a href=\"http://uazshop.ru/forum/profile.php?id=28626\"
     rel=\"nofollow\">Heel lifts</a>  \r\nhttp://randomkorea.com/viewtopic.php?f=18&amp;t=31045"
 - id: 10461
-  author: !binary |-
-    VmVyb25pY2EgTWNkaWxs
-  author_email: !binary |-
-    QXJub25lMzAzMDVAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5ldm84MjN1bmV0ODQ2M3kuY29t
-  date: !binary |-
-    MjAxMi0xMC0yNyAwMToyMjowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0yNyAwOToyMjowMSAtMDcwMA==
+  author: Veronica Mcdill
+  author_email: Arnone30305@gmail.com
+  author_url: http://www.evo823unet8463y.com
+  date: '2012-10-27 01:22:01 -0700'
+  date_gmt: '2012-10-27 09:22:01 -0700'
   content: Hey there,  You've done a great job. I will definitely digg it and personally
     recommend to my friends. I am confident they will be benefited from this site.
 - id: 13023
-  author: !binary |-
-    b3Zhdm9yeWNob2FsZQ==
-  author_email: !binary |-
-    eW9uZ2VqdWljeXNuaXRzMTg5NzY1QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2ZycG9sb3JhbHBobGF1cmVuZW5zb2xkZXMuYmxvZ3Nwb3QuY29t
-    Lw==
-  date: !binary |-
-    MjAxMi0xMS0wMSAxMzozMTowNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0wMSAyMTozMTowNiAtMDcwMA==
+  author: ovavorychoale
+  author_email: yongejuicysnits189765@gmail.com
+  author_url: http://frpoloralphlaurenensoldes.blogspot.com/
+  date: '2012-11-01 13:31:06 -0700'
+  date_gmt: '2012-11-01 21:31:06 -0700'
   content: rdcelc <a href="http://chaussureslouboutinsoldes.blogspot.com/" rel="nofollow">louboutin
     homme</a> qccbkwve <a href="http://frairjodannensoldes.blogspot.com/#5781" rel="nofollow">air
     jordan</a> cewhdhn isgekhe imkpt Django round 2 | Caffeinated Simpleton rlvssgd
 - id: 17793
-  author: !binary |-
-    a2Fic2FtYmlzbGF0bw==
-  author_email: !binary |-
-    YXJsbGhhaW1vZWh5cGVydGhlc0BnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3NhY3Z1aXR0b256cGFzY2hlci53ZWJub2RlLmZyLw==
-  date: !binary |-
-    MjAxMi0xMS0xMCAxMzoyMzo1NCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMCAyMToyMzo1NCAtMDgwMA==
+  author: kabsambislato
+  author_email: arllhaimoehyperthes@gmail.com
+  author_url: http://sacvuittonzpascher.webnode.fr/
+  date: '2012-11-10 13:23:54 -0800'
+  date_gmt: '2012-11-10 21:23:54 -0800'
   content: ecpdk hscxy <a href="http://www.fropolorallphlaurenmagasin.info/#016" rel="nofollow">ralph
     lauren pas cher</a> jvsbb sizlnu Django round 2 | Caffeinated Simpleton wssdrao
     <a href="http://www.jpzmonclairsonlines.com/" rel="nofollow">モンクレール ポロシャツ</a>
@@ -505,16 +348,11 @@ comments:
     flygcced <a href="http://frabercromfitchdesoldes.blogspot.com/#7400" rel="nofollow">http://frabercromfitchdesoldes.blogspot.com/</a>
     bsgssctp
 - id: 18028
-  author: !binary |-
-    QnJvb3JuZ3JvdXJnZQ==
-  author_email: !binary |-
-    cmFsbHBobGF1cmVuc3RhbmluMTkwOEBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy51a2loYWlyc3RyYWlnaHRlbmVyb25saW5lcy5ldS8=
-  date: !binary |-
-    MjAxMi0xMS0xMCAyMToyODowNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMSAwNToyODowNyAtMDgwMA==
+  author: Broorngrourge
+  author_email: rallphlaurenstanin1908@gmail.com
+  author_url: http://www.ukihairstraighteneronlines.eu/
+  date: '2012-11-10 21:28:07 -0800'
+  date_gmt: '2012-11-11 05:28:07 -0800'
   content: cdqii acmyq <a href="http://www.jpzairjodannshoesonlines.info/" rel="nofollow">http://www.jpzairjodannshoesonlines.info/</a>
     cfrfl ixnqbg Django round 2 | Caffeinated Simpleton xdaslma <a href="http://www.jpzpolorsrallaurenonines.info/#2817"
     rel="nofollow">ラルフローレン</a> igpfpqb vyuzu <a href="http://www.jpzvuittonbagsonlines.info/"
@@ -522,17 +360,11 @@ comments:
     rel="nofollow">http://www.frodoudounesmagasinn.info/</a> jnkllbwn <a href="http://www.fropolorallphlaurenmagasin.info/#436"
     rel="nofollow">polo ralph lauren pas cher</a> fqodoonm
 - id: 18093
-  author: !binary |-
-    bWVyZ2xpZGdl
-  author_email: !binary |-
-    eXVvMTNoNi5vNS5pZ3ZoQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2FjaGF0Y2RvdWRvdW5lbW9uY2xhaXJzb25saW5lLndlYm5vZGUu
-    ZnIv
-  date: !binary |-
-    MjAxMi0xMS0xMSAwMDoyNjowNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMSAwODoyNjowNiAtMDgwMA==
+  author: merglidge
+  author_email: yuo13h6.o5.igvh@gmail.com
+  author_url: http://achatcdoudounemonclairsonline.webnode.fr/
+  date: '2012-11-11 00:26:06 -0800'
+  date_gmt: '2012-11-11 08:26:06 -0800'
   content: pghwmh nyggmd <a href="http://doudounemmonclairmagasinns.blogspot.com/"
     rel="nofollow">moncler pais</a> gwgujnjw <a href="http://abercromfitchopascher.webnode.fr/"
     rel="nofollow">abercrombie</a> biwdybb tomooht kqfcx Django round 2 | Caffeinated
@@ -541,61 +373,41 @@ comments:
     louis vuitton</a> ykgijtqf <a href="http://sacvuittonnpascher.webnode.fr/" rel="nofollow">louis
     vuitton pas cher</a> rfrtfpwn
 - id: 18422
-  author: !binary |-
-    c29yYXNuYW5jYW0=
-  author_email: !binary |-
-    eXVvMjkzaDZvaWd2aEBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mcmljY2hhdXNzdXJlc2pvcmRubnBhc2NoZXIuaW5mby8=
-  date: !binary |-
-    MjAxMi0xMS0xMSAxNToxNjo1OSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMSAyMzoxNjo1OSAtMDgwMA==
+  author: sorasnancam
+  author_email: yuo293h6oigvh@gmail.com
+  author_url: http://www.fricchaussuresjordnnpascher.info/
+  date: '2012-11-11 15:16:59 -0800'
+  date_gmt: '2012-11-11 23:16:59 -0800'
   content: Django round 2 | Caffeinated Simpleton xcgifq beyfzfe wgynsr <a href="http://www.frzasacvuittonpascher.info/"
     rel="nofollow">http://www.frzasacvuittonpascher.info/</a> hwxyz sddsxbif <a href="http://www.fricchaussuresjordnnpascher.info/"
     rel="nofollow">air jordan</a> sryjnon nfjfv
 - id: 18543
-  author: !binary |-
-    SWduaXR0eUJ5bW4=
-  author_email: !binary |-
-    bGFuYm9kaW5nc2hlbi5nMjczODlraUBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mcm5uZG91ZG91bmVzbWFnYXNpbm4uY29t
-  date: !binary |-
-    MjAxMi0xMS0xMiAwMToxOTo1NiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMiAwOToxOTo1NiAtMDgwMA==
-  content: ! "<a href=\"http://www.friiabercromfitchmagasinn.com\" rel=\"nofollow\">abercrombie
+  author: IgnittyBymn
+  author_email: lanbodingshen.g27389ki@gmail.com
+  author_url: http://www.frnndoudounesmagasinn.com
+  date: '2012-11-12 01:19:56 -0800'
+  date_gmt: '2012-11-12 09:19:56 -0800'
+  content: "<a href=\"http://www.friiabercromfitchmagasinn.com\" rel=\"nofollow\">abercrombie
     france</a> joQd3S <a href=\"http://www.frzmabercromfitchmagasins.eu\" rel=\"nofollow\">abercrombie
     soldes</a> rhNo3R <a href=\"http://www.friidoudounemagasinnsoldes.com\" rel=\"nofollow\">moncler
     femme</a> chGm4N <a href=\"http://www.itapiuminimoncleroutlet.com\" rel=\"nofollow\">moncler</a>
     cgSd0V  \r\nhttp://www.itzpiuminisoutletonlines.eu http://www.frzmabercromfitchmagasins.eu"
 - id: 18549
-  author: !binary |-
-    SWxsdWJ5TW91cm8=
-  author_email: !binary |-
-    Z2EubWVmYW50YWN5MDAuMUBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mcnp6Y2FzcXVlc2J5ZHJlbWFnYXNpbi5pbmZv
-  date: !binary |-
-    MjAxMi0xMS0xMiAwMTo0MDozOCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMiAwOTo0MDozOCAtMDgwMA==
-  content: ! "<a href=\"http://www.mulberrybagsxsalesonline.co.uk\" rel=\"nofollow\">mulberry
+  author: IllubyMouro
+  author_email: ga.mefantacy00.1@gmail.com
+  author_url: http://www.frzzcasquesbydremagasin.info
+  date: '2012-11-12 01:40:38 -0800'
+  date_gmt: '2012-11-12 09:40:38 -0800'
+  content: "<a href=\"http://www.mulberrybagsxsalesonline.co.uk\" rel=\"nofollow\">mulberry
     outlet</a> B78x0 <a href=\"http://www.timbelandbootsxsalesonline.co.uk\" rel=\"nofollow\">timberland
     boots</a> K09f1 <a href=\"http://www.ralphlaurennsalesonline.co.uk\" rel=\"nofollow\">ralph
     lauren uk outlet</a> F30j9 \r\n \r\nhttp://www.frzzlvuittonmagasinn.info"
 - id: 18795
-  author: !binary |-
-    b3Zhdm9yeWNob2FsZQ==
-  author_email: !binary |-
-    eW9uZ2VqdWljeXNuaXRzMTg5NzY1QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2xvdWJvdXRpbm5wYXNjaGVyLmJsb2dzcG90LmNvbS8=
-  date: !binary |-
-    MjAxMi0xMS0xMiAxMzoyNjowNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMiAyMToyNjowNyAtMDgwMA==
+  author: ovavorychoale
+  author_email: yongejuicysnits189765@gmail.com
+  author_url: http://louboutinnpascher.blogspot.com/
+  date: '2012-11-12 13:26:07 -0800'
+  date_gmt: '2012-11-12 21:26:07 -0800'
   content: pqkyqt rsdtny <a href="http://www.jpzpolorsrallaurenonines.info/#0358"
     rel="nofollow">ポロラルフローレン</a> cbkoqhqg <a href="http://www.jpzvuittonbagsonlines.info/"
     rel="nofollow">ルイヴィトン </a> nywxmqk mobwfpi uvdhs Django round 2 | Caffeinated
@@ -604,17 +416,11 @@ comments:
     rel="nofollow">polo ralph lauren pas cher</a> drnbenin <a href="http://www.jpzmonclairsonlines.com/"
     rel="nofollow">モンクレール</a> mgtpvgab
 - id: 19042
-  author: !binary |-
-    ZW1wYXBseXByZW9sZg==
-  author_email: !binary |-
-    eXVvMTkzaDZvaWd2LmhAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2FjaGF0YWRvdWRvdW5lbW9uY2xhaXJzb25saW5lLndlYm5vZGUu
-    ZnIv
-  date: !binary |-
-    MjAxMi0xMS0xMyAwNTozNzozNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0xMyAxMzozNzozNyAtMDgwMA==
+  author: empaplypreolf
+  author_email: yuo193h6oigv.h@gmail.com
+  author_url: http://achatadoudounemonclairsonline.webnode.fr/
+  date: '2012-11-13 05:37:37 -0800'
+  date_gmt: '2012-11-13 13:37:37 -0800'
   content: adirrf dwzwyc <a href="http://www.jpzairjodannshoesonlines.info/" rel="nofollow">ジョーダン</a>
     ecpomptu <a href="http://www.jpzpolorsrallaurenonines.info/#0833" rel="nofollow">ラルフローレン</a>
     atghwxg vopflgn quqnq Django round 2 | Caffeinated Simpleton lhqinrq <a href="http://www.jpzvuittonbagsonlines.info/"
@@ -622,30 +428,20 @@ comments:
     rel="nofollow">http://www.frodoudounesmagasinn.info/</a> rrwoghgm <a href="http://www.fropolorallphlaurenmagasin.info/#673"
     rel="nofollow">polo ralph lauren soldes</a> arbgwben
 - id: 22969
-  author: !binary |-
-    ZXZvYnJlcGVk
-  author_email: !binary |-
-    d2lkZW9hc2plNzY0aWxAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy51a29ib290c291dGxldG9ubGluZS5pbmZv
-  date: !binary |-
-    MjAxMi0xMS0yNyAxODowMDo0OSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yOCAwMjowMDo0OSAtMDgwMA==
+  author: evobreped
+  author_email: wideoasje764il@gmail.com
+  author_url: http://www.ukobootsoutletonline.info
+  date: '2012-11-27 18:00:49 -0800'
+  date_gmt: '2012-11-28 02:00:49 -0800'
   content: <a href="http://www.ukmbootsoutletonline.info" rel="nofollow">ugg boots</a>
     fty J Nm <a href="http://www.uksmulberriesbagsonlines.info" rel="nofollow">mulberry
     bags</a>
 - id: 23732
-  author: !binary |-
-    b3Zhdm9yeWNob2FsZQ==
-  author_email: !binary |-
-    eW9uZ2VqdWljeXNuaXRzMTg5NzY1QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2FjaGF0dGNkb3Vkb3VuZW1vbmNsYWlyLndlYm5vZGUuZnIv
-  date: !binary |-
-    MjAxMi0xMS0yOCAxNDo1NDozNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yOCAyMjo1NDozNiAtMDgwMA==
+  author: ovavorychoale
+  author_email: yongejuicysnits189765@gmail.com
+  author_url: http://achattcdoudounemonclair.webnode.fr/
+  date: '2012-11-28 14:54:36 -0800'
+  date_gmt: '2012-11-28 22:54:36 -0800'
   content: vasnr nyrpw bottes ugg galeries lafayette <a href="http://bottesdeopascher.webnode.fr/"
     rel="nofollow">bottes ugg</a> bottes ugg laine pymqr lepnxt Django round 2 | Caffeinated
     Simpleton aqyzjni ダウンジャケット モンクレー <a href="http://http://monclairmaoyamaonline.webnode.jp/"
@@ -653,71 +449,46 @@ comments:
     rel="nofollow">モンクレール サイズ</a> ダウンジャケット通販 keyveqez モンクレール レディース 人気 <a href="http://http://monclairmaoyamaonline.webnode.jp/"
     rel="nofollow">モンクレール</a> moncler ブランド古着 syjdznuz
 - id: 24186
-  author: !binary |-
-    R1JpZWhvb2Rl
-  author_email: !binary |-
-    YW50b25mZGY0M2VydGg1ZXNAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5hc3Btbi5vcmcvbmF2aWdhdGlvbmNvYWNoLmFzcA==
-  date: !binary |-
-    MjAxMi0xMi0wMiAxMzo0ODoyMSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0wMiAyMTo0ODoyMSAtMDgwMA==
+  author: GRiehoode
+  author_email: antonfdf43erth5es@gmail.com
+  author_url: http://www.aspmn.org/navigationcoach.asp
+  date: '2012-12-02 13:48:21 -0800'
+  date_gmt: '2012-12-02 21:48:21 -0800'
   content: <a href="http://www.aspmn.org/navigationcoach.asp" rel="nofollow">coach
     outlet</a> pPv9e <a href="http://www.aspmn.org/thumbsugg.asp" rel="nofollow">ugg
     outlet</a>                       http://www.aspmn.org/navigationcoach.asp
 - id: 26200
-  author: !binary |-
-    Qm9taWluaXNoaXQ=
-  author_email: !binary |-
-    eW91cm1haWxAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5qcGNjaW1vbmNsYWlyb25saW5lLmluZm8=
-  date: !binary |-
-    MjAxMi0xMi0wOSAxNzowMTo1NSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xMCAwMTowMTo1NSAtMDgwMA==
+  author: Bomiinishit
+  author_email: yourmail@gmail.com
+  author_url: http://www.jpccimonclaironline.info
+  date: '2012-12-09 17:01:55 -0800'
+  date_gmt: '2012-12-10 01:01:55 -0800'
   content: <a href="http://www.jpccnmonclaironline.info" rel="nofollow">モンクレール ダウン</a>
     HA2SF1 http://www.jpccimonclaironline.info
 - id: 26441
-  author: !binary |-
-    em9vbGljYWljaWFscA==
-  author_email: !binary |-
-    eW91cm1haWxAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5tcnppLmluZm8=
-  date: !binary |-
-    MjAxMi0xMi0xMCAwNzoyNjo0NyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xMCAxNToyNjo0NyAtMDgwMA==
+  author: zoolicaicialp
+  author_email: yourmail@gmail.com
+  author_url: http://www.mrzi.info
+  date: '2012-12-10 07:26:47 -0800'
+  date_gmt: '2012-12-10 15:26:47 -0800'
   content: <a href="http://www.frzmsacvuittonpascher.info" rel="nofollow">louis vuitton
     ps cher</a>  pcsu <a href="http://www.frzmsacvuittonpascher.info" rel="nofollow">sac
     louis vuitton</a>  xjdn
 - id: 28135
-  author: !binary |-
-    dGhpZ3VhYnV0dWFweQ==
-  author_email: !binary |-
-    YW50b25mZGY0M2VydGg1ZXNAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5jc3RlY29uZmVyZW5jZS5vcmcvd3AtdHVtYnMuYXNw
-  date: !binary |-
-    MjAxMi0xMi0xMiAxOToyODozNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xMyAwMzoyODozNiAtMDgwMA==
+  author: thiguabutuapy
+  author_email: antonfdf43erth5es@gmail.com
+  author_url: http://www.csteconference.org/wp-tumbs.asp
+  date: '2012-12-12 19:28:36 -0800'
+  date_gmt: '2012-12-13 03:28:36 -0800'
   content: <a href="http://www.csteconference.org/wp-tumbs.asp" rel="nofollow">ugg
     boots outlet</a>  Dea Flavia no longer hid her face within her hand   <a href="http://www.cste.org/health-ugg.asp"
     rel="nofollow">ugg boots</a>
 - id: 30500
-  author: !binary |-
-    Y2xvd2NhZ21h
-  author_email: !binary |-
-    cGFyaXpyYWl1b21vODk4MDk4MkBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5hc3Btbi5vcmcvYXNwbW4vc3R1ZGlvcy5odG1s
-  date: !binary |-
-    MjAxMi0xMi0xNSAyMToxNjo1MCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNiAwNToxNjo1MCAtMDgwMA==
+  author: clowcagma
+  author_email: parizraiuomo8980982@gmail.com
+  author_url: http://www.aspmn.org/aspmn/studios.html
+  date: '2012-12-15 21:16:50 -0800'
+  date_gmt: '2012-12-16 05:16:50 -0800'
   content: tajcjw fracou coach outlet store online <a href="http://cheapzbbootsonline.info/"
     rel="nofollow">coach factory outlet</a> coach outlet yorkdale fmgenajq <a href="http://www.aspmn.org/aspmn/studios.html"
     rel="nofollow">chea beats headphones</a> xwzntlx nxfkssk rvsex Django round 2

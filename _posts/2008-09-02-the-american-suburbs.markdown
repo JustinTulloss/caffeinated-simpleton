@@ -1,42 +1,27 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhlIEFtZXJpY2FuIFN1YnVyYnM=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: The American Suburbs
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 22
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MjI=
+wordpress_url: http://justin.harmonize.fm/?p=22
 date: 2008-09-02 21:25:45.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  U3VidXJicw==
-- !binary |-
-  Q2l0aWVz
+- Suburbs
+- Cities
 comments:
 - id: 4
-  author: !binary |-
-    Um9i
-  author_email: !binary |-
-    cm9idHJvdHRlckBnbWFpbC5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0wMyAwNTowOToyMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wMyAxMDowOToyMCAtMDcwMA==
+  author: Rob
+  author_email: robtrotter@gmail.com
+  author_url: ''
+  date: '2008-09-03 05:09:20 -0700'
+  date_gmt: '2008-09-03 10:09:20 -0700'
   content: Don&#39;t forget to include Australia in your comparisons..   <br>Possibly
     the fact that cities could be built where-ever was required - and not for historical
     reasons?  Australia has so much of it&#39;s population tied up in the state capitals
@@ -45,16 +30,11 @@ comments:
     an 12 million out of 12 million people live in our 5 biggest cities!<br><br><br><a
     href="http://maps.google.com/?ie=UTF8&ll=-37.843953%2C144.990692&spn=0.366009%2C0.700378&t=k&z=11">http://maps.google.com/?ie=UTF8&ll=-37.843953,1...</a>
 - id: 12
-  author: !binary |-
-    RGF2ZQ==
-  author_email: !binary |-
-    ZGF2ZUBkYXZlem9yLm5ldA==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kYXZlem9yLm5ldA==
-  date: !binary |-
-    MjAwOC0wOS0wOCAwMzo0NTo1MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wOCAwODo0NTo1MCAtMDcwMA==
+  author: Dave
+  author_email: dave@davezor.net
+  author_url: http://www.davezor.net
+  date: '2008-09-08 03:45:50 -0700'
+  date_gmt: '2008-09-08 08:45:50 -0700'
   content: I&#39;ve actually been thinking a LOT about this lately.  I watched a TED
     video somewhere about this exact issue.  Their observation dealt entirely with
     public spaces.  In American suburbs, we&#39;ve completely destroyed the idea that
@@ -71,34 +51,23 @@ comments:
     need to promote public spaces that are clean, fun, and easy to get to.  It might
     even solve itself.
 - id: 15
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOC0wOS0wOCAwNTo1NToxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wOCAxMDo1NToxNSAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2008-09-08 05:55:15 -0700'
+  date_gmt: '2008-09-08 10:55:15 -0700'
   content: I agree with the point about public spaces. However, I&#39;m not so optimistic
     about solving it. Unless there&#39;s a really huge backlash from our generation
     (as one of the first to really grow up entirely in the suburbs), I think we&#39;re
     just going to see more of the same.<br><br>My solution is to try living in the
     city, at least while I&#39;m young and single.
 - id: 2012
-  author: !binary |-
-    SmVzc2ll
-  author_email: !binary |-
-    bmljb2xhLmNyb3NzbGV5QGNkaGIuZ292dC5ueg==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTgzMDky
-  date: !binary |-
-    MjAxMi0wNS0yMSAxNjo0MTozMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAwMDo0MTozMyAtMDcwMA==
-  content: ! '- honestly, i have no idea how i found meylsf here on your blog today
+  author: Jessie
+  author_email: nicola.crossley@cdhb.govt.nz
+  author_url: http://www.facebook.com/profile.php?id=100003405983092
+  date: '2012-05-21 16:41:33 -0700'
+  date_gmt: '2012-05-22 00:41:33 -0700'
+  content: '- honestly, i have no idea how i found meylsf here on your blog today
     and right now. one of those things where you click on a link and then on another
     and then on something someone else posted. anyway, i am so glad i found meylsf
     here and now. because i''m obsessed. these are amazing. i''m back in nyc again
@@ -106,17 +75,11 @@ comments:
     same as you after my first time there. i never wanted to go back, actually. but
     now i could never ever get enough. look forward to following your work.'
 - id: 2020
-  author: !binary |-
-    VGF1Zmlr
-  author_email: !binary |-
-    cHlyb2RvbkB2ZXJpem9uLm5ldA==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDAxNjA5
-  date: !binary |-
-    MjAxMi0wNS0yMSAyMjowMDo1NiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAwNjowMDo1NiAtMDcwMA==
+  author: Taufik
+  author_email: pyrodon@verizon.net
+  author_url: http://www.facebook.com/profile.php?id=100003406001609
+  date: '2012-05-21 22:00:56 -0700'
+  date_gmt: '2012-05-22 06:00:56 -0700'
   content: they would add more fresh water to the process and this cetlainry freed
     us from any odour for the following three days!!  On another occassion, after
     I had to relocate an outdoor dinner party due to the bad smell, they were able
@@ -126,87 +89,54 @@ comments:
     mill   could not further measures be taken to ensure greater community consultation
     and further reduce offensive odours!!
 - id: 2086
-  author: !binary |-
-    RWd6b24=
-  author_email: !binary |-
-    emZyYW51bG92aWNAc21ldHQubWM=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTk5ODkx
-  date: !binary |-
-    MjAxMi0wNS0yMyAxNjozMToyMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMDozMToyMSAtMDcwMA==
+  author: Egzon
+  author_email: zfranulovic@smett.mc
+  author_url: http://www.facebook.com/profile.php?id=100003405999891
+  date: '2012-05-23 16:31:21 -0700'
+  date_gmt: '2012-05-24 00:31:21 -0700'
   content: Hey Matt   I'm a friend of Jenn's and read your blog sotmiemes.  Ani DiFranco
     is in NY for a concert on the 18th at the Beacon I actually may have an extra
     ticket if you're interested.
 - id: 2177
-  author: !binary |-
-    RGFuaWVsYQ==
-  author_email: !binary |-
-    Y2lnYW5hX3JvbWFudGljYTI5QGhvdG1haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5saXN0YXNlZ21lbnRhZGEuY29t
-  date: !binary |-
-    MjAxMi0wNS0yNSAxMjoxNzoxMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNSAyMDoxNzoxMyAtMDcwMA==
+  author: Daniela
+  author_email: cigana_romantica29@hotmail.com
+  author_url: http://www.listasegmentada.com
+  date: '2012-05-25 12:17:13 -0700'
+  date_gmt: '2012-05-25 20:17:13 -0700'
   content: might be very hard to write good articles, so i have to congratulate you
     for that.http://www.listasegmentada.com
 - id: 3508
-  author: !binary |-
-    Q2FyaW5h
-  author_email: !binary |-
-    Y2VsYWNhcnZhbGhvQGhvdG1haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5tYWxhZGlyZXRhc2VnbWVudGFkYS5jb20uYnI=
-  date: !binary |-
-    MjAxMi0wNy0yMiAxMjoyMzowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0yMiAyMDoyMzowMSAtMDcwMA==
+  author: Carina
+  author_email: celacarvalho@hotmail.com
+  author_url: http://www.maladiretasegmentada.com.br
+  date: '2012-07-22 12:23:01 -0700'
+  date_gmt: '2012-07-22 20:23:01 -0700'
   content: you know how to take the attention of the readers with such good ideas.http://www.maladiretasegmentada.com.br
 - id: 3689
-  author: !binary |-
-    V2VkZGluZyBWZWlscw==
-  author_email: !binary |-
-    enJqY213Z3NAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kcmVzc2ZyLmNvbS91cy96dWJlaG9yL2hvY2h6ZWl0LXNj
-    aGxlaWVyLmh0bWw=
-  date: !binary |-
-    MjAxMi0wNy0yOSAwOTozNzozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0yOSAxNzozNzozOSAtMDcwMA==
+  author: Wedding Veils
+  author_email: zrjcmwgs@gmail.com
+  author_url: http://www.dressfr.com/us/zubehor/hochzeit-schleier.html
+  date: '2012-07-29 09:37:39 -0700'
+  date_gmt: '2012-07-29 17:37:39 -0700'
   content: buy wedding dresses's a I very much hope, I hope your life more wonderful
     post.
 - id: 3966
-  author: !binary |-
-    bGlzdGEgZGUgZW1haWxz
-  author_email: !binary |-
-    Y2Fyb2wtcGF1bGFAaG90bWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5lY2FkYXN0cm8uY29tLmJy
-  date: !binary |-
-    MjAxMi0wOC0wOCAwNzoyODo0MSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0wOCAxNToyODo0MSAtMDcwMA==
+  author: lista de emails
+  author_email: carol-paula@hotmail.com
+  author_url: http://www.ecadastro.com.br
+  date: '2012-08-08 07:28:41 -0700'
+  date_gmt: '2012-08-08 15:28:41 -0700'
   content: can you give us some tips on how you did to make your blog so popular?
     thanks a lot. <a href="http://www.ecadastro.com.br" rel="nofollow">lista de emails</a>
     <a href="http://www.ecadastro.com.br" rel="nofollow">lista de emails</a> <a href="http://www.ecadastro.com.br"
     rel="nofollow">lista de emails</a> <a href="http://www.ecadastro.com.br" rel="nofollow">lista
     de emails</a> <a href="http://www.ecadastro.com.br" rel="nofollow">lista de emails</a>
 - id: 4028
-  author: !binary |-
-    cmVwbGljYSBsb3VpcyB2dWl0dG9uIHN1bmdsYXNzZXM=
-  author_email: !binary |-
-    ZXhwaGFrdW5leEBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sb3Vpc2JhZ3N2dWl0dG9ub3V0bGV0LmNvbS9sb3Vpcy12
-    dWl0dG9uLXN1bmdsYXNzZXMtYy0yLmh0bWw=
-  date: !binary |-
-    MjAxMi0wOC0xMSAwMzoyOTo1MyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0xMSAxMToyOTo1MyAtMDcwMA==
+  author: replica louis vuitton sunglasses
+  author_email: exphakunex@gmail.com
+  author_url: http://www.louisbagsvuittonoutlet.com/louis-vuitton-sunglasses-c-2.html
+  date: '2012-08-11 03:29:53 -0700'
+  date_gmt: '2012-08-11 11:29:53 -0700'
   content: You've got a great deal to own superb from the elements within these types
     of athletic shoes; the actual rest is actually a similar since the aged types
     backed upward

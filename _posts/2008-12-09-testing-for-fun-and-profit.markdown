@@ -1,33 +1,21 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGVzdGluZyBmb3IgZnVuIGFuZCBwcm9maXQ=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Testing for fun and profit
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 107
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTA3
+wordpress_url: http://justin.harmonize.fm/?p=107
 date: 2008-12-09 02:18:34.000000000 -08:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  U29mdHdhcmUgRW5naW5lZXJpbmc=
-- !binary |-
-  VW5pdCBUZXN0aW5n
-- !binary |-
-  VGVzdCBEcml2ZW4gRGV2ZWxvcG1lbnQ=
+- Software Engineering
+- Unit Testing
+- Test Driven Development
 comments: []
 ---
 First of all, let me be the first to admit that I don't have it all figured out when it comes to how to design software. I have, however, put a lot of thought into how to properly test software.

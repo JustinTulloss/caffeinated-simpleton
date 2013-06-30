@@ -1,55 +1,34 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  TWlubmVzb3RhIHRvIHRoZSBEYWtvdGFz
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Minnesota to the Dakotas
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 70
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vaW5kZXgucGhwLzIwMDgvMDkv
-  bWlubmVzb3RhLXRvLXRoZS1kYWtvdGFzLw==
+wordpress_url: http://justin.harmonize.fm/index.php/2008/09/minnesota-to-the-dakotas/
 date: 2008-09-16 10:56:48.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gZG9pbmc=
+- What I'm doing
 tags:
-- !binary |-
-  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
+- Move to San Francisco
 comments:
 - id: 29
-  author: !binary |-
-    Tmljb2xlIA==
-  author_email: !binary |-
-    YW1hdG8ubmljb2xlQGdtYWlsLmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOC0wOS0xOCAwMToxMDoxOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0xOCAwNjoxMDoxOCAtMDcwMA==
+  author: 'Nicole '
+  author_email: amato.nicole@gmail.com
+  author_url: ''
+  date: '2008-09-18 01:10:18 -0700'
+  date_gmt: '2008-09-18 06:10:18 -0700'
   content: The pictures are stunning Justin. I&#39;m really envious of this entire
     trip!!!
 - id: 1995
-  author: !binary |-
-    UmFq
-  author_email: !binary |-
-    bWVzdG9sYW5AYmFqLmNvbS5zYQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTg2NjYx
-  date: !binary |-
-    MjAxMi0wNS0yMSAwOTozNzoxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxNzozNzoxMiAtMDcwMA==
+  author: Raj
+  author_email: mestolan@baj.com.sa
+  author_url: http://www.facebook.com/profile.php?id=100003405986661
+  date: '2012-05-21 09:37:12 -0700'
+  date_gmt: '2012-05-21 17:37:12 -0700'
   content: you wanted cheap, but one of the most wedily-known colleges with a Nursing
     Program is the College of St. Scholastica in Duluth, MN. I am looking at going
     there now, even though I don't want to be a nurse. They are known for their nursing
@@ -63,17 +42,11 @@ comments:
     college on job apps, but as long as you get good grades, you'll be okay. Good
     luck!
 - id: 2034
-  author: !binary |-
-    WWFtYQ==
-  author_email: !binary |-
-    Zm9ydGFudG9pbmVAZ291di5tYw==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDAwMTQ4
-  date: !binary |-
-    MjAxMi0wNS0yMiAwMzo1MjozMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxMTo1MjozMSAtMDcwMA==
+  author: Yama
+  author_email: fortantoine@gouv.mc
+  author_url: http://www.facebook.com/profile.php?id=100003406000148
+  date: '2012-05-22 03:52:31 -0700'
+  date_gmt: '2012-05-22 11:52:31 -0700'
   content: Hi!  Happy 4th of July!  I was doing some research on  America the Beautiful  and
     found out that Katherine Lee Bates wrote it after she come down (by cairarge)
     from Pikes Peak in 1893!  Did you know that?  She had gone across country from
@@ -81,33 +54,21 @@ comments:
     Kansas and then the  purple mountain majesties  of the Rockies.Hugs to all of
     you!  C.
 - id: 2126
-  author: !binary |-
-    QW5nZWxpdGE=
-  author_email: !binary |-
-    aGFiaWJpQG1jbWFzdGVyLmNh
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDEyMjM3
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMDo0OTozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNDo0OTozOSAtMDcwMA==
+  author: Angelita
+  author_email: habibi@mcmaster.ca
+  author_url: http://www.facebook.com/profile.php?id=100003406012237
+  date: '2012-05-23 20:49:39 -0700'
+  date_gmt: '2012-05-24 04:49:39 -0700'
   content: Do you know if Price has made a decision yet?You mteinoned that McGovern
     was, at least, one of the top three recruits in ND.  Who else may be talented
     enough to play DI ball?Are the majority of UND players staying in GF over the
     summer to work out, etc.?
 - id: 4067
-  author: !binary |-
-    bC1kZXByZXlubA==
-  author_email: !binary |-
-    TWluaXNoMjMxQGxpdmUuY28udWs=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5zbWFydG5vb3Ryb3BpY3MuY29tLzIwMTEvMDUvbC1kZXBy
-    ZXlubC5odG1s
-  date: !binary |-
-    MjAxMi0wOC0xMyAxNDoyODo1OSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0xMyAyMjoyODo1OSAtMDcwMA==
+  author: l-depreynl
+  author_email: Minish231@live.co.uk
+  author_url: http://www.smartnootropics.com/2011/05/l-depreynl.html
+  date: '2012-08-13 14:28:59 -0700'
+  date_gmt: '2012-08-13 22:28:59 -0700'
   content: Hey there, just became aware of your blog through Google, and found that
     it's truly informative. I will be grateful if you continue this in future. Many
     people will be benefited from your writing. Cheers!

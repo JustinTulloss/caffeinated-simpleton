@@ -1,33 +1,21 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  RXJsYW5nIFdlYiBEZXZlbG9wbWVudCAtIEZpcnN0IEltcHJlc3Npb25z
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Erlang Web Development - First Impressions
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 11
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTE=
+wordpress_url: http://justin.harmonize.fm/?p=11
 date: 2008-08-18 17:42:42.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  V2ViIEZyYW1ld29ya3M=
-- !binary |-
-  RXJsYW5n
-- !binary |-
-  RXJseVdlYg==
+- Web Frameworks
+- Erlang
+- ErlyWeb
 comments: []
 ---
 Because I've been doing a lot of web development lately and I have an idea for a site, I'm teaching myself Erlang by building a web site. So far I haven't learned much erlang, but I am learning a lot about the current state of the Erlang web community, and it's not pretty.

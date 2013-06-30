@@ -1,33 +1,21 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  QSBiZXR0ZXIgb2JqZWN0IG9yaWVudGVkIEphdmFTY3JpcHQ=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: A better object oriented JavaScript
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 110
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTEw
+wordpress_url: http://justin.harmonize.fm/?p=110
 date: 2008-12-15 05:36:40.000000000 -08:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  SmF2YVNjcmlwdA==
-- !binary |-
-  T2JqZWN0IE9yaWVudGVkIERlc2lnbg==
-- !binary |-
-  bW9vdG9vbHM=
+- JavaScript
+- Object Oriented Design
+- mootools
 comments: []
 ---
 There are some problems with objects in JavaScript. The system is beautiful in its simplicity, but at times the JavaScript approach to objects is limiting and confusing. I have found this to be especially true when trying to develop large pieces of software with many components written by different people that need to interact.

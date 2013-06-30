@@ -1,175 +1,116 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhlIE5ldyBHT1A=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: The New GOP
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 258
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MjU4
+wordpress_url: http://justin.harmonize.fm/?p=258
 date: 2009-06-20 19:11:51.000000000 -07:00
 categories:
-- !binary |-
-  UG9saXRpY3M=
+- Politics
 tags:
-- !binary |-
-  R09Q
-- !binary |-
-  UmVwdWJsaWNhbnM=
+- GOP
+- Republicans
 comments:
 - id: 203
-  author: !binary |-
-    QXVzdGlu
-  author_email: !binary |-
-    YmlnZ2luczJAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL25vdG9yaW91c2JpZ2dpbnMuYmxvZ3Nwb3QuY29tLw==
-  date: !binary |-
-    MjAwOS0wNi0yMSAwMDo0NzowNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNi0yMSAwNTo0NzowNiAtMDcwMA==
+  author: Austin
+  author_email: biggins2@gmail.com
+  author_url: http://notoriousbiggins.blogspot.com/
+  date: '2009-06-21 00:47:06 -0700'
+  date_gmt: '2009-06-21 05:47:06 -0700'
   content: This is spot-on, but I think Republicans are going to have to lose at least
     one more presidential election before really getting this lesson into their heads.
 - id: 204
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOS0wNi0yMSAwMTo1OTowNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNi0yMSAwNjo1OTowNyAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2009-06-21 01:59:07 -0700'
+  date_gmt: '2009-06-21 06:59:07 -0700'
   content: I agree. There&#39;s no way the party remakes itself to the point it can
     beat<br>Obama in 4 years. The only hope is if Obama screws up, and, personally,
     I<br>really don&#39;t want that to happen.
 - id: 206
-  author: !binary |-
-    RGF2ZQ==
-  author_email: !binary |-
-    ZHBhb2xhMkBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2RhdmV6b3IucG9zdGVyb3VzLmNvbS8=
-  date: !binary |-
-    MjAwOS0wNi0yMSAwODo0Mzo0MSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNi0yMSAxMzo0Mzo0MSAtMDcwMA==
+  author: Dave
+  author_email: dpaola2@gmail.com
+  author_url: http://davezor.posterous.com/
+  date: '2009-06-21 08:43:41 -0700'
+  date_gmt: '2009-06-21 13:43:41 -0700'
   content: I&#39;d love to see these things happen, and some of them might happen.  But
     I cannot see the GOP anytime in the near future separating itself from the religious
     right.  It&#39;s such an organized, united, huge group of supporters that financially
     it might not make sense for them to cut ties publicly.
 - id: 207
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOS0wNi0yMSAxMToyMTozMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNi0yMSAxNjoyMTozMCAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2009-06-21 11:21:30 -0700'
+  date_gmt: '2009-06-21 16:21:30 -0700'
   content: I don&#39;t think they need to publicly cut ties with the religious right;
     I think the religious right should still be a part of the party. However, their
     rhetoric should be removed from the platform. I don&#39;t see it happening as
     a public decision, more of an increasing number of viable candidates simply not
     using the language.
 - id: 388
-  author: !binary |-
-    bWFya2xlZQ==
-  author_email: !binary |-
-    bWFya2xlZTcxM0BnbWFpbC5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOS0wNy0xNiAwNDo1NzoyNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wNy0xNiAwOTo1NzoyNSAtMDcwMA==
+  author: marklee
+  author_email: marklee713@gmail.com
+  author_url: ''
+  date: '2009-07-16 04:57:25 -0700'
+  date_gmt: '2009-07-16 09:57:25 -0700'
   content: Thanks for the mention. The article itself shows that you put a great deal
     of care into your work, <a href="http://www.certyourself.com" rel="nofollow">certification</a><br>
     I do agree with all the points you mention but the best is lets see, who will
     be that?
 - id: 629
-  author: !binary |-
-    SGVyZSdzIG1vcmUgZm9yIHlh
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3dlZ290c3RoYXRmb3J5YS5jb20=
-  date: !binary |-
-    MjAxMS0wNy0xNCAxNjowNjo0MSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0xNSAwMDowNjo0MSAtMDcwMA==
-  content: ! '<strong>Title...</strong>
+  author: Here's more for ya
+  author_email: ''
+  author_url: http://wegotsthatforya.com
+  date: '2011-07-14 16:06:41 -0700'
+  date_gmt: '2011-07-15 00:06:41 -0700'
+  content: |-
+    <strong>Title...</strong>
 
-
-    This is my Excerpt...'
+    This is my Excerpt...
 - id: 630
-  author: !binary |-
-    NTAwY2MgbW90b3JjeWNsZXMgY3J1aXNlcg==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovLzUwMGNjbW90b3JjeWNsZXMuY29t
-  date: !binary |-
-    MjAxMS0wNy0xNCAxNzo0NjoyMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0xNSAwMTo0NjoyMiAtMDcwMA==
-  content: ! '<strong>suzuki 500cc motorcycles...</strong>
+  author: 500cc motorcycles cruiser
+  author_email: ''
+  author_url: http://500ccmotorcycles.com
+  date: '2011-07-14 17:46:22 -0700'
+  date_gmt: '2011-07-15 01:46:22 -0700'
+  content: |-
+    <strong>suzuki 500cc motorcycles...</strong>
 
-
-    The New GOP...'
+    The New GOP...
 - id: 643
-  author: !binary |-
-    MTI1Y2MgaW5zdXJhbmNlIGZvciAxNyB5ZWFyIG9sZA==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovLzEyNWNjaW5zdXJhbmNlLmNvbQ==
-  date: !binary |-
-    MjAxMS0wNy0yMCAxMDowNjoxNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0yMCAxODowNjoxNCAtMDcwMA==
-  content: ! '<strong>125cc insurance...</strong>
+  author: 125cc insurance for 17 year old
+  author_email: ''
+  author_url: http://125ccinsurance.com
+  date: '2011-07-20 10:06:14 -0700'
+  date_gmt: '2011-07-20 18:06:14 -0700'
+  content: |-
+    <strong>125cc insurance...</strong>
 
-
-    The New GOP...'
+    The New GOP...
 - id: 958
-  author: !binary |-
-    RWxla3RyaXNjaGUgWmFobmJ1ZXJzdGU=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy4yLWdldC5kZS9lbGVrdHJpc2NoZS16YWhuYnVyc3RlLW9k
-    ZXItaGFuZHphaG5idXJzdGUtZGVyLXByYXhpc3Rlc3Q=
-  date: !binary |-
-    MjAxMS0xMS0yOCAwMjo0NDozMiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMS0yOCAxMDo0NDozMiAtMDgwMA==
-  content: ! '<strong>... [Trackback]...</strong>
+  author: Elektrische Zahnbuerste
+  author_email: ''
+  author_url: http://www.2-get.de/elektrische-zahnburste-oder-handzahnburste-der-praxistest
+  date: '2011-11-28 02:44:32 -0800'
+  date_gmt: '2011-11-28 10:44:32 -0800'
+  content: |-
+    <strong>... [Trackback]...</strong>
 
-
-    [...] Find More Informations here: justin.harmonize.fm/index.php/2009/06/the-new-gop/
-    [...]...'
+    [...] Find More Informations here: justin.harmonize.fm/index.php/2009/06/the-new-gop/ [...]...
 - id: 1964
-  author: !binary |-
-    RW5paW8=
-  author_email: !binary |-
-    b3B0eWtAa2Fub3duaWsucGw=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA4NjUw
-  date: !binary |-
-    MjAxMi0wNS0yMCAyMzowMDoxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAwNzowMDoxNSAtMDcwMA==
-  content: ! 'The Democrats did try, only the Republicans didn''t.  Not to be partisan
+  author: Eniio
+  author_email: optyk@kanownik.pl
+  author_url: http://www.facebook.com/profile.php?id=100003406008650
+  date: '2012-05-20 23:00:15 -0700'
+  date_gmt: '2012-05-21 07:00:15 -0700'
+  content: 'The Democrats did try, only the Republicans didn''t.  Not to be partisan
     here, but that is preilsecy what happened.To convice the Republicans to pass the
     debt ceiling, President Obama came up with a budget plan that cut $4 trillion
     from the budget and added $1 trillion in revenue (a 1% increase in taxes on the
@@ -193,42 +134,26 @@ comments:
     it did not get rid of Social Security and Medicare and because it would allow
     Obama to take some credit for saving America.References :'
 - id: 2021
-  author: !binary |-
-    cmZmaWV5
-  author_email: !binary |-
-    cWJobXVtQHlmZ294Zy5jb20=
-  author_url: !binary |-
-    aHR0cDovL2N3anR0eWlua3J6ZC5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yMSAyMzoxNjo1MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAwNzoxNjo1MiAtMDcwMA==
+  author: rffiey
+  author_email: qbhmum@yfgoxg.com
+  author_url: http://cwjttyinkrzd.com/
+  date: '2012-05-21 23:16:52 -0700'
+  date_gmt: '2012-05-22 07:16:52 -0700'
   content: adBZvF  <a href="http://ajufyvjajxoq.com/" rel="nofollow">ajufyvjajxoq</a>
 - id: 2029
-  author: !binary |-
-    aGZkanB6c2Z3bA==
-  author_email: !binary |-
-    dWRjdnpjQGVreGdqYi5jb20=
-  author_url: !binary |-
-    aHR0cDovL3prc3Z5amV4bW9hYi5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yMiAwMjo0ODo0MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxMDo0ODo0MCAtMDcwMA==
+  author: hfdjpzsfwl
+  author_email: udcvzc@ekxgjb.com
+  author_url: http://zksvyjexmoab.com/
+  date: '2012-05-22 02:48:40 -0700'
+  date_gmt: '2012-05-22 10:48:40 -0700'
   content: MYC76o , [url=http://yswtjmmzvtjl.com/]yswtjmmzvtjl[/url], [link=http://nihadsafspvo.com/]nihadsafspvo[/link],
     http://vcdxmiawxuan.com/
 - id: 2046
-  author: !binary |-
-    TW9oZA==
-  author_email: !binary |-
-    aW5mb0BsZWZheXJlc29ydHMuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA3NDI2
-  date: !binary |-
-    MjAxMi0wNS0yMiAwODowNjo0MSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxNjowNjo0MSAtMDcwMA==
+  author: Mohd
+  author_email: info@lefayresorts.com
+  author_url: http://www.facebook.com/profile.php?id=100003406007426
+  date: '2012-05-22 08:06:41 -0700'
+  date_gmt: '2012-05-22 16:06:41 -0700'
   content: You know what this current crowd of GOP liars want is to turn the United
     Sates into China, where only a few giant canropotiors run things, they own the
     factories, that apartments, the grocery stores, the gas stations, the newspaper
@@ -247,43 +172,27 @@ comments:
     double down and try to save some face, the retirees will finish them off if they
     keep it up.
 - id: 2075
-  author: !binary |-
-    b2p2bGxzc28=
-  author_email: !binary |-
-    b3B1dmZjQG5kcGNrei5jb20=
-  author_url: !binary |-
-    aHR0cDovL2xwZHVvY2FvZnBxai5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yMyAwOToyMjowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMyAxNzoyMjowMSAtMDcwMA==
+  author: ojvllsso
+  author_email: opuvfc@ndpckz.com
+  author_url: http://lpduocaofpqj.com/
+  date: '2012-05-23 09:22:01 -0700'
+  date_gmt: '2012-05-23 17:22:01 -0700'
   content: WNiOsQ  <a href="http://mofjxgaslbzd.com/" rel="nofollow">mofjxgaslbzd</a>
 - id: 2078
-  author: !binary |-
-    dGd4c3lxaA==
-  author_email: !binary |-
-    eWlja2VxQHhrcGxyai5jb20=
-  author_url: !binary |-
-    aHR0cDovL2RhdHpoc3lhZXFsdS5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yMyAxMjoyNToxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMyAyMDoyNToxMiAtMDcwMA==
+  author: tgxsyqh
+  author_email: yickeq@xkplrj.com
+  author_url: http://datzhsyaeqlu.com/
+  date: '2012-05-23 12:25:12 -0700'
+  date_gmt: '2012-05-23 20:25:12 -0700'
   content: DRYsfR , [url=http://mjyvbllsdoda.com/]mjyvbllsdoda[/url], [link=http://aftpfmrqtwrp.com/]aftpfmrqtwrp[/link],
     http://lsiyfsadnaum.com/
 - id: 2084
-  author: !binary |-
-    Tm91cmRkaW5l
-  author_email: !binary |-
-    bWV0ZXJpYWxAdGRpbnMub3Jn
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDE4MzQ2
-  date: !binary |-
-    MjAxMi0wNS0yMyAxNjoyMDozNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMDoyMDozNiAtMDcwMA==
-  content: ! 'Of course the young voetrs must turn out for the Dems to maintain majorities.  But
+  author: Nourddine
+  author_email: meterial@tdins.org
+  author_url: http://www.facebook.com/profile.php?id=100003406018346
+  date: '2012-05-23 16:20:36 -0700'
+  date_gmt: '2012-05-24 00:20:36 -0700'
+  content: 'Of course the young voetrs must turn out for the Dems to maintain majorities.  But
     Mike you point out the MSM fallacy of Democratic voetrs suffering from an ethusiasm
     gap, which you yourself bought into in the beginning, as did ALL of the ROF men
     when you were scolding progressives for not being appreciative enough.  You should''ve
@@ -299,19 +208,13 @@ comments:
     he is just like Michael Steele. They are paid political whores who will sell their
     soul for the next buck.'
 - id: 22260
-  author: !binary |-
-    a2VydHJldmhkdA==
-  author_email: !binary |-
-    d3doYW5kYmFnc0Bhb2wuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sb3Vpc21lLmNvbS9sb3Vpcy12dWl0dG9uLXNwZWVkeS00
-    MC1tNDE1MjItbW9ub2dyYW0tY2FudmFzLXAtNTQ0Lmh0bWw=
-  date: !binary |-
-    MjAxMi0xMS0yNiAxNzo0MDoxOSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNyAwMTo0MDoxOSAtMDgwMA==
-  content: ! "What is it that imbues one designer purse and amazing high quality,
-    a few are was involved with looking for a single season? skillful needlework bets
+  author: kertrevhdt
+  author_email: wwhandbags@aol.com
+  author_url: http://www.louisme.com/louis-vuitton-speedy-40-m41522-monogram-canvas-p-544.html
+  date: '2012-11-26 17:40:19 -0800'
+  date_gmt: '2012-11-27 01:40:19 -0800'
+  content: "What is it that imbues one designer purse and amazing high quality, a
+    few are was involved with looking for a single season? skillful needlework bets
     an extensive facet in such an popular game, as do forward-deciding, even while
     generally rooted, creates. typical purses and handbags unquestionably are law-Breakers
     (apart from to become knowledgeable due to quite sought training in key facts),

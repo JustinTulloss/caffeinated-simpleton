@@ -1,35 +1,22 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  U3BvcnRzIEJyaW5nIFBlYWNl
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Sports Bring Peace
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 330
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MzMw
+wordpress_url: http://justin.harmonize.fm/?p=330
 date: 2010-02-14 20:35:53.000000000 -08:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  c3BvcnRz
-- !binary |-
-  Q2hyaXN0b3BoZXIgSGl0Y2hlbnM=
-- !binary |-
-  aW5zdGluY3Rz
-- !binary |-
-  V29ybGQgUGVhY2U=
+- sports
+- Christopher Hitchens
+- instincts
+- World Peace
 comments: []
 ---
 <a href="http://justin.harmonize.fm/wp-content/uploads/2010/02/torch-mob.jpg"><img class="alignright size-full wp-image-333" title="Your typical sports fans." src="http://justin.harmonize.fm/wp-content/uploads/2010/02/torch-mob.jpg" alt="" width="350" height="298" /></a>In a typically whiny and smug <a href="http://www.newsweek.com/id/233007" target="_blank">editorial in this week's Newsweek</a>, <a id="aptureLink_QXckUmtqJm" href="http://en.wikipedia.org/wiki/Christopher%20Hitchens">Christopher Hitchens</a> rants that sports are the cause of much needless political strife and that celebrating the athletes that make these spectacles possible degrades us all. He equates sports fans to children or some sort of uneducated, redneck mob that follows manufactured allegiances to murder, war, and ignorance. This all is, of course, ridiculous, not to mention offensive to the thoughtful, well-educated individuals who understand and care about sports.

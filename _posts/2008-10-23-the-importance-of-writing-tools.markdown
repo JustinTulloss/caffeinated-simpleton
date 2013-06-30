@@ -1,29 +1,19 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhlIEltcG9ydGFuY2Ugb2YgV3JpdGluZyBUb29scw==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: The Importance of Writing Tools
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 105
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTA1
+wordpress_url: http://justin.harmonize.fm/?p=105
 date: 2008-10-23 19:07:06.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  VG9vbHM=
+- Tools
 comments: []
 ---
 A lot of people hate writing infrastructure support tools. In companies, often the lowliest engineers and interns are tasked with writing internal tools to make everybody else's life easier. I completely disagree with this. Tools should be written by the person who put the system in place.

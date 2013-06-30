@@ -1,71 +1,45 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  SmF2YVNjcmlwdCBpcyBOb3QgUGVyZmVjdA==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: JavaScript is Not Perfect
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 140
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTQw
+wordpress_url: http://justin.harmonize.fm/?p=140
 date: 2009-01-13 02:38:47.000000000 -08:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  SmF2YVNjcmlwdA==
-- !binary |-
-  Q29icmE=
+- JavaScript
+- Cobra
 comments:
 - id: 104
-  author: !binary |-
-    bGlua3MgZm9yIDIwMDktMDItMDUgJmxhcXVvOyBwYWJsb2lkeg==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3BhYmxvaWR6LndvcmRwcmVzcy5jb20vMjAwOS8wMi8wNS9saW5r
-    cy1mb3ItMjAwOS0wMi0wNS8=
-  date: !binary |-
-    MjAwOS0wMi0wNSAwODowMTo0MiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMi0wNSAxMjowMTo0MiAtMDgwMA==
-  content: ! '[...] JavaScript is Not Perfect Caffeinated Simpleton (tags: javascript)         Blogroll
+  author: links for 2009-02-05 &laquo; pabloidz
+  author_email: ''
+  author_url: http://pabloidz.wordpress.com/2009/02/05/links-for-2009-02-05/
+  date: '2009-02-05 08:01:42 -0800'
+  date_gmt: '2009-02-05 12:01:42 -0800'
+  content: '[...] JavaScript is Not Perfect Caffeinated Simpleton (tags: javascript)         Blogroll
     [...]'
 - id: 106
-  author: !binary |-
-    QmlubnlWQQ==
-  author_email: !binary |-
-    Y29tbWVudHNAYmlubnl2YS5jb20=
-  author_url: !binary |-
-    aHR0cDovL2Jsb2cuYmlubnl2YS5jb20v
-  date: !binary |-
-    MjAwOS0wMi0wNiAxODo0MjozNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMi0wNiAyMzo0MjozNyAtMDgwMA==
+  author: BinnyVA
+  author_email: comments@binnyva.com
+  author_url: http://blog.binnyva.com/
+  date: '2009-02-06 18:42:37 -0800'
+  date_gmt: '2009-02-06 23:42:37 -0800'
   content: Another problem with JS is the + overloading. It has caused a huge number
     of bugs in my apps. Also <a href="http://www.openjs.com/articles/semicolon_insertion.php"
     rel="nofollow">semi-colon insertion</a> is a potential problem - although I have
     not had any problem with it yet.
 - id: 110
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOS0wMi0wOSAwODo0Njo0NCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMi0wOSAxMzo0Njo0NCAtMDgwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2009-02-09 08:46:44 -0800'
+  date_gmt: '2009-02-09 13:46:44 -0800'
   content: I haven&#39;t found + overloading to be a huge problem. Since there are
     so few types that support +, understanding how it works is usually not terribly
     difficult. Changing how + works is much harder, since there are no hooks into
@@ -74,200 +48,133 @@ comments:
     you have semi-colons everywhere. JSLint (<a href="http://www.jslint.com/" rel="nofollow">http://www.jslint.com/</a>)
     is a great tool for finding these types of bugs.
 - id: 639
-  author: !binary |-
-    MTIzNDU2
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy4xMjM0NTYuY29t
-  date: !binary |-
-    MjAxMS0wNy0xNyAwNzoyODowMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNy0xNyAxNToyODowMyAtMDcwMA==
-  content: ! '<strong>Gems form the internet...</strong>
+  author: '123456'
+  author_email: ''
+  author_url: http://www.123456.com
+  date: '2011-07-17 07:28:03 -0700'
+  date_gmt: '2011-07-17 15:28:03 -0700'
+  content: |-
+    <strong>Gems form the internet...</strong>
 
-
-    [...]very few websites that happen to be detailed below, from our point of view
-    are undoubtedly well worth checking out[...]…...'
+    [...]very few websites that happen to be detailed below, from our point of view are undoubtedly well worth checking out[...]…...
 - id: 1032
-  author: !binary |-
-    V29XIEFkdWx0
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3dvd2FkdWx0Lm5ldC90YWcvYXJpYW5h
-  date: !binary |-
-    MjAxMS0xMi0xMCAwMjoxNToyNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0xMCAxMDoxNToyNyAtMDgwMA==
-  content: ! '<strong>WoW Adult...</strong>
+  author: WoW Adult
+  author_email: ''
+  author_url: http://wowadult.net/tag/ariana
+  date: '2011-12-10 02:15:27 -0800'
+  date_gmt: '2011-12-10 10:15:27 -0800'
+  content: |-
+    <strong>WoW Adult...</strong>
 
-
-    [...]JavaScript is Not Perfect[...]...'
+    [...]JavaScript is Not Perfect[...]...
 - id: 1045
-  author: !binary |-
-    V29XIGUhQm9vaw==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3dvd2Vib29rLm5ldC9jYXRlZ29yeS9idXNpbmVzcy9wYWdlLzk=
-  date: !binary |-
-    MjAxMS0xMi0xMiAwMToyMjoxNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0xMiAwOToyMjoxNiAtMDgwMA==
-  content: ! '<strong>WoW e!Book...</strong>
+  author: WoW e!Book
+  author_email: ''
+  author_url: http://wowebook.net/category/business/page/9
+  date: '2011-12-12 01:22:16 -0800'
+  date_gmt: '2011-12-12 09:22:16 -0800'
+  content: |-
+    <strong>WoW e!Book...</strong>
 
-
-    [...]JavaScript is Not Perfect[...]...'
+    [...]JavaScript is Not Perfect[...]...
 - id: 1066
-  author: !binary |-
-    R3VhcmFudGVlZCBGYWNlYm9vayBGYW5z
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy5idXlndWFyYW50ZWVkLWZhY2Vib29rZmFucy5pbmZvLw==
-  date: !binary |-
-    MjAxMS0xMi0xNCAwODoyNDo1NyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0xNCAxNjoyNDo1NyAtMDgwMA==
-  content: ! '<strong>Extra Reading...</strong>
+  author: Guaranteed Facebook Fans
+  author_email: ''
+  author_url: http://www.buyguaranteed-facebookfans.info/
+  date: '2011-12-14 08:24:57 -0800'
+  date_gmt: '2011-12-14 16:24:57 -0800'
+  content: |-
+    <strong>Extra Reading...</strong>
 
-
-    [...]we like to honor other sites on the web, even if they aren''t related to
-    us, by linking to them. Below are some sites worth checking out[...]...'
+    [...]we like to honor other sites on the web, even if they aren't related to us, by linking to them. Below are some sites worth checking out[...]...
 - id: 1099
-  author: !binary |-
-    QnV5IFRhcmdldGVkIEZhbnM=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy5idXktdGFyZ2V0ZWRmYWNlYm9vay1mYW5zLmluZm8v
-  date: !binary |-
-    MjAxMS0xMi0yMCAxMzoxOTo1MSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0yMCAyMToxOTo1MSAtMDgwMA==
-  content: ! '<strong>Recommended Resources...</strong>
+  author: Buy Targeted Fans
+  author_email: ''
+  author_url: http://www.buy-targetedfacebook-fans.info/
+  date: '2011-12-20 13:19:51 -0800'
+  date_gmt: '2011-12-20 21:19:51 -0800'
+  content: |-
+    <strong>Recommended Resources...</strong>
 
-
-    [...]the time to read or visit the content or sites we have linked to below the[...]...'
+    [...]the time to read or visit the content or sites we have linked to below the[...]...
 - id: 1138
   author: !binary |-
     cHl0YW5pYSBkbyB6bG90eWNoIG15xZtsaQ==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3B5dC1vZHAucGw=
-  date: !binary |-
-    MjAxMS0xMi0yNSAyMjo1MDowNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0yNiAwNjo1MDowNiAtMDgwMA==
-  content: ! '<strong>pytania do zlotych myśli...</strong>
+  author_email: ''
+  author_url: http://pyt-odp.pl
+  date: '2011-12-25 22:50:06 -0800'
+  date_gmt: '2011-12-26 06:50:06 -0800'
+  content: |-
+    <strong>pytania do zlotych myśli...</strong>
 
-
-    [...]JavaScript is Not Perfect[...]...'
+    [...]JavaScript is Not Perfect[...]...
 - id: 1751
-  author: !binary |-
-    Ynd6Ym5rcWg=
-  author_email: !binary |-
-    YW9mdWFvQHh3amF2eS5jb20=
-  author_url: !binary |-
-    aHR0cDovL2xhcWJuY251dmdtaS5jb20v
-  date: !binary |-
-    MjAxMi0wNS0wMSAwNDozMDoxOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0wMSAxMjozMDoxOCAtMDcwMA==
+  author: bwzbnkqh
+  author_email: aofuao@xwjavy.com
+  author_url: http://laqbncnuvgmi.com/
+  date: '2012-05-01 04:30:18 -0700'
+  date_gmt: '2012-05-01 12:30:18 -0700'
   content: A90F8H  <a href="http://aycxqtfwdjhl.com/" rel="nofollow">aycxqtfwdjhl</a>,
     [url=http://mftjfqkdodzp.com/]mftjfqkdodzp[/url], [link=http://dvvzzrpsednn.com/]dvvzzrpsednn[/link],
     http://rulykwdfbujx.com/
 - id: 1972
-  author: !binary |-
-    RmVybmFuZG9vZG9v
-  author_email: !binary |-
-    bWFyeWhAaG91c2luZ2RhdGFzeXN0ZW1zLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDAyNTU2
-  date: !binary |-
-    MjAxMi0wNS0yMSAwMjoyNTo1NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxMDoyNTo1NSAtMDcwMA==
+  author: Fernandoodoo
+  author_email: maryh@housingdatasystems.com
+  author_url: http://www.facebook.com/profile.php?id=100003406002556
+  date: '2012-05-21 02:25:55 -0700'
+  date_gmt: '2012-05-21 10:25:55 -0700'
   content: Если дальше работа идёт с $object, то наверно небольшая :-)Согласен, надо
     было привести пример с пэкэджем, в котором определено 150 inline констант, которые
     надо вызывать типаReally::Long::Package::Names::You::Cant::Remember-&gt;USEFUL_CONSTANT_1Really::Long::Package::Names::You::Cant::Remember-&gt;USEFUL_CONSTANT_2Really::Long::Package::Names::You::Cant::Remember-&gt;USEFUL_CONSTANT_3
 - id: 2128
-  author: !binary |-
-    U3Vu
-  author_email: !binary |-
-    dHlwc3lneXBzeXNAdHlwc3lneXBzeXMuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDEwMTg1
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMDo1NjoyNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNDo1NjoyNiAtMDcwMA==
+  author: Sun
+  author_email: typsygypsys@typsygypsys.com
+  author_url: http://www.facebook.com/profile.php?id=100003406010185
+  date: '2012-05-23 20:56:26 -0700'
+  date_gmt: '2012-05-24 04:56:26 -0700'
   content: emilia                окт 08, 2009 -                                  В
     google redear за тази статия заедно с линк към страницата на фирмата ми излиза
     и един линк към  п**но фото костарева людмила   )) Помислих, че си забелязъл,
     но
 - id: 2139
-  author: !binary |-
-    THluc2V5
-  author_email: !binary |-
-    YnJvd25wNUBrMTJ0bi5uZXQ=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5nb29nbGUuY29tLw==
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMjozMDoyNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNjozMDoyNSAtMDcwMA==
+  author: Lynsey
+  author_email: brownp5@k12tn.net
+  author_url: http://www.google.com/
+  date: '2012-05-23 22:30:25 -0700'
+  date_gmt: '2012-05-24 06:30:25 -0700'
   content: None can doubt the veracity of this aritcle.
 - id: 2148
-  author: !binary |-
-    YnV5IGxldml0cmE=
-  author_email: !binary |-
-    SG9yZHlrQHltYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sZXZpdHJhYnV5LnVz
-  date: !binary |-
-    MjAxMi0wNS0yNCAwNjoyMjo0OSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAxNDoyMjo0OSAtMDcwMA==
+  author: buy levitra
+  author_email: Hordyk@ymail.com
+  author_url: http://www.levitrabuy.us
+  date: '2012-05-24 06:22:49 -0700'
+  date_gmt: '2012-05-24 14:22:49 -0700'
   content: http://www.buyadderall.org  Buy adderall
 - id: 2238
-  author: !binary |-
-    Y2lhbGlzIHdpdGhvdXQgcHJlc2NyaXB0aW9u
-  author_email: !binary |-
-    RnVrdWRhOEBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5jaWFsaXMtd2l0aG91dC1wcmVzY3JpcHRpb24uYml6
-  date: !binary |-
-    MjAxMi0wNS0yOCAwNjo1MDozMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yOCAxNDo1MDozMiAtMDcwMA==
+  author: cialis without prescription
+  author_email: Fukuda8@gmail.com
+  author_url: http://www.cialis-without-prescription.biz
+  date: '2012-05-28 06:50:32 -0700'
+  date_gmt: '2012-05-28 14:50:32 -0700'
   content: http://www.viagra-online-without-prescription.us viagra online without
     prescription
 - id: 2293
-  author: !binary |-
-    dmlhZ3Jh
-  author_email: !binary |-
-    QmFyaWFzQHltYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy52aWFncmEuZ2Q=
-  date: !binary |-
-    MjAxMi0wNS0zMCAxNzowNjo1NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0zMSAwMTowNjo1NSAtMDcwMA==
+  author: viagra
+  author_email: Barias@ymail.com
+  author_url: http://www.viagra.gd
+  date: '2012-05-30 17:06:55 -0700'
+  date_gmt: '2012-05-31 01:06:55 -0700'
   content: Aw, this was a really nice post. In idea I would like to put in writing
     like this additionally – taking time and actual effort to make a very good article…
     but what can I say… I procrastinate alot and by no means seem to get something
     done.
 - id: 2490
-  author: !binary |-
-    dmlhZ3Jh
-  author_email: !binary |-
-    QnJlZWhsQHltYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy52aWFncmEuZ2Q=
-  date: !binary |-
-    MjAxMi0wNi0xMCAxMjoyMDoxOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMCAyMDoyMDoxOCAtMDcwMA==
-  content: ! 'An impressive share, I just given this onto a colleague who was doing
+  author: viagra
+  author_email: Breehl@ymail.com
+  author_url: http://www.viagra.gd
+  date: '2012-06-10 12:20:18 -0700'
+  date_gmt: '2012-06-10 20:20:18 -0700'
+  content: 'An impressive share, I just given this onto a colleague who was doing
     a little analysis on this. And he in fact bought me breakfast because I found
     it for him.. smile. So let me reword that: Thnx for the treat! But yeah Thnkx
     for spending the time to discuss this, I feel strongly about it and love reading
@@ -275,83 +182,53 @@ comments:
     your blog with more details? It is highly helpful for me. Big thumb up for this
     blog post!'
 - id: 3427
-  author: !binary |-
-    SmVyb215IEdvZGJlZQ==
-  author_email: !binary |-
-    QmVhbW9uQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2JlYXRzaGVhZHBob25lc2J5ZHIud2VlYmx5LmNvbS8=
-  date: !binary |-
-    MjAxMi0wNy0xOCAyMDowMDoxMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0xOSAwNDowMDoxMCAtMDcwMA==
+  author: Jeromy Godbee
+  author_email: Beamon@gmail.com
+  author_url: http://beatsheadphonesbydr.weebly.com/
+  date: '2012-07-18 20:00:10 -0700'
+  date_gmt: '2012-07-19 04:00:10 -0700'
   content: http://www.itot54joni.com/2008/03/hbot-for-autism.html
 - id: 3658
-  author: !binary |-
-    YmVhdHMgYnkgZHJlIGNoZWFw
-  author_email: !binary |-
-    UGllcmFubnVuemlvQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2JlYXRzaGVhZHBob25lc2J5ZHIud2VlYmx5LmNvbS8=
-  date: !binary |-
-    MjAxMi0wNy0yOCAwMToxNzowNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0yOCAwOToxNzowNCAtMDcwMA==
+  author: beats by dre cheap
+  author_email: Pierannunzio@gmail.com
+  author_url: http://beatsheadphonesbydr.weebly.com/
+  date: '2012-07-28 01:17:04 -0700'
+  date_gmt: '2012-07-28 09:17:04 -0700'
   content: Human interest At <a href="http://beatsheadphonesbydr.weebly.com/" rel="nofollow">Beats
     By Dre</a>. Those real estate companies put out a press release in varying forms
     and in varying occasions. Thank you!
 - id: 4496
-  author: !binary |-
-    bWFraW5nIG1vbmV5IG9uIHRoZSB3ZWI=
-  author_email: !binary |-
-    SGFua2VuMkBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL215ZGVhbHNydXMuY29t
-  date: !binary |-
-    MjAxMi0wOC0zMCAwNzoxOTozNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0zMCAxNToxOTozNyAtMDcwMA==
+  author: making money on the web
+  author_email: Hanken2@gmail.com
+  author_url: http://mydealsrus.com
+  date: '2012-08-30 07:19:37 -0700'
+  date_gmt: '2012-08-30 15:19:37 -0700'
   content: Thank you for sharing with us, I believe this website genuinely stands
     out :D.
 - id: 4658
-  author: !binary |-
-    a2RhcXdtbA==
-  author_email: !binary |-
-    ZG1zb3NxQHJncW90ZS5jb20=
-  author_url: !binary |-
-    aHR0cDovL3R4cm5ndnZhbGpzay5jb20v
-  date: !binary |-
-    MjAxMi0wOS0wNSAwNjo1MDowMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wNSAxNDo1MDowMyAtMDcwMA==
+  author: kdaqwml
+  author_email: dmsosq@rgqote.com
+  author_url: http://txrngvvaljsk.com/
+  date: '2012-09-05 06:50:03 -0700'
+  date_gmt: '2012-09-05 14:50:03 -0700'
   content: PBb0Ib  <a href="http://fdgpnvjfmxfq.com/" rel="nofollow">fdgpnvjfmxfq</a>,
     [url=http://khghxgjqudzo.com/]khghxgjqudzo[/url], [link=http://bdnvxjlfmrtx.com/]bdnvxjlfmrtx[/link],
     http://pbrqibuaioyl.com/
 - id: 4755
-  author: !binary |-
-    Z2V3YXltb21v
-  author_email: !binary |-
-    cmFsamZkZmVyOTkwOThyc0BnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3NhY3Z1aXR0b25zb25saW5lc29sZGVzLmNvbS8=
-  date: !binary |-
-    MjAxMi0wOS0wOCAwNzo1MToyNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0wOCAxNTo1MToyNiAtMDcwMA==
+  author: gewaymomo
+  author_email: raljfdfer99098rs@gmail.com
+  author_url: http://sacvuittonsonlinesoldes.com/
+  date: '2012-09-08 07:51:26 -0700'
+  date_gmt: '2012-09-08 15:51:26 -0700'
   content: xjeckwtp <a href="http://vuittonpascher.webnode.fr/#2883" rel="nofollow">sacs
     louis vuittonb</a> rgxgjmjh <a href="http://vuittonpascher.webnode.fr/#5897" rel="nofollow">sac
     louis vuittonv</a> bdyrmbso http://vuittonpascher.webnode.fr/
 - id: 5210
-  author: !binary |-
-    aG93IHRvIG1ha2UgbW9uZXkgb25saW5lIGZvciBiZWdpbm5lcnM=
-  author_email: !binary |-
-    Um02QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL215ZGVhbHNydXMuY29t
-  date: !binary |-
-    MjAxMi0wOS0yNCAyMDo0MDozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0yNSAwNDo0MDozOSAtMDcwMA==
+  author: how to make money online for beginners
+  author_email: Rm6@gmail.com
+  author_url: http://mydealsrus.com
+  date: '2012-09-24 20:40:39 -0700'
+  date_gmt: '2012-09-25 04:40:39 -0700'
   content: Thank you so much for giving everyone an extraordinarily remarkable chance
     to read from this blog. It is often very nice and full of amusement for me personally
     and my office friends to search your site minimum thrice in one week to learn
@@ -359,43 +236,28 @@ comments:
     the sensational information you serve. Certain 3 ideas in this posting are unequivocally
     the finest I have ever had.
 - id: 5473
-  author: !binary |-
-    aG93IGNhbiBpIG1ha2UgbW9uZXkgb25saW5lIGZyZWU=
-  author_email: !binary |-
-    V2FyaW5lckB5bWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2VzaG9wc3RvcC5pbmZvL0Nhc2hNYXN0ZXJ5UGFja2FnZS8=
-  date: !binary |-
-    MjAxMi0wOS0zMCAxMTo0NjoxNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0zMCAxOTo0NjoxNCAtMDcwMA==
+  author: how can i make money online free
+  author_email: Wariner@ymail.com
+  author_url: http://eshopstop.info/CashMasteryPackage/
+  date: '2012-09-30 11:46:14 -0700'
+  date_gmt: '2012-09-30 19:46:14 -0700'
   content: I cling on to listening to the news speak about receiving boundless online
     grant applications so I have been looking around for the best site to get one.
     Could you advise me please, where could i get some?
 - id: 5658
-  author: !binary |-
-    Y2FuIGkgcmVhbGx5IG1ha2UgbW9uZXkgb25saW5l
-  author_email: !binary |-
-    SGFua2VuMkBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL215ZGVhbHNydXMuY29t
-  date: !binary |-
-    MjAxMi0xMC0wNCAxODozOToyOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wNSAwMjozOToyOSAtMDcwMA==
+  author: can i really make money online
+  author_email: Hanken2@gmail.com
+  author_url: http://mydealsrus.com
+  date: '2012-10-04 18:39:29 -0700'
+  date_gmt: '2012-10-05 02:39:29 -0700'
   content: Lovely just what I was looking for. Thanks to the author for taking his
     clock time on this one.
 - id: 5990
-  author: !binary |-
-    eW91dHViZSBhZGVsZQ==
-  author_email: !binary |-
-    TGFib3JpbjFAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL215dHZib3guaW5mbw==
-  date: !binary |-
-    MjAxMi0xMC0xMSAwMzo0NDoxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xMSAxMTo0NDoxMiAtMDcwMA==
+  author: youtube adele
+  author_email: Laborin1@gmail.com
+  author_url: http://mytvbox.info
+  date: '2012-10-11 03:44:12 -0700'
+  date_gmt: '2012-10-11 11:44:12 -0700'
   content: Thanks a lot for providing individuals with an exceptionally splendid chance
     to discover important secrets from this web site. It really is so good plus jam-packed
     with amusement for me personally and my office friends to search the blog not
@@ -403,29 +265,18 @@ comments:
     we are at all times pleased with your breathtaking information served by you.
     Selected 3 tips in this article are surely the most efficient I've had.
 - id: 6055
-  author: !binary |-
-    cXVpY2sgZWFybg==
-  author_email: !binary |-
-    QmlnbmV5QHltYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL215ZXNob3BzdG9wLmluZm8vcHJvZHVjdHMvZm9yZXgtc2VjcmV0
-    cy5odG0=
-  date: !binary |-
-    MjAxMi0xMC0xMiAxMzowODo0OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xMiAyMTowODo0OCAtMDcwMA==
+  author: quick earn
+  author_email: Bigney@ymail.com
+  author_url: http://myeshopstop.info/products/forex-secrets.htm
+  date: '2012-10-12 13:08:48 -0700'
+  date_gmt: '2012-10-12 21:08:48 -0700'
   content: I like this blog it's a master piece! Glad I found this on google.
 - id: 21891
-  author: !binary |-
-    U2VvIFNlcnZpY2U=
-  author_email: !binary |-
-    c3VzYW56ekBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2ZpdmVyci5jb20vdXNlcnMvY3JvcmtzZXJ2aWNlLw==
-  date: !binary |-
-    MjAxMi0xMS0yNSAxMDowMzo0MSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNSAxODowMzo0MSAtMDgwMA==
+  author: Seo Service
+  author_email: susanzz@gmail.com
+  author_url: http://fiverr.com/users/crorkservice/
+  date: '2012-11-25 10:03:41 -0800'
+  date_gmt: '2012-11-25 18:03:41 -0800'
   content: 2MkANN Really enjoyed this blog. Want more.
 ---
 After posting <a href="http://justin.harmonize.fm/index.php/2009/01/cobra-a-little-javascript-class-library/">cobra</a>, one of the things I heard most was "don't try to make JavaScript be something it's not". This is good advice, but I feel that in this case it was given too hastily. Cobra did not come out of a desire to make JavaScript more like Python, even though that was the result. Cobra came out of careful consideration of how to make JavaScript better.

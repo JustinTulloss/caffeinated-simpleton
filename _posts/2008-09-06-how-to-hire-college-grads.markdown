@@ -1,31 +1,20 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  SG93IHRvIEhpcmUgQ29sbGVnZSBHcmFkcw==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: How to Hire College Grads
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 29
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9Mjk=
+wordpress_url: http://justin.harmonize.fm/?p=29
 date: 2008-09-06 00:47:18.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  Q29sbGVnZSBSZWNydWl0aW5n
-- !binary |-
-  VGVjaCBJbmR1c3RyeQ==
+- College Recruiting
+- Tech Industry
 comments: []
 ---
 As a little background for this post, I should tell you that in the past few months I have graduated with a computer engineering degree from a good university, drove a startup into the ground, and have just accepted an offer for a "real" job. In these past few months, I have experienced and heard tales of a number of different recruiting techniques, and have developed an appreciation for what works and what does not.

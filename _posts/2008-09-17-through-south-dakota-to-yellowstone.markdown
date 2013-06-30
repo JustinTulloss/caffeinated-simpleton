@@ -1,30 +1,19 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhyb3VnaCBTb3V0aCBEYWtvdGEgdG8gWWVsbG93c3RvbmU=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Through South Dakota to Yellowstone
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 80
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vaW5kZXgucGhwLzIwMDgvMDkv
-  dGhyb3VnaC1zb3V0aC1kYWtvdGEtdG8teWVsbG93c3RvbmUv
+wordpress_url: http://justin.harmonize.fm/index.php/2008/09/through-south-dakota-to-yellowstone/
 date: 2008-09-17 23:26:53.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gZG9pbmc=
+- What I'm doing
 tags:
-- !binary |-
-  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
+- Move to San Francisco
 comments: []
 ---
 <img style="float:right;clear:right;" src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1824.jpg" alt="PICT1824.JPG" width="197" height="155" />I didn't write yesterday as I was exhausted. That means I have a lot to say today.

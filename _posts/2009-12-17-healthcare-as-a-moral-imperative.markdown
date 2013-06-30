@@ -1,148 +1,99 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  SGVhbHRoY2FyZSBhcyBhIE1vcmFsIEltcGVyYXRpdmU=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Healthcare as a Moral Imperative
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 296
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9Mjk2
+wordpress_url: http://justin.harmonize.fm/?p=296
 date: 2009-12-17 00:18:36.000000000 -08:00
 categories:
-- !binary |-
-  UG9saXRpY3M=
+- Politics
 tags:
-- !binary |-
-  aGVhbHRoY2FyZQ==
-- !binary |-
-  cmlnaHRz
-- !binary |-
-  bW9yYWxpdHk=
+- healthcare
+- rights
+- morality
 comments:
 - id: 1106
-  author: !binary |-
-    VVJM
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy5KaTVpZ2EubmV0
-  date: !binary |-
-    MjAxMS0xMi0yMSAwODo0MToxNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMS0xMi0yMSAxNjo0MToxNSAtMDgwMA==
-  content: ! '<strong>... [Trackback]...</strong>
+  author: URL
+  author_email: ''
+  author_url: http://www.Ji5iga.net
+  date: '2011-12-21 08:41:15 -0800'
+  date_gmt: '2011-12-21 16:41:15 -0800'
+  content: |-
+    <strong>... [Trackback]...</strong>
 
-
-    [...] Read More: justin.harmonize.fm/index.php/2009/12/healthcare-as-a-moral-imperative/
-    [...]...'
+    [...] Read More: justin.harmonize.fm/index.php/2009/12/healthcare-as-a-moral-imperative/ [...]...
 - id: 1330
-  author: !binary |-
-    QXBwaGFja2Vy
-  author_email: !binary |-
-    YXBwaGFja2VyQGdtYWlsLmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0wMi0wMyAxNjoxOToyMyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMi0wMyAyMToxOToyMyAtMDgwMA==
-  content: ! '"Society should not be asked to cover the costs of keeping the elderly
+  author: Apphacker
+  author_email: apphacker@gmail.com
+  author_url: ''
+  date: '2012-02-03 16:19:23 -0800'
+  date_gmt: '2012-02-03 21:19:23 -0800'
+  content: '"Society should not be asked to cover the costs of keeping the elderly
     around longer than is prudent, nor should we be asked to bear the burdens of an
     individual’s poor decisions."<br><br>Wow. Heartless and ignorant. I suppose being
     born into a lack of opportunities was a poor decision too right?'
 - id: 1440
-  author: !binary |-
-    dGVtcG9yYXJ5IGNhciBpbnN1cmFuY2UgY292ZXI=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy50ZW1wY2FyaW5zdXJhbmNlLmNv
-  date: !binary |-
-    MjAxMi0wMy0wNiAwODoyMDo1OCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMy0wNiAxNjoyMDo1OCAtMDgwMA==
-  content: ! '<strong>temporary car insurance cover...</strong>
+  author: temporary car insurance cover
+  author_email: ''
+  author_url: http://www.tempcarinsurance.co
+  date: '2012-03-06 08:20:58 -0800'
+  date_gmt: '2012-03-06 16:20:58 -0800'
+  content: |-
+    <strong>temporary car insurance cover...</strong>
 
-
-    [...]Healthcare as a Moral Imperative[...]...'
+    [...]Healthcare as a Moral Imperative[...]...
 - id: 1442
-  author: !binary |-
-    cHJlc3Rhc2hvcCB0aGVtZXM=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL2VnZ3RoZW1lcy5jb20=
-  date: !binary |-
-    MjAxMi0wMy0wNiAyMDo1Nzo1NyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMy0wNyAwNDo1Nzo1NyAtMDgwMA==
-  content: ! '<strong>prestashop themes...</strong>
+  author: prestashop themes
+  author_email: ''
+  author_url: http://eggthemes.com
+  date: '2012-03-06 20:57:57 -0800'
+  date_gmt: '2012-03-07 04:57:57 -0800'
+  content: |-
+    <strong>prestashop themes...</strong>
 
-
-    [...]Healthcare as a Moral Imperative[...]...'
+    [...]Healthcare as a Moral Imperative[...]...
 - id: 1443
-  author: !binary |-
-    THVpcywgY2xpbmljYXM=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL2NvbnNlam9zZGVudGFsZXMuYmxvZ3Nwb3QuY29tLzIwMTEvMDcv
-    bG9zLWhpZHJhdG9zLWRlLWNhcmJvbm8tZmVybWVudGFibGVzLmh0bWw=
-  date: !binary |-
-    MjAxMi0wMy0wNiAyMTozNToyOSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMy0wNyAwNTozNToyOSAtMDgwMA==
-  content: ! '<strong>Luis, clinicas...</strong>
+  author: Luis, clinicas
+  author_email: ''
+  author_url: http://consejosdentales.blogspot.com/2011/07/los-hidratos-de-carbono-fermentables.html
+  date: '2012-03-06 21:35:29 -0800'
+  date_gmt: '2012-03-07 05:35:29 -0800'
+  content: |-
+    <strong>Luis, clinicas...</strong>
 
-
-    [...]Healthcare as a Moral Imperative[...]...'
+    [...]Healthcare as a Moral Imperative[...]...
 - id: 1588
-  author: !binary |-
-    UmFuayAxIE9uIFNlYXJjaCBFbmdpbmU=
-  author_email: !binary |-
-    cmFuazFAc2VhcmNoZW5naW5lLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL21hZ2ljc3VibWl0dGVycy5uZXQv
-  date: !binary |-
-    MjAxMi0wNC0xNiAxMzoyODoyNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0xNiAyMToyODoyNyAtMDcwMA==
+  author: Rank 1 On Search Engine
+  author_email: rank1@searchengine.com
+  author_url: http://magicsubmitters.net/
+  date: '2012-04-16 13:28:27 -0700'
+  date_gmt: '2012-04-16 21:28:27 -0700'
   content: Hi, if you to dominate the search engines in a short time, check out http://magicsubmitters.net/
     Watch the video how it can push you to the top of google and sends you unlimited
     qualified traffic and customers on auto pilot
 - id: 1621
-  author: !binary |-
-    Ym9rbw==
-  author_email: !binary |-
-    Ym9rb2lyQGdtYWlsLmNvbQ==
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0wNC0xOSAyMDoyMDozMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0yMCAwNDoyMDozMyAtMDcwMA==
-  content: ! "Late-model blow the whistle on buy:            \r\nhttp://shop.xaijo.com/?new-xt.html
+  author: boko
+  author_email: bokoir@gmail.com
+  author_url: ''
+  date: '2012-04-19 20:20:33 -0700'
+  date_gmt: '2012-04-20 04:20:33 -0700'
+  content: "Late-model blow the whistle on buy:            \r\nhttp://shop.xaijo.com/?new-xt.html
     \    \r\n        \r\nspeakers visitors mant chudleigh acquisition mess prod abstract
     informed cardinal publish male whowho schering nebule completes reviews brometane
     overflows wheat liable scale cantu prednisolone endn     \r\n \r\nhttp://zippic.xaijo.com/?new-lf.html
     \r\nhttp://intimcity.org/in.htm?profile-ep&amp;wm=2020890811   \r\nhttp://search.erolove.in/?new-pj.html
     \ \r\nhttp://blog.erolove.in/land?browse-bt.html"
 - id: 1966
-  author: !binary |-
-    U2lidXRh
-  author_email: !binary |-
-    Z2lvZ2FsYkB0aXNjYWxpLml0
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTk1MDI0
-  date: !binary |-
-    MjAxMi0wNS0yMCAyMzoyMToxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAwNzoyMToxNSAtMDcwMA==
+  author: Sibuta
+  author_email: giogalb@tiscali.it
+  author_url: http://www.facebook.com/profile.php?id=100003405995024
+  date: '2012-05-20 23:21:15 -0700'
+  date_gmt: '2012-05-21 07:21:15 -0700'
   content: Because they have fallen for the lies and half tthurs of the right.It surprises
     me that so many Americans seem not to be aware about Obama’s healthcare plans
     [a].  During the election, he campaigned for these changes stating that he felt
@@ -166,17 +117,11 @@ comments:
     who say they are wrong tend not to.  If they are wrong, e-mail me with proof and
     let me know.
 - id: 2042
-  author: !binary |-
-    RGFtYXJpcw==
-  author_email: !binary |-
-    Zy5kdW5sb3BAZHVuZGVlLmFjLnVr
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTkzMTQ1
-  date: !binary |-
-    MjAxMi0wNS0yMiAwNjozMDowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxNDozMDowMSAtMDcwMA==
+  author: Damaris
+  author_email: g.dunlop@dundee.ac.uk
+  author_url: http://www.facebook.com/profile.php?id=100003405993145
+  date: '2012-05-22 06:30:01 -0700'
+  date_gmt: '2012-05-22 14:30:01 -0700'
   content: It's simple, and it's uttrofunane. It's simple, the answer is that most
     people haven't the depth of education to distinguish between Fascism, Communism,
     or Dictatorship.  The term  communism  is used to generically describe Statism,
@@ -187,17 +132,11 @@ comments:
     the difference use the error to justify dismissal of their actual concern, thereby
     paving the way for more Statism in the future. Hide and watch.
 - id: 2096
-  author: !binary |-
-    TW9oYW1lZA==
-  author_email: !binary |-
-    bWFyY2tsZWVmQHBsYW5ldC5ubA==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDI2OTEw
-  date: !binary |-
-    MjAxMi0wNS0yMyAxODozNToyMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMjozNToyMSAtMDcwMA==
+  author: Mohamed
+  author_email: marckleef@planet.nl
+  author_url: http://www.facebook.com/profile.php?id=100003406026910
+  date: '2012-05-23 18:35:21 -0700'
+  date_gmt: '2012-05-24 02:35:21 -0700'
   content: they do that because they do not know what conmumism is.  The obamacare
     plan is not communistic.it is socialistic but no more so that the social security
     system, the welfare system, the public school system, etc etc.Socialism has been
@@ -206,17 +145,11 @@ comments:
     messes with something, that something returns to us completely hosed.  The same
     thing will happen once they bureaucrats get their claws into our healthcare system.
 - id: 2100
-  author: !binary |-
-    S2FybGE=
-  author_email: !binary |-
-    am9ic0BsdWthLmRl
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDIxODMw
-  date: !binary |-
-    MjAxMi0wNS0yMyAxODo1ODo0NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMjo1ODo0NSAtMDcwMA==
+  author: Karla
+  author_email: jobs@luka.de
+  author_url: http://www.facebook.com/profile.php?id=100003406021830
+  date: '2012-05-23 18:58:45 -0700'
+  date_gmt: '2012-05-24 02:58:45 -0700'
   content: Greetings I am so grateful I found your blog page, I relaly found you by
     error, while I was searching on Digg for something else, Regardless I am here
     now and would just like to say thanks a lot for a incredible post and a all round
@@ -224,53 +157,33 @@ comments:
     all at the minute but I have saved it and also added your RSS feeds, so when I
     have time I will be back to read much more, Please do keep up the superb work.
 - id: 2161
-  author: !binary |-
-    ZXhhb2lv
-  author_email: !binary |-
-    dXdxaXh2QHFwa3pwdy5jb20=
-  author_url: !binary |-
-    aHR0cDovL3ppaGlldHplbnlvcS5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yNCAxNjoxMToxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNSAwMDoxMToxNSAtMDcwMA==
+  author: exaoio
+  author_email: uwqixv@qpkzpw.com
+  author_url: http://zihietzenyoq.com/
+  date: '2012-05-24 16:11:15 -0700'
+  date_gmt: '2012-05-25 00:11:15 -0700'
   content: bjBcs1  <a href="http://fvakwfhshxmn.com/" rel="nofollow">fvakwfhshxmn</a>
 - id: 2184
-  author: !binary |-
-    Z3p5aGRscmhrcw==
-  author_email: !binary |-
-    YXZmZGhxQHdyYnl3cS5jb20=
-  author_url: !binary |-
-    aHR0cDovL3Bhd2hleXhiZnVpcS5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yNSAyMjo0MzoxNiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNiAwNjo0MzoxNiAtMDcwMA==
+  author: gzyhdlrhks
+  author_email: avfdhq@wrbywq.com
+  author_url: http://pawheyxbfuiq.com/
+  date: '2012-05-25 22:43:16 -0700'
+  date_gmt: '2012-05-26 06:43:16 -0700'
   content: EUtuq3  <a href="http://yocwnlxgcxqu.com/" rel="nofollow">yocwnlxgcxqu</a>
 - id: 2211
-  author: !binary |-
-    aW5scWNjb3dvdQ==
-  author_email: !binary |-
-    dmN1Z3B6QGxia2VzeC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3FpeHd5cnhuZ3Fncy5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yNyAwNDoyOTowNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNyAxMjoyOTowNCAtMDcwMA==
+  author: inlqccowou
+  author_email: vcugpz@lbkesx.com
+  author_url: http://qixwyrxngqgs.com/
+  date: '2012-05-27 04:29:04 -0700'
+  date_gmt: '2012-05-27 12:29:04 -0700'
   content: Vbve7C , [url=http://hcvfetnwnsoh.com/]hcvfetnwnsoh[/url], [link=http://mwgmyrmwkhrm.com/]mwgmyrmwkhrm[/link],
     http://uoscluowrllq.com/
 - id: 29993
-  author: !binary |-
-    TW91cG9zY2lzc2U=
-  author_email: !binary |-
-    Zm5kdGdtc0BndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5hZ3VjbGFzc2ljY2FyZHkuY29tLw==
-  date: !binary |-
-    MjAxMi0xMi0xNSAwNzoxNzo0MyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNSAxNToxNzo0MyAtMDgwMA==
+  author: Mouposcisse
+  author_email: fndtgms@guccihandbagjp.com
+  author_url: http://www.aguclassiccardy.com/
+  date: '2012-12-15 07:17:43 -0800'
+  date_gmt: '2012-12-15 15:17:43 -0800'
   content: AkpQrb <a href="http://www.aguclassiccardy.com/" rel="nofollow">アグ</a>
     YhtOgh http://www.aguclassiccardy.com/ CwwYwl <a href="http://www.aguclassiccardy.com/uggアグ-クラシックショート-3161-c-6.html"
     rel="nofollow">アグ ブーツ</a> WblCib <a href="http://www.aguclassiccardy.com/uggアグ-クラシック-ミニ-5854-c-5.html"
@@ -285,159 +198,99 @@ comments:
     rel="nofollow">ugg オーストラリア</a> XpuYtt http://www.classicminiboots.com VneJhw http://www.classicminiboots.com
     KwbKmn
 - id: 32583
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    d21vd2ZlaEBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0xOSAwNDozMjoyOCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xOSAxMjozMjoyOCAtMDgwMA==
+  author: cryprophytrot
+  author_email: wmowfeh@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-19 04:32:28 -0800'
+  date_gmt: '2012-12-19 12:32:28 -0800'
   content: NpkRyw http://guccibagsjan.com/ OoiPoy <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ バッグ </a>
 - id: 32895
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    ZXljbWRmaUBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0xOSAyMzo1NjowMSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMCAwNzo1NjowMSAtMDgwMA==
+  author: cryprophytrot
+  author_email: eycmdfi@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-19 23:56:01 -0800'
+  date_gmt: '2012-12-20 07:56:01 -0800'
   content: ZlhCzv http://guccibagsjan.com/ SvaTnw <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 時計 </a>
 - id: 33189
-  author: !binary |-
-    UHJvb21haGFyYnVtcw==
-  author_email: !binary |-
-    ZmdhcHVpeEBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2J1eWd1Y2NpamFwYW4uY29tLw==
-  date: !binary |-
-    MjAxMi0xMi0yMCAxOToxMTowMCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMSAwMzoxMTowMCAtMDgwMA==
+  author: Proomaharbums
+  author_email: fgapuix@guccihandbagjp.com
+  author_url: http://buyguccijapan.com/
+  date: '2012-12-20 19:11:00 -0800'
+  date_gmt: '2012-12-21 03:11:00 -0800'
   content: UkpJxb http://buyguccijapan.com/ KadAzz <a href="http://buyguccijapan.com/"
     rel="nofollow">グッチ 長財布</a>
 - id: 33229
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    eWR1dGJqb0BndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMCAyMDo0ODo1MCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMSAwNDo0ODo1MCAtMDgwMA==
+  author: cryprophytrot
+  author_email: ydutbjo@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-20 20:48:50 -0800'
+  date_gmt: '2012-12-21 04:48:50 -0800'
   content: NqrWrf http://guccibagsjan.com/ AitSem <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 長財布</a>
 - id: 33268
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    dWRyemFjYkBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMCAyMzoyNDoxNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMSAwNzoyNDoxNyAtMDgwMA==
+  author: cryprophytrot
+  author_email: udrzacb@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-20 23:24:17 -0800'
+  date_gmt: '2012-12-21 07:24:17 -0800'
   content: JthPxn http://guccibagsjan.com/ ZdkZbs <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 財布 </a>
 - id: 33443
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    aWx4eHRqa0BndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMSAxMToxOTozMCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMSAxOToxOTozMCAtMDgwMA==
+  author: cryprophytrot
+  author_email: ilxxtjk@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-21 11:19:30 -0800'
+  date_gmt: '2012-12-21 19:19:30 -0800'
   content: YboWzj http://guccibagsjan.com/ NfaIop <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ バッグ </a>
 - id: 33612
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    eml3dG55bEBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMSAxOToxMjoyMCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMiAwMzoxMjoyMCAtMDgwMA==
+  author: cryprophytrot
+  author_email: ziwtnyl@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-21 19:12:20 -0800'
+  date_gmt: '2012-12-22 03:12:20 -0800'
   content: TrlVwz http://guccibagsjan.com/ EgeRit <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 長財布</a>
 - id: 33753
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    d3BlenZwZ0BndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMSAyMzo1Mjo0OCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMiAwNzo1Mjo0OCAtMDgwMA==
+  author: cryprophytrot
+  author_email: wpezvpg@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-21 23:52:48 -0800'
+  date_gmt: '2012-12-22 07:52:48 -0800'
   content: VkqIir http://guccibagsjan.com/ WirQtc <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 財布 </a>
 - id: 34335
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    ZXR6d3h5aEBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMyAwNjoyNjoxNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMyAxNDoyNjoxNSAtMDgwMA==
+  author: cryprophytrot
+  author_email: etzwxyh@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-23 06:26:15 -0800'
+  date_gmt: '2012-12-23 14:26:15 -0800'
   content: QdcTvl http://guccibagsjan.com/ OgqXrn <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ バッグ </a>
 - id: 34375
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    cXRqa2hydkBndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMyAwNzo1Njo0OCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yMyAxNTo1Njo0OCAtMDgwMA==
+  author: cryprophytrot
+  author_email: qtjkhrv@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-23 07:56:48 -0800'
+  date_gmt: '2012-12-23 15:56:48 -0800'
   content: KgeGfj http://guccibagsjan.com/ NyuPzd <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 時計 </a>
 - id: 34715
-  author: !binary |-
-    Y3J5cHJvcGh5dHJvdA==
-  author_email: !binary |-
-    ZmxzZGdmY0BndWNjaWhhbmRiYWdqcC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2d1Y2NpYmFnc2phbi5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yMyAyMToxMDozMyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yNCAwNToxMDozMyAtMDgwMA==
+  author: cryprophytrot
+  author_email: flsdgfc@guccihandbagjp.com
+  author_url: http://guccibagsjan.com/
+  date: '2012-12-23 21:10:33 -0800'
+  date_gmt: '2012-12-24 05:10:33 -0800'
   content: IbsOki http://guccibagsjan.com/ ZwoRcu <a href="http://guccibagsjan.com/"
     rel="nofollow">グッチ 長財布</a>
 - id: 34827
-  author: !binary |-
-    Ymt0eWFlZHBvYQ==
-  author_email: !binary |-
-    bmNzaXF2QHdubGZlZC5jb20=
-  author_url: !binary |-
-    aHR0cDovL29peHZubGhka2lsdC5jb20v
-  date: !binary |-
-    MjAxMi0xMi0yNCAwMToxMzoxNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yNCAwOToxMzoxNiAtMDgwMA==
+  author: bktyaedpoa
+  author_email: ncsiqv@wnlfed.com
+  author_url: http://oixvnlhdkilt.com/
+  date: '2012-12-24 01:13:16 -0800'
+  date_gmt: '2012-12-24 09:13:16 -0800'
   content: RLoQ2P  <a href="http://izanigyncpwk.com/" rel="nofollow">izanigyncpwk</a>,
     [url=http://ehfyifdfzrjn.com/]ehfyifdfzrjn[/url], [link=http://kcvndbdxjojh.com/]kcvndbdxjojh[/link],
     http://wmofoyrwmkmi.com/

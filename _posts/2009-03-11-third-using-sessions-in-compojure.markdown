@@ -1,31 +1,20 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhpcmQ6IFVzaW5nIFNlc3Npb25zIGluIENvbXBvanVyZQ==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: 'Third: Using Sessions in Compojure'
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 180
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTgw
+wordpress_url: http://justin.harmonize.fm/?p=180
 date: 2009-03-11 22:25:08.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  Q29tcG9qdXJl
-- !binary |-
-  TGVhcm5pbmctQ2xvanVyZQ==
+- Compojure
+- Learning-Clojure
 comments: []
 ---
 After the <a href="http://justin.harmonize.fm/index.php/2009/03/first-stab-at-learning-clojure/">first</a> <a href="http://justin.harmonize.fm/index.php/2009/03/second-templates-http-and-json-parsing-in-clojure/">two</a> posts in this series, we have a site that displays the twitter public timeline and twitter searches. Now let's customize this by allowing users to access their own twitter accounts.

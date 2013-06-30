@@ -1,34 +1,21 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  Rm9yZWNsb3N1cmVzIHdpbGwgRnJlZXplIFRoZW1zZWx2ZXMgKGlmIHlvdSBs
-  ZXQgdGhlbSk=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Foreclosures will Freeze Themselves (if you let them)
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 187
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTg3
+wordpress_url: http://justin.harmonize.fm/?p=187
 date: 2009-03-16 20:40:14.000000000 -07:00
 categories:
-- !binary |-
-  UG9saXRpY3M=
+- Politics
 tags:
-- !binary |-
-  RmluYW5jaWFsIENyaXNpcw==
-- !binary |-
-  RWNvbm9taWNz
-- !binary |-
-  SG91c2luZw==
+- Financial Crisis
+- Economics
+- Housing
 comments: []
 ---
 <p>There has been a lot of debate in the past few months about what the government should do about all these "toxic assets" that various financial institutions have on their books. My less than educated opinion is that it doesn't matter, but the government has to make its intentions clear, and it has to make them clear fast.</p>

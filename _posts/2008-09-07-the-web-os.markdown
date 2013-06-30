@@ -1,43 +1,27 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhlIFdlYiBPUw==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: The Web OS
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 35
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MzU=
+wordpress_url: http://justin.harmonize.fm/?p=35
 date: 2008-09-07 22:54:33.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  V2ViIFN0YW5kYXJkcw==
-- !binary |-
-  V2ViIE9T
+- Web Standards
+- Web OS
 comments:
 - id: 13
-  author: !binary |-
-    RGF2ZQ==
-  author_email: !binary |-
-    ZGF2ZUBkYXZlem9yLm5ldA==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kYXZlem9yLm5ldA==
-  date: !binary |-
-    MjAwOC0wOS0wOCAwMzo1NDowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wOCAwODo1NDowMSAtMDcwMA==
+  author: Dave
+  author_email: dave@davezor.net
+  author_url: http://www.davezor.net
+  date: '2008-09-08 03:54:01 -0700'
+  date_gmt: '2008-09-08 08:54:01 -0700'
   content: That was an excellent post.  I don&#39;t, however, think standarding an
     interface will ever happen.  Like you said, the web&#39;s expressive power is
     really tough to move against.  The entire industry of web design runs counter
@@ -50,16 +34,11 @@ comments:
     and we can finally make the web a dominant, usable, consistent experience for
     applications.
 - id: 14
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOC0wOS0wOCAwNTozMjo0MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0wOCAxMDozMjo0MiAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2008-09-08 05:32:42 -0700'
+  date_gmt: '2008-09-08 10:32:42 -0700'
   content: I agree that it&#39;ll never be standard across all sites. However, I think
     that if there was a standard that most web applications followed, it would go
     a long way in not only encouraging new web apps to follow it, but to enhancing
@@ -73,46 +52,29 @@ comments:
     that it needs to exist in such numbers to make it seem like a standard. That&#39;s
     a tough battle.
 - id: 616
-  author: !binary |-
-    Q2hlY2sgWW91ciBHb29nbGUgUGFnZXJhbmsgLSBXZWJzaXRlIFJhbmtpbmcg
-    Q2hlY2tlcg==
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3d3dy5teWdvb2dsZXBhZ2VyYW5rLm9yZw==
-  date: !binary |-
-    MjAxMS0wNi0yNyAxMDo1ODo0MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNi0yNyAxODo1ODo0MiAtMDcwMA==
-  content: ! '<strong>Check Your Google Pagerank - Website Ranking Checker...</strong>
+  author: Check Your Google Pagerank - Website Ranking Checker
+  author_email: ''
+  author_url: http://www.mygooglepagerank.org
+  date: '2011-06-27 10:58:42 -0700'
+  date_gmt: '2011-06-27 18:58:42 -0700'
+  content: |-
+    <strong>Check Your Google Pagerank - Website Ranking Checker...</strong>
 
-
-    Look at your Google Pr, back links, listed pages about search engine in order
-    to find social links....'
+    Look at your Google Pr, back links, listed pages about search engine in order to find social links....
 - id: 1753
-  author: !binary |-
-    UGllc2UgQXV0bw==
-  author_email: !binary |-
-    RGVtZXRyaW91QHlhaG9vLmNvLnVr
-  author_url: !binary |-
-    aHR0cDovL3d3dy5hdXRvZWxlbWVudC5ybw==
-  date: !binary |-
-    MjAxMi0wNS0wMSAwNzoxMjoyNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0wMSAxNToxMjoyNSAtMDcwMA==
+  author: Piese Auto
+  author_email: Demetriou@yahoo.co.uk
+  author_url: http://www.autoelement.ro
+  date: '2012-05-01 07:12:25 -0700'
+  date_gmt: '2012-05-01 15:12:25 -0700'
   content: Which car is better, an Audi or an VW? Please pitch in and give me your
     opinion...<a href="http://www.autoelement.ro/" rel="nofollow">piese auto</a>
 - id: 1981
-  author: !binary |-
-    Qm9yaXM=
-  author_email: !binary |-
-    bHNjb3R0QHNhZ2UtcG9wb3ZpY2guY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA2MjEz
-  date: !binary |-
-    MjAxMi0wNS0yMSAwNDoxNDowNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxMjoxNDowNSAtMDcwMA==
+  author: Boris
+  author_email: lscott@sage-popovich.com
+  author_url: http://www.facebook.com/profile.php?id=100003406006213
+  date: '2012-05-21 04:14:05 -0700'
+  date_gmt: '2012-05-21 12:14:05 -0700'
   content: I am a designer and deeleopvr.I think that the overlap between the two
     is inevitable, as tools for both CMS dev and design become more accessible. Undoubtedly
     they both take a great deal of work to master; but designers need to become more
@@ -122,18 +84,12 @@ comments:
     generators are becoming more specialised as application deeleopvrs and designers
     merge into one field.
 - id: 2030
-  author: !binary |-
-    d2Fu
-  author_email: !binary |-
-    bC5za2Ficm91YkBub3ZlbGwuZGs=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDExNDE1
-  date: !binary |-
-    MjAxMi0wNS0yMiAwMzowMjo1NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxMTowMjo1NSAtMDcwMA==
-  content: ! 'Hmm, I don''t know. Video Game design is the acautl design of the game,
+  author: wan
+  author_email: l.skabroub@novell.dk
+  author_url: http://www.facebook.com/profile.php?id=100003406011415
+  date: '2012-05-22 03:02:55 -0700'
+  date_gmt: '2012-05-22 11:02:55 -0700'
+  content: 'Hmm, I don''t know. Video Game design is the acautl design of the game,
     from level design, game mechanics and rules, etc, a game designer makes the game
     fun (sidenote: I know many designers that were programmers first). Game development
     is, well, the complete development process of a game  from audio, programming,
@@ -142,52 +98,35 @@ comments:
     was the acautl coding and Web Development was the whole process of making anything
     related to the web.Either way, they''re just words.'
 - id: 2090
-  author: !binary |-
-    QmlsbHk=
-  author_email: !binary |-
-    Y2Fyb3NhdXRvQHNlem5hbS5jeg==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDA1ODkx
-  date: !binary |-
-    MjAxMi0wNS0yMyAxODowMzoxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMjowMzoxMiAtMDcwMA==
-  content: ! 'Nice article, algltouhh I think it''s stated all to black and white.
-    I call myself a Web developer, but I do both design and the technical stuff. Design
+  author: Billy
+  author_email: carosauto@seznam.cz
+  author_url: http://www.facebook.com/profile.php?id=100003406005891
+  date: '2012-05-23 18:03:12 -0700'
+  date_gmt: '2012-05-24 02:03:12 -0700'
+  content: 'Nice article, algltouhh I think it''s stated all to black and white. I
+    call myself a Web developer, but I do both design and the technical stuff. Design
     is just a part of the website''s development, just like the coding is. I guess,
     in my explanation, the  Web  in  Web  developer is interchangable with  Product  and  developer''
     with  creator'' (resulting in Product creator). Web developer just makes it a
     bit more specific. This way of looking at it also solves the  which is more important
     question : none, as they are both part of the greater good.'
 - id: 2123
-  author: !binary |-
-    SGF0aW0=
-  author_email: !binary |-
-    eW91cm5hbWVAeW91cmRvbWFpbi5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDEyNDIw
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMDoyNzozMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNDoyNzozMyAtMDcwMA==
+  author: Hatim
+  author_email: yourname@yourdomain.com
+  author_url: http://www.facebook.com/profile.php?id=100003406012420
+  date: '2012-05-23 20:27:33 -0700'
+  date_gmt: '2012-05-24 04:27:33 -0700'
   content: I agree with the article very much in the fact that the more that is known
     about the two fildes the better the web will perform.  I love working with web
     designers when I am developing a website to function a certain way because then
     I do not have to worry about the design and how long it is going to take me.  I
     have been a web developer for about 10 years now and I love it.
 - id: 2155
-  author: !binary |-
-    RGogQm90ZXo=
-  author_email: !binary |-
-    U2Nod2FiZTQ4MDM0NkB5YWhvby5jby51aw==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kai1tYy1udW50YS5ybw==
-  date: !binary |-
-    MjAxMi0wNS0yNCAxMDoyNDo1OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAxODoyNDo1OCAtMDcwMA==
+  author: Dj Botez
+  author_email: Schwabe480346@yahoo.co.uk
+  author_url: http://www.dj-mc-nunta.ro
+  date: '2012-05-24 10:24:58 -0700'
+  date_gmt: '2012-05-24 18:24:58 -0700'
   content: Have a beautiful day. Enjoy this spring and express your love. <a href="http://www.dj-mc-nunta.ro/"
     rel="nofollow">DJ Nunta</a>
 ---

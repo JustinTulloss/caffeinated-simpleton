@@ -1,31 +1,20 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VGhlIEFzeW5jaHJvbm91cyBDb252ZXJzYXRpb24=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: The Asynchronous Conversation
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 247
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MjQ3
+wordpress_url: http://justin.harmonize.fm/?p=247
 date: 2009-05-19 18:19:03.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  VHdpdHRlcg==
-- !binary |-
-  Q29udmVyc2F0aW9u
+- Twitter
+- Conversation
 comments: []
 ---
 Conversations are marvelous ways to spend time. One person says one little thing, which causes somebody else to think of something else, and that causes yet another thought in another corner. They are organic, engaging, educational, and brilliant fun. For many of us, a simple conversation is what being "social" means, and many social events are organized around this one thing that we almost all love to do.

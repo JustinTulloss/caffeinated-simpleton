@@ -1,31 +1,20 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  RmlmdGg6IFN0YXRpYyBTdG9yYWdlIGFuZCBUb2t5byBDYWJpbmV0
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: 'Fifth: Static Storage and Tokyo Cabinet'
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 197
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MTk3
+wordpress_url: http://justin.harmonize.fm/?p=197
 date: 2009-03-22 02:58:51.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  TGVhcm5pbmctQ2xvanVyZQ==
-- !binary |-
-  VG9reW8gQ2FiaW5ldA==
+- Learning-Clojure
+- Tokyo Cabinet
 comments: []
 ---
 If you've been following, you know that I'm trying to build the Web 2.0iest site out there. In fact, this is so Web 2.0, I'm tempted to call it Web 2.1. I'm using only the hottest language (<a href="http://clojure.org/">Clojure</a>) and the coolest social networking APIs (<a href="http://apiwiki.twitter.com/">twitter</a>). Now I'm kicking it up a notch and using the newest player in the key/value database arena, <a href="http://tokyocabinet.sourceforge.net/spex-en.html">Tokyo Cabinet</a>.

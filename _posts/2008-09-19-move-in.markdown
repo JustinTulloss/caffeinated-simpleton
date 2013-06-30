@@ -1,93 +1,54 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  TW92ZSBJbg==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Move In
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 92
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vaW5kZXgucGhwLzIwMDgvMDkv
-  bW92ZS1pbi8=
+wordpress_url: http://justin.harmonize.fm/index.php/2008/09/move-in/
 date: 2008-09-19 22:56:55.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gZG9pbmc=
+- What I'm doing
 tags:
-- !binary |-
-  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
+- Move to San Francisco
 comments:
 - id: 30
-  author: !binary |-
-    RGF2ZQ==
-  author_email: !binary |-
-    ZGF2ZUBkYXZlem9yLm5ldA==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kYXZlem9yLm5ldA==
-  date: !binary |-
-    MjAwOC0wOS0yMCAyMDoyNTo1NyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOC0wOS0yMSAwMToyNTo1NyAtMDcwMA==
+  author: Dave
+  author_email: dave@davezor.net
+  author_url: http://www.davezor.net
+  date: '2008-09-20 20:25:57 -0700'
+  date_gmt: '2008-09-21 01:25:57 -0700'
   content: That&#39;s glamorous as hell.  Good luck dude.
 - id: 1592
-  author: !binary |-
-    QWxhbmE=
-  author_email: !binary |-
-    Y2FybGFfc2FuY0Bob3RtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5jYXBpdGFsYmFyLm5ldA==
-  date: !binary |-
-    MjAxMi0wNC0xNyAwMzowNzowMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0xNyAxMTowNzowMSAtMDcwMA==
+  author: Alana
+  author_email: carla_sanc@hotmail.com
+  author_url: http://www.capitalbar.net
+  date: '2012-04-17 03:07:01 -0700'
+  date_gmt: '2012-04-17 11:07:01 -0700'
   content: this is a great post to check out.http://www.capitalbar.net
 - id: 2047
-  author: !binary |-
-    R3JlZ29yaW8=
-  author_email: !binary |-
-    bWFpbEByZmhjb21wYW55LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDAzODky
-  date: !binary |-
-    MjAxMi0wNS0yMiAwODo0MToxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAxNjo0MToxMiAtMDcwMA==
+  author: Gregorio
+  author_email: mail@rfhcompany.com
+  author_url: http://www.facebook.com/profile.php?id=100003406003892
+  date: '2012-05-22 08:41:12 -0700'
+  date_gmt: '2012-05-22 16:41:12 -0700'
   content: We definitely need more smart people like you aornud.
 - id: 2089
-  author: !binary |-
-    SG9kZ2V5
-  author_email: !binary |-
-    bWFkaHV0c29uQHlhaG9vLmNvLnVr
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDE4MDM0
-  date: !binary |-
-    MjAxMi0wNS0yMyAxODowMToyMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMjowMToyMSAtMDcwMA==
+  author: Hodgey
+  author_email: madhutson@yahoo.co.uk
+  author_url: http://www.facebook.com/profile.php?id=100003406018034
+  date: '2012-05-23 18:01:21 -0700'
+  date_gmt: '2012-05-24 02:01:21 -0700'
   content: Haha. I woke up down today. You've cehreed me up!
 - id: 2131
-  author: !binary |-
-    VGVqdQ==
-  author_email: !binary |-
-    aW5mb0BzaWNrYW5kd2lyZWQuZGU=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDI1NjI0
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMTowNDowMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNTowNDowMiAtMDcwMA==
+  author: Teju
+  author_email: info@sickandwired.de
+  author_url: http://www.facebook.com/profile.php?id=100003406025624
+  date: '2012-05-23 21:04:02 -0700'
+  date_gmt: '2012-05-24 05:04:02 -0700'
   content: Articles like this really grease the sthfas of knowledge.
 ---
 <img src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1918.jpg" width="260" height="195" alt="PICT1918.JPG" style="float:right;" />

@@ -1,33 +1,21 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  TWlubmVzb3RhIGFuZCBBdWRpYmxl
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Minnesota and Audible
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 64
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9NjQ=
+wordpress_url: http://justin.harmonize.fm/?p=64
 date: 2008-09-15 13:17:55.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gZG9pbmc=
+- What I'm doing
 tags:
-- !binary |-
-  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
-- !binary |-
-  QXVkaWJsZQ==
-- !binary |-
-  TWlubmVzb3Rh
+- Move to San Francisco
+- Audible
+- Minnesota
 comments: []
 ---
 I left from Champaign yesterday full of foolish optimism. I had just capped off a great weekend despite the low quality of Big 10 football, and I had discovered <a href="http://www.audible.com/adbl/store/audibleAir.jsp">AudibleAir</a>, an awesome sounding little program that would let me download books from <a href="http://www.audible.com">Audible</a> as I traveled across the country. I was set for my cross country adventure.

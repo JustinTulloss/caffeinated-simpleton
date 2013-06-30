@@ -1,29 +1,19 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  TW92aW5nIHRvIFNhbiBGcmFuY2lzY28=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Moving to San Francisco
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 62
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9NjI=
+wordpress_url: http://justin.harmonize.fm/?p=62
 date: 2008-09-10 20:27:34.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gZG9pbmc=
+- What I'm doing
 tags:
-- !binary |-
-  TW92ZSB0byBTYW4gRnJhbmNpc2Nv
+- Move to San Francisco
 comments: []
 ---
 My brief stint between Champaign and life has ended, and tomorrow I will be leaving from Stow, OH with my trusty Honda Civic packed to the brim. I'll stop by my grandparents' for a night and then head to Champaign to watch my dear Fighting Illini take on the fearsome Louisiana-Lafayette Ragin' Cajuns.

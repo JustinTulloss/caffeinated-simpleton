@@ -1,29 +1,19 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  VHlwZSBDb252ZXJzaW9uIFBlZGFudGljaXNtIGluIEphdmFTY3JpcHQ=
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Type Conversion Pedanticism in JavaScript
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 371
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9Mzcx
+wordpress_url: http://justin.harmonize.fm/?p=371
 date: 2010-11-30 02:23:37.000000000 -08:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  SmF2YVNjcmlwdA==
+- JavaScript
 comments: []
 ---
 I got in a brief conversation in the <a href="http://nodejs.org/">node.js</a> IRC channel today about how weird type conversion is in JavaScript. Specifically, this code was suspect:

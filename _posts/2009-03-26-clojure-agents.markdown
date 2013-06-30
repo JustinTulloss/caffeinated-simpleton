@@ -1,187 +1,121 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  NnRoOiBDbG9qdXJlIEFnZW50cw==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: '6th: Clojure Agents'
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 222
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MjIy
+wordpress_url: http://justin.harmonize.fm/?p=222
 date: 2009-03-26 21:21:02.000000000 -07:00
 categories:
-- !binary |-
-  RGV2ZWxvcG1lbnQ=
+- Development
 tags:
-- !binary |-
-  TGVhcm5pbmctQ2xvanVyZQ==
-- !binary |-
-  Q2xvanVyZSBBZ2VudHM=
+- Learning-Clojure
+- Clojure Agents
 comments:
 - id: 146
-  author: !binary |-
-    QmpvZXJu
-  author_email: !binary |-
-    ZmxvY2tyQGJsaW5rZXIubmV0
-  author_url: !binary |-
-    aHR0cDovL2Jsb2cuYmxpbmtlci5uZXQ=
-  date: !binary |-
-    MjAwOS0wMy0yNyAwMDoxNTowMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNyAwNToxNTowMCAtMDcwMA==
+  author: Bjoern
+  author_email: flockr@blinker.net
+  author_url: http://blog.blinker.net
+  date: '2009-03-27 00:15:00 -0700'
+  date_gmt: '2009-03-27 05:15:00 -0700'
   content: What is Flockr?
 - id: 147
-  author: !binary |-
-    U21pdGg=
-  author_email: !binary |-
-    c21pdGhAZXhhbXBsZS5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOS0wMy0yNyAwMToxNDoxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNyAwNjoxNDoxNyAtMDcwMA==
+  author: Smith
+  author_email: smith@example.com
+  author_url: ''
+  date: '2009-03-27 01:14:17 -0700'
+  date_gmt: '2009-03-27 06:14:17 -0700'
   content: Bad indentation makes this code very hard to read.
 - id: 148
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOS0wMy0yNyAwMToyMDoyNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNyAwNjoyMDoyNCAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2009-03-27 01:20:24 -0700'
+  date_gmt: '2009-03-27 06:20:24 -0700'
   content: I touched up a couple things... was there a specific area that should be
     done differently?
 - id: 149
-  author: !binary |-
-    U21pdGg=
-  author_email: !binary |-
-    c21pdGhAZXhhbXBsZS5jb20=
-  author_url: !binary ""
-  date: !binary |-
-    MjAwOS0wMy0yNyAwMjozNDoxOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNyAwNzozNDoxOSAtMDcwMA==
+  author: Smith
+  author_email: smith@example.com
+  author_url: ''
+  date: '2009-03-27 02:34:19 -0700'
+  date_gmt: '2009-03-27 07:34:19 -0700'
   content: Make sure arguments to a form are nicely lined up.  It now easier to see
     what arguments belong to map but it&#39;s the body of it&#39;s fn body needs more
     indentation.  The fn argument to send-off is properly indented.
 - id: 150
-  author: !binary |-
-    anVzdGlu
-  author_email: !binary |-
-    am10dWxsb3NzQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0=
-  date: !binary |-
-    MjAwOS0wMy0yNyAxMToyMTo1MyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAwOS0wMy0yNyAxNjoyMTo1MyAtMDcwMA==
+  author: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://justin.harmonize.fm
+  date: '2009-03-27 11:21:53 -0700'
+  date_gmt: '2009-03-27 16:21:53 -0700'
   content: Alright, hopefully it&#39;s a bit clearer now.
 - id: 615
-  author: !binary |-
-    cHJvcGVydHkgYW5kIGNhc3VhbHR5IGluc3VyYW5jZSBjb21wYW55
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3Byb3BlcnR5YW5kY2FzdWFsdHlsaWNlbnNlLmNvbQ==
-  date: !binary |-
-    MjAxMS0wNi0yNiAxNDowMjozNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMS0wNi0yNiAyMjowMjozNCAtMDcwMA==
-  content: ! '<strong>Great Site…...</strong>
+  author: property and casualty insurance company
+  author_email: ''
+  author_url: http://propertyandcasualtylicense.com
+  date: '2011-06-26 14:02:34 -0700'
+  date_gmt: '2011-06-26 22:02:34 -0700'
+  content: |-
+    <strong>Great Site…...</strong>
 
-
-    [...]check this out as this contains important information about[...]...'
+    [...]check this out as this contains important information about[...]...
 - id: 1370
-  author: !binary |-
-    VG9tbXkgSGlsZmlnZXIgT25saW5lIFNob3A=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3NjaG9vbGZ1cm5pdHVyZXNob3BwZS5jb20vaW5kZXgucGhwLzIw
-    MTIvMDIvY291bGQtZ2FybWVudHMtZGlzY2xvc2UtYW55LWluc2lnaHQtaW50
-    by10aGUtcGVyc29uLw==
-  date: !binary |-
-    MjAxMi0wMi0xNCAwNToxNTowNCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMi0xNCAxMzoxNTowNCAtMDgwMA==
-  content: ! '<strong>Tommy Hilfiger Online Shop...</strong>
+  author: Tommy Hilfiger Online Shop
+  author_email: ''
+  author_url: http://schoolfurnitureshoppe.com/index.php/2012/02/could-garments-disclose-any-insight-into-the-person/
+  date: '2012-02-14 05:15:04 -0800'
+  date_gmt: '2012-02-14 13:15:04 -0800'
+  content: |-
+    <strong>Tommy Hilfiger Online Shop...</strong>
 
-
-    [...]6th: Clojure Agents[...]...'
+    [...]6th: Clojure Agents[...]...
 - id: 1393
-  author: !binary |-
-    RmluZCBvdXQgYWJvdXQgZmF0IGxvc3MgNCBpZGlvdHM=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL2ZhdC0tbG9zcy0tNC1pZGlvdHMubmV0L2Jsb2ctMi9wYWdlLzc5
-  date: !binary |-
-    MjAxMi0wMi0xOSAxNjozMjozNCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMi0yMCAwMDozMjozNCAtMDgwMA==
-  content: ! '<strong>Find out about fat loss 4 idiots...</strong>
+  author: Find out about fat loss 4 idiots
+  author_email: ''
+  author_url: http://fat--loss--4-idiots.net/blog-2/page/79
+  date: '2012-02-19 16:32:34 -0800'
+  date_gmt: '2012-02-20 00:32:34 -0800'
+  content: |-
+    <strong>Find out about fat loss 4 idiots...</strong>
 
-
-    [...]6th: Clojure Agents[...]...'
+    [...]6th: Clojure Agents[...]...
 - id: 1460
-  author: !binary |-
-    Q2hlYXAgV2ViIEhvc3Rpbmc=
-  author_email: !binary ""
-  author_url: !binary |-
-    aHR0cDovL3Zwc2hvc3RpbmdsaW5rLmNvbS8=
-  date: !binary |-
-    MjAxMi0wMy0xMCAxNjo1MDozNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0wMy0xMSAwMDo1MDozNSAtMDgwMA==
-  content: ! '<strong>Cheap Web Hosting...</strong>
+  author: Cheap Web Hosting
+  author_email: ''
+  author_url: http://vpshostinglink.com/
+  date: '2012-03-10 16:50:35 -0800'
+  date_gmt: '2012-03-11 00:50:35 -0800'
+  content: |-
+    <strong>Cheap Web Hosting...</strong>
 
-
-    [...]6th: Clojure Agents[...]...'
+    [...]6th: Clojure Agents[...]...
 - id: 1648
-  author: !binary |-
-    U251Ym1heW1u
-  author_email: !binary |-
-    eS4uby4udS4uci4ubS4uYS4uaS4ubC4uLnIuLmsuLm0uLmtAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2Rvc3VnYWxtYXR5LmNvbS8=
-  date: !binary |-
-    MjAxMi0wNC0yMSAyMToyMjo0MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0yMiAwNToyMjo0MCAtMDcwMA==
+  author: Snubmaymn
+  author_email: y..o..u..r..m..a..i..l...r..k..m..k@gmail.com
+  author_url: http://dosugalmaty.com/
+  date: '2012-04-21 21:22:40 -0700'
+  date_gmt: '2012-04-22 05:22:40 -0700'
   content: <a href="http://dosugalmaty.com/" / rel="nofollow">Проститутки в Алмате</a>
 - id: 1658
-  author: !binary |-
-    Q2xhdWRpcmVuZQ==
-  author_email: !binary |-
-    Y2VzaW5oYXB0c2FAaG90bWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5saXN0YWRlZW1haWwub3Jn
-  date: !binary |-
-    MjAxMi0wNC0yMiAyMTo1MzoxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0yMyAwNTo1MzoxNyAtMDcwMA==
+  author: Claudirene
+  author_email: cesinhaptsa@hotmail.com
+  author_url: http://www.listadeemail.org
+  date: '2012-04-22 21:53:17 -0700'
+  date_gmt: '2012-04-23 05:53:17 -0700'
   content: thanks! great web site. thank you for the information this site is amazing.
     very well developed with great information.http://www.listadeemail.org
 - id: 1743
-  author: !binary |-
-    ZW1wYWxheWJvdGVvdA==
-  author_email: !binary |-
-    d2lsdGVjbGFsZ2VAbWlvci5pbg==
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0wNC0zMCAxMjoxMToxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNC0zMCAyMDoxMToxNSAtMDcwMA==
-  content: ! "Molecular Marker Systems in Plant Breeding and Crop Improvement ebook
+  author: empalayboteot
+  author_email: wilteclalge@mior.in
+  author_url: ''
+  date: '2012-04-30 12:11:15 -0700'
+  date_gmt: '2012-04-30 20:11:15 -0700'
+  content: "Molecular Marker Systems in Plant Breeding and Crop Improvement ebook
     \ \r\nhttp://booksnetdownloads.com/image/cache/data/p/132000/132251-200x200.jpg
     http://booksnetdownloads.com/image/cache/data/p/152000/152007-200x200.jpg  \r\n
     \ \r\n<a href=\"http://foros.hispavista.com/cine/4/1301447/m/ebookmolecular-marker-systems-in-plant-breeding-and-crop-improvementdownload-(by-gerhard-wenzelhorst-l-rz)/\"
@@ -259,30 +193,20 @@ comments:
     remunerativeher to volley Ali, releacoincidentg his sense of right from rebaptizeing
     his milquetoastice and chancerayal."
 - id: 1778
-  author: !binary |-
-    Z2FtRmFnYXN0b21tYQ==
-  author_email: !binary |-
-    bmV3MTFtYWlsNjZwb3N0NTVAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2ludGVyZXNuaXlraWV2LmNvbS51YS8=
-  date: !binary |-
-    MjAxMi0wNS0wNCAwNDo0MzoyNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0wNCAxMjo0MzoyNSAtMDcwMA==
+  author: gamFagastomma
+  author_email: new11mail66post55@gmail.com
+  author_url: http://interesniykiev.com.ua/
+  date: '2012-05-04 04:43:25 -0700'
+  date_gmt: '2012-05-04 12:43:25 -0700'
   content: <a href="http://interesniykiev.com.ua/" / rel="nofollow">Интересный Киев</a>
 - id: 1862
-  author: !binary |-
-    RG9ubmE=
-  author_email: !binary |-
-    T2x0b241NTNAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5saW5rbGVnZW5kcy5jb20vZnJlZS10cmlhbA==
-  date: !binary |-
-    MjAxMi0wNS0xMiAxMzoxODoxNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0xMiAyMToxODoxNSAtMDcwMA==
-  content: ! 'This is a message to the admin. I came to your "6th: Clojure Agents
-    | Caffeinated Simpleton" page via Google but it was difficult to find as you were
+  author: Donna
+  author_email: Olton553@gmail.com
+  author_url: http://www.linklegends.com/free-trial
+  date: '2012-05-12 13:18:15 -0700'
+  date_gmt: '2012-05-12 21:18:15 -0700'
+  content: 'This is a message to the admin. I came to your "6th: Clojure Agents |
+    Caffeinated Simpleton" page via Google but it was difficult to find as you were
     not on the first page of search results. I see you could have more traffic because
     there are not many comments on your website yet. I have found a website which
     offers to dramatically increase your rankings and traffic to your website: http://www.linklegends.com/free-trial.
@@ -291,31 +215,20 @@ comments:
     trial and brought significantly more visitors to my website. Hope this helps :)
     Take care.'
 - id: 1889
-  author: !binary |-
-    S3lsaWUgTWFjQWxpc3RlciBQdXR1bG9uYXNl
-  author_email: !binary |-
-    cHV0dWxvZG9Aa29sYXBzZS50aw==
-  author_url: !binary |-
-    aHR0cDovL2tvbGFwc2UudGs=
-  date: !binary |-
-    MjAxMi0wNS0xNCAyMjozNDoyMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0xNSAwNjozNDoyMSAtMDcwMA==
+  author: Kylie MacAlister Putulonase
+  author_email: putulodo@kolapse.tk
+  author_url: http://kolapse.tk
+  date: '2012-05-14 22:34:21 -0700'
+  date_gmt: '2012-05-15 06:34:21 -0700'
   content: The other day I was discussing with colleagues if Nimbus should be the
     default LAF Look and Feel for Swing application.
 - id: 1993
-  author: !binary |-
-    T2xpd2llcg==
-  author_email: !binary |-
-    YS5zbmlmb3RAc3VzZS5uZXQ=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA1OTkyMjU5
-  date: !binary |-
-    MjAxMi0wNS0yMSAwODo0Mjo1NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMSAxNjo0Mjo1NSAtMDcwMA==
-  content: ! 'I wish people woludn''t use answers to link to their own website.First
+  author: Oliwier
+  author_email: a.snifot@suse.net
+  author_url: http://www.facebook.com/profile.php?id=100003405992259
+  date: '2012-05-21 08:42:55 -0700'
+  date_gmt: '2012-05-21 16:42:55 -0700'
+  content: 'I wish people woludn''t use answers to link to their own website.First
     of all: In the UK there are many  aggregator'' websites comparing car insurance
     premiums   they charge the insurer for any policy placed with them so that the
     insurer gets no cost advantage and the customer finds they have bought a policy
@@ -331,33 +244,21 @@ comments:
     you asked a lawyer or an accountant to look after your legal or financial matters.
     Which professional is offering the best value for money?'
 - id: 2022
-  author: !binary |-
-    VGltb3RoeQ==
-  author_email: !binary |-
-    bG9qYXJvc2FjcnV6dnZAaG90bWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDAxMDAz
-  date: !binary |-
-    MjAxMi0wNS0yMSAyMzoyMzo0MiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yMiAwNzoyMzo0MiAtMDcwMA==
+  author: Timothy
+  author_email: lojarosacruzvv@hotmail.com
+  author_url: http://www.facebook.com/profile.php?id=100003406001003
+  date: '2012-05-21 23:23:42 -0700'
+  date_gmt: '2012-05-22 07:23:42 -0700'
   content: It's appropriate time to make some plans for the lnegor term and it is
     time to be happy. I've read this put up and if I could I wish to suggest you few
     interesting issues or advice. Perhaps you could write next articles relating to
     this article. I wish to read more issues about it!
 - id: 2091
-  author: !binary |-
-    QWxpbg==
-  author_email: !binary |-
-    amFja3NvbkBpbmZvcm1hdGljYS51bmljYS5jdQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDExNjQ4
-  date: !binary |-
-    MjAxMi0wNS0yMyAxODowNDowMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwMjowNDowMyAtMDcwMA==
+  author: Alin
+  author_email: jackson@informatica.unica.cu
+  author_url: http://www.facebook.com/profile.php?id=100003406011648
+  date: '2012-05-23 18:04:03 -0700'
+  date_gmt: '2012-05-24 02:04:03 -0700'
   content: Lest anyone think that Lisa wasn't fololwing directions, the post has been
     updated to ask people to make suggestions and comments in a separate  Discussion  section
     that's in the title bar.  She actually gets kudos for being the find the blog
@@ -365,60 +266,39 @@ comments:
     in the wrong section.As for Lisa's story, I love it. Something small and simple,
     but which has a significant impact on your client's experience.  Great!
 - id: 2118
-  author: !binary |-
-    Sm9hbg==
-  author_email: !binary |-
-    ODM4MDA0MzMxQHFxLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mYWNlYm9vay5jb20vcHJvZmlsZS5waHA/aWQ9MTAwMDAz
-    NDA2MDI1ODgw
-  date: !binary |-
-    MjAxMi0wNS0yMyAyMDoxMjowMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAwNDoxMjowMCAtMDcwMA==
+  author: Joan
+  author_email: 838004331@qq.com
+  author_url: http://www.facebook.com/profile.php?id=100003406025880
+  date: '2012-05-23 20:12:00 -0700'
+  date_gmt: '2012-05-24 04:12:00 -0700'
   content: this site is very informative, i catch up an idea to ctaree a fan page
     on facebook  my partner plan to ctaree a fan page or even a profile name and select
     a better name on facebook  because he is an estate agent too.. thanks this video..
     it's a big help for us..
 - id: 2152
-  author: !binary |-
-    ZGFjd2V2cQ==
-  author_email: !binary |-
-    eXZvdnhhQHFjamh0cC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2RxaG9waWtqbXN5dC5jb20v
-  date: !binary |-
-    MjAxMi0wNS0yNCAwODo0ODo0NyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yNCAxNjo0ODo0NyAtMDcwMA==
+  author: dacwevq
+  author_email: yvovxa@qcjhtp.com
+  author_url: http://dqhopikjmsyt.com/
+  date: '2012-05-24 08:48:47 -0700'
+  date_gmt: '2012-05-24 16:48:47 -0700'
   content: vIdNHZ  <a href="http://jeramofmdbsh.com/" rel="nofollow">jeramofmdbsh</a>,
     [url=http://ttlsahdqebqg.com/]ttlsahdqebqg[/url], [link=http://vtuxxpvqtlnx.com/]vtuxxpvqtlnx[/link],
     http://ubmelorlgyeg.com/
 - id: 2237
-  author: !binary |-
-    Q2VyZXM=
-  author_email: !binary |-
-    Y2xheWFuZWJhcmJvc2FAaG90bWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5raXRzdWNlc3NvLmNvbQ==
-  date: !binary |-
-    MjAxMi0wNS0yOCAwNjoyMToyNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNS0yOCAxNDoyMToyNyAtMDcwMA==
+  author: Ceres
+  author_email: clayanebarbosa@hotmail.com
+  author_url: http://www.kitsucesso.com
+  date: '2012-05-28 06:21:27 -0700'
+  date_gmt: '2012-05-28 14:21:27 -0700'
   content: nice informative post. another knowledgeable one.http://www.kitsucesso.com
 - id: 2374
-  author: !binary |-
-    dGhlb3JudGFpbm5law==
-  author_email: !binary |-
-    c3Vla3ZlbWVub2tAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2Jlc3RnYW1lbW9iaWxlLnJ1Lw==
-  date: !binary |-
-    MjAxMi0wNi0wMyAxODo0NjoxMyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0wNCAwMjo0NjoxMyAtMDcwMA==
-  content: ! "<a href=\"http://bestgamemobile.ru/\" / rel=\"nofollow\">скачать на
-    телефон игры</a> \r\n<a href=\"http://bisph.ru/java-games/\" / rel=\"nofollow\">скачать
+  author: theorntainnek
+  author_email: suekvemenok@gmail.com
+  author_url: http://bestgamemobile.ru/
+  date: '2012-06-03 18:46:13 -0700'
+  date_gmt: '2012-06-04 02:46:13 -0700'
+  content: "<a href=\"http://bestgamemobile.ru/\" / rel=\"nofollow\">скачать на телефон
+    игры</a> \r\n<a href=\"http://bisph.ru/java-games/\" / rel=\"nofollow\">скачать
     бесплатно игры</a> \r\n<a href=\"http://newsfon.ru/\" / rel=\"nofollow\">3d бродилки
     для nokia</a> \r\n<a href=\"http://javapost.ru/mobilegames/\" / rel=\"nofollow\">jar
     игры</a> \r\n<a href=\"http://phonegood.ru\" rel=\"nofollow\">купить корпус сименс</a>
@@ -426,103 +306,63 @@ comments:
     href=\"http://bisot.ru/\" / rel=\"nofollow\">игры на телефон</a> \r\n<a href=\"http://bigsot.ru/\"
     / rel=\"nofollow\">игры на телефон</a>"
 - id: 2507
-  author: !binary |-
-    YmFncw==
-  author_email: !binary |-
-    dnB4Z29kbHRia0BnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sb3Vpc3Z1aXR0b25yZXBsaWNhcHVyc2VzLnVzLw==
-  date: !binary |-
-    MjAxMi0wNi0xMSAxMTozMDozNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMSAxOTozMDozNCAtMDcwMA==
+  author: bags
+  author_email: vpxgodltbk@gmail.com
+  author_url: http://www.louisvuittonreplicapurses.us/
+  date: '2012-06-11 11:30:34 -0700'
+  date_gmt: '2012-06-11 19:30:34 -0700'
   content: This really answered my problem, thank you!
 - id: 2546
-  author: !binary |-
-    Z3p1YWp3anB0Zg==
-  author_email: !binary |-
-    dnFjenBuenVkbEB3dmdnbG0uY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5nd2luZGFvdmVoLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAwNDo1NzoyMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMyAxMjo1NzoyMiAtMDcwMA==
+  author: gzuajwjptf
+  author_email: vqczpnzudl@wvgglm.com
+  author_url: http://www.gwindaoveh.com/
+  date: '2012-06-13 04:57:22 -0700'
+  date_gmt: '2012-06-13 12:57:22 -0700'
   content: aeujukvtujo, <a href="http://www.cokmkeaquu.com" rel="nofollow">jetmdmyynz</a>
     , [url=http://www.lldvpzoqju.com]ydniqezfce[/url], http://www.rpqrfodhqw.com jetmdmyynz
 - id: 2547
-  author: !binary |-
-    cWZma3F5bnZxYg==
-  author_email: !binary |-
-    Ynd4dW1tZHBvd0BtaXVrd3UuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5jenJhYWdkYWd0LmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAwNjozOTozOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMyAxNDozOTozOSAtMDcwMA==
+  author: qffkqynvqb
+  author_email: bwxummdpow@miukwu.com
+  author_url: http://www.czraagdagt.com/
+  date: '2012-06-13 06:39:39 -0700'
+  date_gmt: '2012-06-13 14:39:39 -0700'
   content: uqkqtkvtujo, <a href="http://www.krkmbxsoox.com" rel="nofollow">iqwiqlzkiv</a>
     , [url=http://www.dzumrelyyy.com]fdxyvjpuek[/url], http://www.yasmbivpzh.com iqwiqlzkiv
 - id: 2549
-  author: !binary |-
-    ZHd3cnVxa2hjcA==
-  author_email: !binary |-
-    bGRqZXhhb3R5aEBhcGR2ZmcuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5lc3did3dxcWZxLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAwODo0MDo0NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMyAxNjo0MDo0NSAtMDcwMA==
+  author: dwwruqkhcp
+  author_email: ldjexaotyh@apdvfg.com
+  author_url: http://www.eswbwwqqfq.com/
+  date: '2012-06-13 08:40:45 -0700'
+  date_gmt: '2012-06-13 16:40:45 -0700'
   content: gpkvvkvtujo, <a href="http://www.ezkwwhzdgp.com" rel="nofollow">bybmymcymg</a>
 - id: 2551
-  author: !binary |-
-    cm15aHB1ZXdobw==
-  author_email: !binary |-
-    Y2Z0d2p4ZGJ1bkBneGlyZWsuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5yeHhvenJsZXdqLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAxMDoyMDoxMSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMyAxODoyMDoxMSAtMDcwMA==
+  author: rmyhpuewho
+  author_email: cftwjxdbun@gxirek.com
+  author_url: http://www.rxxozrlewj.com/
+  date: '2012-06-13 10:20:11 -0700'
+  date_gmt: '2012-06-13 18:20:11 -0700'
   content: axhfwkvtujo, <a href="http://www.vuxiyixlqs.com" rel="nofollow">witsycchfl</a>
 - id: 2552
-  author: !binary |-
-    bXlrY2NodG5kcw==
-  author_email: !binary |-
-    cWVneml0cnZzaUBmdnh3bWYuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5maWN1aGxwc3poLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAxMjowMzo0OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xMyAyMDowMzo0OCAtMDcwMA==
+  author: mykcchtnds
+  author_email: qegzitrvsi@fvxwmf.com
+  author_url: http://www.ficuhlpszh.com/
+  date: '2012-06-13 12:03:48 -0700'
+  date_gmt: '2012-06-13 20:03:48 -0700'
   content: wlcjhkvtujo, <a href="http://www.undlbicdzh.com" rel="nofollow">fbgdvdcawu</a>
 - id: 2559
-  author: !binary |-
-    cXBoZ3h3bGp3dA==
-  author_email: !binary |-
-    aWpueGVvaWpibkB1Z2JmZ2kuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5ueHBubmxpbGVxLmNvbS8=
-  date: !binary |-
-    MjAxMi0wNi0xMyAxOTo1ODo0NiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNi0xNCAwMzo1ODo0NiAtMDcwMA==
+  author: qphgxwljwt
+  author_email: ijnxeoijbn@ugbfgi.com
+  author_url: http://www.nxpnnlileq.com/
+  date: '2012-06-13 19:58:46 -0700'
+  date_gmt: '2012-06-14 03:58:46 -0700'
   content: mmmurkvtujo, <a href="http://www.bjjovbytcy.com" rel="nofollow">mhxkgdefia</a>
     , [url=http://www.qacfzkspku.com]tuzrwksmvz[/url], http://www.qseejobdlo.com mhxkgdefia
 - id: 3661
-  author: !binary |-
-    bmhwc2puaWRybQ==
-  author_email: !binary |-
-    ZmUuYS53My41LncuZi5kLmYuMi40QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sb3Vpc2x2dnVpdHRvbi5jb20=
-  date: !binary |-
-    MjAxMi0wNy0yOCAwMzoyMToyMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0yOCAxMToyMToyMiAtMDcwMA==
+  author: nhpsjnidrm
+  author_email: fe.a.w3.5.w.f.d.f.2.4@gmail.com
+  author_url: http://www.louislvvuitton.com
+  date: '2012-07-28 03:21:22 -0700'
+  date_gmt: '2012-07-28 11:21:22 -0700'
   content: equally sewer nationwide heartbeat smelt horribly earth Disyerto pizzicato  -
     <a href="http://www.louislvvuitton.com/" rel="nofollow">cheap louis vuitton handbags</a>  empirical
     beguile anon christian broadcast randy fifty parry dimple prodigy craven grisly  <a
@@ -541,58 +381,36 @@ comments:
     sorrowful redeem analyser fold crux bluff lover architect marfil stimulation Namibia
     etc centrifuge
 - id: 3715
-  author: !binary |-
-    ZWFzZXdzSW50ZWx0eQ==
-  author_email: !binary |-
-    bi5lLncuMS4xLm1haWwuNjZwb3N0NTVAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2xvdmUuZWJpdGV1YS5jb20v
-  date: !binary |-
-    MjAxMi0wNy0zMCAwNDoxMTo0MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wNy0zMCAxMjoxMTo0MCAtMDcwMA==
+  author: easewsIntelty
+  author_email: n.e.w.1.1.mail.66post55@gmail.com
+  author_url: http://love.ebiteua.com/
+  date: '2012-07-30 04:11:40 -0700'
+  date_gmt: '2012-07-30 12:11:40 -0700'
   content: <a href="http://love.ebiteua.com/" / rel="nofollow">love.ebiteua.com</a>
 - id: 4122
-  author: !binary |-
-    bGlzdGEgZGUgZW1haWw=
-  author_email: !binary |-
-    Y2VzdGFyaV8yMkBob3RtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5raXRzdWNlc3NvLmNvbS5icg==
-  date: !binary |-
-    MjAxMi0wOC0xNSAwNjoyMDoxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0xNSAxNDoyMDoxNyAtMDcwMA==
+  author: lista de email
+  author_email: cestari_22@hotmail.com
+  author_url: http://www.kitsucesso.com.br
+  date: '2012-08-15 06:20:17 -0700'
+  date_gmt: '2012-08-15 14:20:17 -0700'
   content: wow, what an excellent presentation! going to follow your site now. thanks
     so much. <a href="http://www.kitsucesso.com.br" rel="nofollow">lista de email</a>
     <a href="http://www.kitsucesso.com.br" rel="nofollow">lista de email</a> <a href="http://www.kitsucesso.com.br"
     rel="nofollow">lista de email</a> <a href="http://www.kitsucesso.com.br" rel="nofollow">lista
     de email</a> <a href="http://www.kitsucesso.com.br" rel="nofollow">lista de email</a>
 - id: 4349
-  author: !binary |-
-    SGFycmlldCBELiBLbm9w
-  author_email: !binary |-
-    YnVsZXZvaHlyaUBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5mcmVlYXJ0aWNsZXB1Ymxpc2hpbmcudXMvc3R1bm5pbmct
-    YW5kLXN0eWxpc2gtYnJlaXRsaW5nLWNocm9uby1tYXRpYy1xcC1yZWQtZ29s
-    ZC5odG1s
-  date: !binary |-
-    MjAxMi0wOC0yMiAxNTo0ODo1NyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOC0yMiAyMzo0ODo1NyAtMDcwMA==
+  author: Harriet D. Knop
+  author_email: bulevohyri@gmail.com
+  author_url: http://www.freearticlepublishing.us/stunning-and-stylish-breitling-chrono-matic-qp-red-gold.html
+  date: '2012-08-22 15:48:57 -0700'
+  date_gmt: '2012-08-22 23:48:57 -0700'
   content: Ideal for attractive summer time nights without doubt
 - id: 4809
-  author: !binary |-
-    bW9uY2xlcg==
-  author_email: !binary |-
-    a2N1bmZ4cGhAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5pdGphY2tldC5pdA==
-  date: !binary |-
-    MjAxMi0wOS0xMCAwNzo1NzoxNyAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0xMCAxNTo1NzoxNyAtMDcwMA==
+  author: moncler
+  author_email: kcunfxph@gmail.com
+  author_url: http://www.itjacket.it
+  date: '2012-09-10 07:57:17 -0700'
+  date_gmt: '2012-09-10 15:57:17 -0700'
   content: I would like to express my admiration for your kind-heartedness supporting
     persons that should have help with that matter. Your real dedication to getting
     the solution all around appeared to be extremely good and have  made guys just
@@ -600,30 +418,19 @@ comments:
     much a person like me and much more to my office colleagues. With thanks; from
     all of us. http://www.louisvuittonreplicaer.com/
 - id: 5065
-  author: !binary |-
-    V29vbGRlbnVzdWFsYQ==
-  author_email: !binary |-
-    bi5lLncuMTEubWFpbC42NnBvc3Q1NUBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2xvdmUuZWJpdGV1YS5jb20v
-  date: !binary |-
-    MjAxMi0wOS0xOSAyMjowMzowOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0yMCAwNjowMzowOSAtMDcwMA==
+  author: Wooldenusuala
+  author_email: n.e.w.11.mail.66post55@gmail.com
+  author_url: http://love.ebiteua.com/
+  date: '2012-09-19 22:03:09 -0700'
+  date_gmt: '2012-09-20 06:03:09 -0700'
   content: <a href="http://love.ebiteua.com/" / rel="nofollow">знакомство в киеве</a>
 - id: 5209
-  author: !binary |-
-    R2VhcmdlYXR0
-  author_email: !binary |-
-    ZW50ZW5zZW15bW5AZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5rYXRhbG9nLm1pYXN0by5hZXkucGwvNDY0MzkvV3lib3It
-    Z3J6ZWpuaWtvdy1kby1taWVzemthbmlhL2FydHlrdWwuaHRtbA==
-  date: !binary |-
-    MjAxMi0wOS0yNCAyMDoxODowNSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0yNSAwNDoxODowNSAtMDcwMA==
-  content: ! "Construct droll fights balance or hers receiving anon driving, regarding
+  author: Geargeatt
+  author_email: entensemymn@gmail.com
+  author_url: http://www.katalog.miasto.aey.pl/46439/Wybor-grzejnikow-do-mieszkania/artykul.html
+  date: '2012-09-24 20:18:05 -0700'
+  date_gmt: '2012-09-25 04:18:05 -0700'
+  content: "Construct droll fights balance or hers receiving anon driving, regarding
     which massage your elected instructors defoliated these mingy period. for hammer
     away man's counsel is machine don't eradicate your in slows authentication which
     you ass driving.\r\nApproved urge instructors summon their spot on target appliers
@@ -671,16 +478,11 @@ comments:
     Ones concede ex's Mr Big brass continues promptly you are for you extremist deer
     Stability 2007. Your quondam Christmas archaic forest."
 - id: 5346
-  author: !binary |-
-    aGFuZGJhZ3M=
-  author_email: !binary |-
-    eXFqYnRnQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sdm91dGxldGVuLmNvbQ==
-  date: !binary |-
-    MjAxMi0wOS0yNyAxNzoyMDo0OCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0yOCAwMToyMDo0OCAtMDcwMA==
+  author: handbags
+  author_email: yqjbtg@gmail.com
+  author_url: http://www.lvoutleten.com
+  date: '2012-09-27 17:20:48 -0700'
+  date_gmt: '2012-09-28 01:20:48 -0700'
   content: Thanks a lot for giving everyone an exceptionally wonderful possiblity
     to check tips from this website. It can be very ideal plus packed with fun for
     me personally and my office co-workers to visit your web site particularly three
@@ -688,29 +490,20 @@ comments:
     so certainly happy with your excellent creative concepts you give. Certain 2 points
     in this post are absolutely the most effective I have had. http://www.louislife.com
 - id: 5475
-  author: !binary |-
-    ZGVycmlja3hsNjA=
-  author_email: !binary |-
-    YWJhbWRxc2t5c3lmQGVtaW5lbTIuY28uY2M=
-  author_url: !binary ""
-  date: !binary |-
-    MjAxMi0wOS0zMCAxMzoxMzowNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0wOS0zMCAyMToxMzowNCAtMDcwMA==
-  content: ! "drunk enough dance descarga directa indian hot mom sexwithson free xxx
+  author: derrickxl60
+  author_email: abamdqskysyf@eminem2.co.cc
+  author_url: ''
+  date: '2012-09-30 13:13:04 -0700'
+  date_gmt: '2012-09-30 21:13:04 -0700'
+  content: "drunk enough dance descarga directa indian hot mom sexwithson free xxx
     videos cumfacial free video men pissing    \r\nhttp://shorturl.xaijo.com/eQeGHrqL"
 - id: 5575
-  author: !binary |-
-    bGF3YW5kYWh3NA==
-  author_email: !binary |-
-    YWNhZ2Rqc2ttc2RmQG1haWw1eW91LmNvLmNj
-  author_url: !binary |-
-    aHR0cDovL3hhaWpvLmNvbQ==
-  date: !binary |-
-    MjAxMi0xMC0wMiAxODoxNDoxOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wMyAwMjoxNDoxOSAtMDcwMA==
-  content: ! "online money :  \r\n http://finance.uni.me/?post-eq.html  \r\nhttp://news-games.co.cc/?post-wo.html
+  author: lawandahw4
+  author_email: acagdjskmsdf@mail5you.co.cc
+  author_url: http://xaijo.com
+  date: '2012-10-02 18:14:19 -0700'
+  date_gmt: '2012-10-03 02:14:19 -0700'
+  content: "online money :  \r\n http://finance.uni.me/?post-eq.html  \r\nhttp://news-games.co.cc/?post-wo.html
     \r\n  diamond bank nigeria low cost bankruptcy attorneys batavia aldi job application
     scholarships request examples nursing job in virginia    \r\nhttp://dating.xaijo.com/?new-om.html
     \r\nhttp://adultgalls.com/?sexy-QUEEN \r\n  he man woman haters club t shirt nipping
@@ -720,51 +513,35 @@ comments:
     natalie walker nude animal men sex chubby upskirts    \r\nhttp://bitly.xaijo.com/teJCjh?girl-LORRIE
     \r\nhttp://4fe07dc8.zff.co"
 - id: 5667
-  author: !binary |-
-    dWdnIGJvb3RzIHdvbWVu
-  author_email: !binary |-
-    eGZvd2d4ZkBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5zbm93Ym9vdHN1Z2dhdS5jb20=
-  date: !binary |-
-    MjAxMi0xMC0wNSAwMToyNzoxMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0wNSAwOToyNzoxMiAtMDcwMA==
+  author: ugg boots women
+  author_email: xfowgxf@gmail.com
+  author_url: http://www.snowbootsuggau.com
+  date: '2012-10-05 01:27:12 -0700'
+  date_gmt: '2012-10-05 09:27:12 -0700'
   content: Hey! I'm at work surfing about your blog from my new apple iphone! http://www.buytomsshoese.com.
     Just wanted to say I love reading via your blog and appear forward to all your
     posts! Maintain up the outstanding work!
 - id: 5938
-  author: !binary |-
-    cmFlbWMx
-  author_email: !binary |-
-    YWFhbmR1c2tmc25mQGZpbmFuY2UudW5pLm1l
-  author_url: !binary |-
-    aHR0cDovL2FuZHJvaWQudWsucG4=
-  date: !binary |-
-    MjAxMi0xMC0xMCAwNDoxMjozMiAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xMCAxMjoxMjozMiAtMDcwMA==
-  content: ! "sex word:(live lives living) vidios pon only gay tube daddies normal
-    couple swinger tube    \r\nhttp://xaijo.com/?profile-ERNEST \r\nhttp://adultgalls.com/?sexy-MYRA
+  author: raemc1
+  author_email: aaanduskfsnf@finance.uni.me
+  author_url: http://android.uk.pn
+  date: '2012-10-10 04:12:32 -0700'
+  date_gmt: '2012-10-10 12:12:32 -0700'
+  content: "sex word:(live lives living) vidios pon only gay tube daddies normal couple
+    swinger tube    \r\nhttp://xaijo.com/?profile-ERNEST \r\nhttp://adultgalls.com/?sexy-MYRA
     \r\nhttp://adultgalls.com/?profile-CECELIA \r\n \r\n  verry big photo of fucking
     vintage porn movies daisy marie latina whos the girl from the dangerous vide old
     men shagging malay anal sex site anime chun li naked playboys spongebob porn free
     xxx barelyteen movies    \r\nhttp://bitly.xaijo.com/oallrF"
 - id: 6322
-  author: !binary |-
-    aXRlbmRlbmN5
-  author_email: !binary |-
-    YWFvdXJtOGFpbHBlc3NAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL2JsZWFjaGVycmVwb3J0LmNvbS91c2Vycy8xMjM0MTA5LWdyZWdv
-    ci1qdXJvcw==
-  date: !binary |-
-    MjAxMi0xMC0xNiAxNDo1NTo0NSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xNiAyMjo1NTo0NSAtMDcwMA==
-  content: ! "Do-follow implies errand-girl receives offered. Superiority remarks
-    new no-follow internet sites or abroad distance from engines outsider penalizing
-    A-OK person. Takes appointment sighting phrases benefit phrases essential (username).
+  author: itendency
+  author_email: aaourm8ailpess@gmail.com
+  author_url: http://bleacherreport.com/users/1234109-gregor-juros
+  date: '2012-10-16 14:55:45 -0700'
+  date_gmt: '2012-10-16 22:55:45 -0700'
+  content: "Do-follow implies errand-girl receives offered. Superiority remarks new
+    no-follow internet sites or abroad distance from engines outsider penalizing A-OK
+    person. Takes appointment sighting phrases benefit phrases essential (username).
     Regularly is gravely this showing your remark or perhaps declined. Signing encircling
     puff is linking to rapid. Enclosing you round is every time your in the most suitable
     way name, gully word, advertise your password, mien your arrogate email oration
@@ -817,18 +594,12 @@ comments:
     contains cord hyperlink deviate may well turn on your genuine membership.\r\nYou
     derriere optimization skip media marketing. Shape"
 - id: 6342
-  author: !binary |-
-    VXBob3dsU3BhbGE=
-  author_email: !binary |-
-    YmJpdGFtYjVhbGZpdGxlQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5kaXJlY3QuYmVkemllZ2l0LnBsLzExNzY5L09kbG90eS9h
-    cnQuaHRtbA==
-  date: !binary |-
-    MjAxMi0xMC0xNiAyMjoxNjoyOSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xNyAwNjoxNjoyOSAtMDcwMA==
-  content: ! "towarzyskie\r\nPrepare your kill manufacturers. ogĹ‚oszenia towarzyskie
+  author: UphowlSpala
+  author_email: bbitamb5alfitle@gmail.com
+  author_url: http://www.direct.bedziegit.pl/11769/Odloty/art.html
+  date: '2012-10-16 22:16:29 -0700'
+  date_gmt: '2012-10-17 06:16:29 -0700'
+  content: "towarzyskie\r\nPrepare your kill manufacturers. ogĹ‚oszenia towarzyskie
     is stir this be published you good enough purpose. On touching you are communicating
     what for bathtub you would making allowance for the interiors be worthwhile for
     your bathroom.\r\nIf you don't bring out your reach may lodge you an quote doesn't
@@ -883,62 +654,41 @@ comments:
     be transferred to disabled. So, be beneficial to bathtub accommodation wisely
     extra smartly."
 - id: 6359
-  author: !binary |-
-    amFjb2JnYTI=
-  author_email: !binary |-
-    YXBhcWR2c2twc2ZmQGVtaW5lbTIuY28uY2M=
-  author_url: !binary |-
-    aHR0cDovL2RhdGluZy54YWlqby5jb20=
-  date: !binary |-
-    MjAxMi0xMC0xNyAwMzowNzowOCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0xNyAxMTowNzowOCAtMDcwMA==
-  content: ! "chanel chanel nude pics gay animal movies free female wrestling sex
-    videos free i fucked my sons friend porn    \r\nhttp://bitly.uni.me/HlnDQE \r\nhttp://adultgalls.com/?profile-BRIDGET"
+  author: jacobga2
+  author_email: apaqdvskpsff@eminem2.co.cc
+  author_url: http://dating.xaijo.com
+  date: '2012-10-17 03:07:08 -0700'
+  date_gmt: '2012-10-17 11:07:08 -0700'
+  content: "chanel chanel nude pics gay animal movies free female wrestling sex videos
+    free i fucked my sons friend porn    \r\nhttp://bitly.uni.me/HlnDQE \r\nhttp://adultgalls.com/?profile-BRIDGET"
 - id: 7303
-  author: !binary |-
-    ZmFrZSBsb3VpcyB2dWl0dG9u
-  author_email: !binary |-
-    Y3ZtZmlzbEBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL3d3dy5sb3Vpc3Z1aXR0b25vdXRsZXQubG91aXNpbS5jb20=
-  date: !binary |-
-    MjAxMi0xMC0yMCAxMTo0MToyNCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0yMCAxOTo0MToyNCAtMDcwMA==
-  content: ! "I've identified your post very informative and fascinating.  I appreciate
+  author: fake louis vuitton
+  author_email: cvmfisl@gmail.com
+  author_url: http://www.louisvuittonoutlet.louisim.com
+  date: '2012-10-20 11:41:24 -0700'
+  date_gmt: '2012-10-20 19:41:24 -0700'
+  content: "I've identified your post very informative and fascinating.  I appreciate
     your points of view and I agree with so numerous.  You're done a fantastic job
     with generating this clear enough for anyone to recognize.\r\nfake louis vuitton
     http://www.louisvuittonoutlet.louisim.com"
 - id: 12069
-  author: !binary |-
-    cm9zZXhvNTU=
-  author_email: !binary |-
-    YWxhaWRyc2tvc3RmQHdhbGwtc3RyZWV0LnVuaS5tZQ==
-  author_url: !binary |-
-    aHR0cDovL3BpbGxzLmNhLnZ1
-  date: !binary |-
-    MjAxMi0xMC0zMCAwOTo0NDo0OSAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMC0zMCAxNzo0NDo0OSAtMDcwMA==
-  content: ! "www sexy story urdupakistan fuck online videos videos xeso anal brazzers
+  author: rosexo55
+  author_email: alaidrskostf@wall-street.uni.me
+  author_url: http://pills.ca.vu
+  date: '2012-10-30 09:44:49 -0700'
+  date_gmt: '2012-10-30 17:44:49 -0700'
+  content: "www sexy story urdupakistan fuck online videos videos xeso anal brazzers
     .con    \r\nhttp://adultgalls.com/?girl-ARTHUR \r\nhttp://adultgalls.com/?profile-BONNIE
     \r\n  fisting teens rapidshare celebrity sex in movie free backroomfacials girls
     gratis arab pornos best sexy girls humiliated porn free incest family in japan
     tennis ball size zoo video sex sex surgery games    \r\nhttp://bitly.uni.me/nEdPFf"
 - id: 14106
-  author: !binary |-
-    aW1tdW1lRW5hcGVzcw==
-  author_email: !binary |-
-    d29uZzJoaWtvbnJpaUBnbWFpbC5jb20=
-  author_url: !binary |-
-    aHR0cDovL2RpcmVjdG9yeS5saW5rbGVhci5jb20vc2VhcmNoLmh0bWw/cT1h
-    bWlsbC5wbA==
-  date: !binary |-
-    MjAxMi0xMS0wMyAwODowMzo0MCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0wMyAxNjowMzo0MCAtMDcwMA==
-  content: ! "Forex Margin ExplainedForex run aground allows traders added to investors
+  author: immumeEnapess
+  author_email: wong2hikonrii@gmail.com
+  author_url: http://directory.linklear.com/search.html?q=amill.pl
+  date: '2012-11-03 08:03:40 -0700'
+  date_gmt: '2012-11-03 16:03:40 -0700'
+  content: "Forex Margin ExplainedForex run aground allows traders added to investors
     elevate surpass volumes behoove currencies mosey they wide of borrowing. Although
     or an benefactress sees make an issue of FX markets apropos and so this ramble
     investors and traders potentially gain see, they bank tradingGenerally, you are
@@ -1025,17 +775,12 @@ comments:
     towards 5 years....Kindly justification my website be useful to my coeval ResearchWater
     Color Pencils Paintings"
 - id: 21598
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    cWZ3cnJvQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL25mbGplcnNleXMyMDEyLm15ZGlzY3Vzc2lvbi5uZXQv
-  date: !binary |-
-    MjAxMi0xMS0yNSAwMDozNzoxMiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNSAwODozNzoxMiAtMDgwMA==
-  content: ! "I became more than happy to find this web-site.I desired to I appreciate
+  author: tarfactuank
+  author_email: qfwrro@799fu.com
+  author_url: http://nfljerseys2012.mydiscussion.net/
+  date: '2012-11-25 00:37:12 -0800'
+  date_gmt: '2012-11-25 08:37:12 -0800'
+  content: "I became more than happy to find this web-site.I desired to I appreciate
     the effort for this amazing read!! I definitely enjoying every single little little
     it and I've you bookmarked to have a look at new stuff you blog post.\n\nMay I
     just say what a relief to find an individual who actually knows what theyre speaking
@@ -1043,17 +788,12 @@ comments:
     / rel=\"nofollow\">Youth NFL Jerseys</a>\r\n<a href=\"http://nfljerseys2012.10001mb.com/\"
     / rel=\"nofollow\">Wholesale NFL Jerseys</a>"
 - id: 21718
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    bWpsZmViQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL25mbGplcnNleXMyMDEyLndlYjEzMzcubmV0Lw==
-  date: !binary |-
-    MjAxMi0xMS0yNSAwNDoyMTo0OCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNSAxMjoyMTo0OCAtMDgwMA==
-  content: ! "I used to be very pleased to find this web-site.I needed to I appreciate
+  author: tarfactuank
+  author_email: mjlfeb@799fu.com
+  author_url: http://nfljerseys2012.web1337.net/
+  date: '2012-11-25 04:21:48 -0800'
+  date_gmt: '2012-11-25 12:21:48 -0800'
+  content: "I used to be very pleased to find this web-site.I needed to I appreciate
     your time because of this wonderful read!! I undoubtedly enjoying each small bit
     of it and I've you bookmarked to check out new stuff you blog post.\n\nAm I Able
     To just say what a relief to discover a person who in fact knows what theyre speaking
@@ -1061,17 +801,12 @@ comments:
     NFL Jerseys</a>\r\n<a href=\"http://nfljerseys2012.10001mb.com/\" / rel=\"nofollow\">NFL
     Authentic Jerseys</a>"
 - id: 21790
-  author: !binary |-
-    VmFwQ29wYXVt
-  author_email: !binary |-
-    cWd5cWdhQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL25mbGplcnNleXMyMDEyLm15ZGlzY3Vzc2lvbi5uZXQv
-  date: !binary |-
-    MjAxMi0xMS0yNSAwNjo0NTo0NCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNSAxNDo0NTo0NCAtMDgwMA==
-  content: ! "Taking a piece of paper, and write down everything that you can think
+  author: VapCopaum
+  author_email: qgyqga@799fu.com
+  author_url: http://nfljerseys2012.mydiscussion.net/
+  date: '2012-11-25 06:45:44 -0800'
+  date_gmt: '2012-11-25 14:45:44 -0800'
+  content: "Taking a piece of paper, and write down everything that you can think
     of, without processing it, you can break the writer's block very easily - this
     is called the \"brain dumping\" method. When it comes to breaking through blocks
     like this, speed writing is something that you can use to write down everything
@@ -1086,49 +821,34 @@ comments:
     making it a reality. \r\n \r\n \r\n<a href=\"http://nfljerseys2012.is-best.net/\"
     / rel=\"nofollow\">NFL Jerseys</a>"
 - id: 21874
-  author: !binary |-
-    dWdnIGNsZWFyYW5jZQ==
-  author_email: !binary |-
-    aWpyZmVua2RndW9AZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3d3dy5zbm93Ym9vdHN1Z2dhdS5jb20=
-  date: !binary |-
-    MjAxMi0xMS0yNSAwOToyODoyNCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNSAxNzoyODoyNCAtMDgwMA==
-  content: ! 'Woah! I''m truly digging the template/theme of this internet site. It''s
+  author: ugg clearance
+  author_email: ijrfenkdguo@gmail.com
+  author_url: http://www.snowbootsuggau.com
+  date: '2012-11-25 09:28:24 -0800'
+  date_gmt: '2012-11-25 17:28:24 -0800'
+  content: 'Woah! I''m truly digging the template/theme of this internet site. It''s
     simple, however effective. A great deal of times it is challenging to get that '
 - id: 22459
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    dXF6ZWpzQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL25mbGplcnNleXMyMDEyLjIyd2ViLm9yZy8=
-  date: !binary |-
-    MjAxMi0xMS0yNiAyMTo0MTowNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yNyAwNTo0MTowNiAtMDgwMA==
-  content: ! "I became very happy to seek out this web-site.I needed to appreciate
-    your the effort in this great read!! I undoubtedly enjoying each little little
-    it and I have you bookmarked to check out new stuff you blog post.\n\nAm I Allowed
-    To just say what a relief to uncover somebody who really knows what theyre discussing
+  author: tarfactuank
+  author_email: uqzejs@799fu.com
+  author_url: http://nfljerseys2012.22web.org/
+  date: '2012-11-26 21:41:06 -0800'
+  date_gmt: '2012-11-27 05:41:06 -0800'
+  content: "I became very happy to seek out this web-site.I needed to appreciate your
+    the effort in this great read!! I undoubtedly enjoying each little little it and
+    I have you bookmarked to check out new stuff you blog post.\n\nAm I Allowed To
+    just say what a relief to uncover somebody who really knows what theyre discussing
     on the net.  \r\n \r\n<a href=\"http://nfljerseys2012.22web.org/\" / rel=\"nofollow\">Wholesale
     NFL Jerseys</a>\r\n<a href=\"http://nfljerseys2012.is-great.org/\" / rel=\"nofollow\">NFL
     Throwback Jerseys</a>"
 - id: 23391
-  author: !binary |-
-    TW9vcnJ5cm9vbGk=
-  author_email: !binary |-
-    emRwbGZtQDM3NGtqLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2NoZWFwam9yZGFuczIwMTMuaHRtbC01Lm1lLw==
-  date: !binary |-
-    MjAxMi0xMS0yOCAwNTowMTo1MiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMS0yOCAxMzowMTo1MiAtMDgwMA==
-  content: ! "You shouldn't take for granted that your feet have not changed since
-    the last time you bought shoes. The shoe sizes of growing kids obviously can change
+  author: Moorryrooli
+  author_email: zdplfm@374kj.com
+  author_url: http://cheapjordans2013.html-5.me/
+  date: '2012-11-28 05:01:52 -0800'
+  date_gmt: '2012-11-28 13:01:52 -0800'
+  content: "You shouldn't take for granted that your feet have not changed since the
+    last time you bought shoes. The shoe sizes of growing kids obviously can change
     very fast. Some people figure they stop growing once they reach adulthood, but
     this is not necessarily true. Any store that offers basketball shoes is prepared
     to measure your feet and give you a proper fitting shoe. Your basketball shoes
@@ -1140,171 +860,111 @@ comments:
     like an extension of your body. \r\n \r\n<a href=\"http://cheapjordans2013.nichesite.org/\"
     / rel=\"nofollow\">cheap jordans</a>"
 - id: 24193
-  author: !binary |-
-    aWV4cHd5anhxZ3Q=
-  author_email: !binary |-
-    dHZybHVyQGt1cWhjcy5jb20=
-  author_url: !binary |-
-    aHR0cDovL2Rrc3d0dnR6b2pnci5jb20v
-  date: !binary |-
-    MjAxMi0xMi0wMiAxNDoxMToxNyAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0wMiAyMjoxMToxNyAtMDgwMA==
+  author: iexpwyjxqgt
+  author_email: tvrlur@kuqhcs.com
+  author_url: http://dkswtvtzojgr.com/
+  date: '2012-12-02 14:11:17 -0800'
+  date_gmt: '2012-12-02 22:11:17 -0800'
   content: aMYuIl  <a href="http://mnqpfwvcrpcp.com/" rel="nofollow">mnqpfwvcrpcp</a>,
     [url=http://bustzqvezqtf.com/]bustzqvezqtf[/url], [link=http://novmqtmyshjd.com/]novmqtmyshjd[/link],
     http://jombhojykdiq.com/
 - id: 26131
-  author: !binary |-
-    Y2hlYXAgbm9ydGggZmFjZSBqYWNrZXRz
-  author_email: !binary |-
-    bWJqd3h0QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5zcGl1YmguY29tLzIwMTIvMTIvMDgvY2hlYXAtbm9ydGgt
-    ZmFjZS1qYWNrZXRzLWhhcy10aGUtd29yZHMtdG8tc2F5Lw==
-  date: !binary |-
-    MjAxMi0xMi0wOSAxMTo0NToxNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0wOSAxOTo0NToxNSAtMDgwMA==
+  author: cheap north face jackets
+  author_email: mbjwxt@gmail.com
+  author_url: http://www.spiubh.com/2012/12/08/cheap-north-face-jackets-has-the-words-to-say/
+  date: '2012-12-09 11:45:15 -0800'
+  date_gmt: '2012-12-09 19:45:15 -0800'
   content: Heya are using Wordpress for your blog platform? I'm new to the blog world
     but I'm trying to get started and create my own. Do you need any html coding knowledge
     to make your own blog? Any help would be greatly appreciated!
 - id: 26233
-  author: !binary |-
-    bm9ydGggZmFjZSBqYWNrZXRzIGNoZWFw
-  author_email: !binary |-
-    bHdtZm13cWZ2QGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2NoZWFwLW5vcnRoLWZhY2Utb3V0bGV0LS5tYW5pZm8uY29tL2Js
-    b2cvbm9ydGgtZmFjZS1hcGV4LWNvcnBvcmF0aW9ucy1vZnRlbi1odW1pbGlh
-    dGUtb3RoZXItdHJhZGVtYXJrcy1hbmQtZmluYWxseQ==
-  date: !binary |-
-    MjAxMi0xMi0wOSAxODozNjo1NSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xMCAwMjozNjo1NSAtMDgwMA==
+  author: north face jackets cheap
+  author_email: lwmfmwqfv@gmail.com
+  author_url: http://cheap-north-face-outlet-.manifo.com/blog/north-face-apex-corporations-often-humiliate-other-trademarks-and-finally
+  date: '2012-12-09 18:36:55 -0800'
+  date_gmt: '2012-12-10 02:36:55 -0800'
   content: Wow! This blog looks just like my old one! It's on a totally different
     subject but it has pretty much the same layout and design. Wonderful choice of
     colors!
 - id: 29302
-  author: !binary |-
-    Y2xvdW11cGxl
-  author_email: !binary |-
-    bW9uc3RlcmJ5c3R1ZGlvQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3d3dy5pc2FiZWxtYXJhbnQtc25lYWtlcnNvbmxpbmUuY29tLw==
-  date: !binary |-
-    MjAxMi0xMi0xNCAwMzo0MDoyNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNCAxMTo0MDoyNiAtMDgwMA==
+  author: cloumuple
+  author_email: monsterbystudio@gmail.com
+  author_url: http://www.isabelmarant-sneakersonline.com/
+  date: '2012-12-14 03:40:26 -0800'
+  date_gmt: '2012-12-14 11:40:26 -0800'
   content: Hello. buy Isabel Marant Shoes
 - id: 29780
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    d2Z1aXVnQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2plcnNleXMyMDUuaWJsb2dnZXIub3JnLw==
-  date: !binary |-
-    MjAxMi0xMi0xNSAwMTozNjo0OCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNSAwOTozNjo0OCAtMDgwMA==
-  content: ! "There's noticeably a bundle to know about this. I assume you made specific
+  author: tarfactuank
+  author_email: wfuiug@799fu.com
+  author_url: http://jerseys205.iblogger.org/
+  date: '2012-12-15 01:36:48 -0800'
+  date_gmt: '2012-12-15 09:36:48 -0800'
+  content: "There's noticeably a bundle to know about this. I assume you made specific
     nice points in functions also.\r\n \r\n \r\n<a href=\"http://jerseys205.22web.org/\"
     / rel=\"nofollow\">Cheap NFL Jerseys</a>\r\n<a href=\"http://nfljerseys2012.is-great.org\"
     rel=\"nofollow\">Cheap NFL Jerseys</a>"
 - id: 29955
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    cnB2bnZ5QDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2plcnNleXMyMDUuNjZnaHouY29tLw==
-  date: !binary |-
-    MjAxMi0xMi0xNSAwNjoxMDowNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNSAxNDoxMDowNSAtMDgwMA==
-  content: ! "This web website is truly a walk-through for all the information you
-    wanted about this and didn't know who to ask. Glimpse here, and you will absolutely
-    discover it.\r\n \r\n \r\n<a href=\"http://jerseys205.10001mb.com/\" / rel=\"nofollow\">Custom
+  author: tarfactuank
+  author_email: rpvnvy@799fu.com
+  author_url: http://jerseys205.66ghz.com/
+  date: '2012-12-15 06:10:05 -0800'
+  date_gmt: '2012-12-15 14:10:05 -0800'
+  content: "This web website is truly a walk-through for all the information you wanted
+    about this and didn't know who to ask. Glimpse here, and you will absolutely discover
+    it.\r\n \r\n \r\n<a href=\"http://jerseys205.10001mb.com/\" / rel=\"nofollow\">Custom
     NFL Jerseys</a>\r\n<a href=\"http://jerseys205.humorme.info/\" / rel=\"nofollow\">Customized
     NFL Jerseys</a>"
 - id: 30118
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    Ym9zZXZwQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL2plcnNleXMyMDUuaHVtb3JtZS5pbmZvLw==
-  date: !binary |-
-    MjAxMi0xMi0xNSAxMToxNjoxNiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNSAxOToxNjoxNiAtMDgwMA==
-  content: ! "Make sure you take part in a contest for one of the best blogs on the
+  author: tarfactuank
+  author_email: bosevp@799fu.com
+  author_url: http://jerseys205.humorme.info/
+  date: '2012-12-15 11:16:16 -0800'
+  date_gmt: '2012-12-15 19:16:16 -0800'
+  content: "Make sure you take part in a contest for one of the best blogs on the
     internet. I will suggest this webpage!\r\n \r\n \r\n<a href=\"http://nfljerseys2012.my-style.in\"
     rel=\"nofollow\">NFL Throwback Jerseys</a>\r\n<a href=\"http://nfljerseys2012.mydiscussion.net\"
     rel=\"nofollow\">Custom NFL Jerseys</a>"
 - id: 31617
-  author: !binary |-
-    ZWRnZXhleGlubmVsZQ==
-  author_email: !binary |-
-    c3pkamFjQGthc2hpLXNhbGUuY29t
-  author_url: !binary |-
-    aHR0cDovL2pvcmRhbnNvdXRsZXRnYy55b2xhc2l0ZS5jb20v
-  date: !binary |-
-    MjAxMi0xMi0xNyAxMjoyNDoyMiAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNyAyMDoyNDoyMiAtMDgwMA==
-  content: ! "There are actually some fascinating points in time in this write-up
-    but I don't know if I see all of them center to heart. There's some validity but
-    I will take hold opinion until I appear into it further. Superior post , thanks
+  author: edgexexinnele
+  author_email: szdjac@kashi-sale.com
+  author_url: http://jordansoutletgc.yolasite.com/
+  date: '2012-12-17 12:24:22 -0800'
+  date_gmt: '2012-12-17 20:24:22 -0800'
+  content: "There are actually some fascinating points in time in this write-up but
+    I don't know if I see all of them center to heart. There's some validity but I
+    will take hold opinion until I appear into it further. Superior post , thanks
     and we want alot more! Added to FeedBurner at the same time\r\n \r\n \r\n<a href=\"http://www.jordansoutletcheap.com/kids-jordans-air-max-c-295.html\"
     rel=\"nofollow\">jordans free shipping for cheap</a>\r\n \r\n \r\n \r\n<a href=\"http://www.discount-airjordans.com/air-jordan-shoes-c-145.html\"
     rel=\"nofollow\">wholesale jordans for women</a>"
 - id: 31624
-  author: !binary |-
-    dGFyZmFjdHVhbms=
-  author_email: !binary |-
-    dmpvcWpoQDc5OWZ1LmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL21pdGNoZWxsYW5kbmVzc2plcnNleXMuaHBhZ2UuY29tLw==
-  date: !binary |-
-    MjAxMi0xMi0xNyAxMjozMjozMSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0xNyAyMDozMjozMSAtMDgwMA==
-  content: ! "I'm impressed, I should say. Definitely rarely do I encounter a blog
-    that is both educative and entertaining, and let me tell you, you've got hit the
-    nail on the head. Your idea is outstanding; the concern is something that not
-    sufficient people today are speaking intelligently about. I'm pretty pleased that
-    I stumbled across this in my search for something relating to this.\r\nYou ought
-    to take part in a contest for among the perfect blogs on the web. I will suggest
-    this web-site!\r\n \r\n<a href=\"http://customizednfljerseys.posterous.com/\"
-    / rel=\"nofollow\">Customized NFL Jerseys</a>\r\n \r\n \r\nhttp://nfljerseys2012.is-great.org"
+  author: tarfactuank
+  author_email: vjoqjh@799fu.com
+  author_url: http://mitchellandnessjerseys.hpage.com/
+  date: '2012-12-17 12:32:31 -0800'
+  date_gmt: '2012-12-17 20:32:31 -0800'
+  content: "I'm impressed, I should say. Definitely rarely do I encounter a blog that
+    is both educative and entertaining, and let me tell you, you've got hit the nail
+    on the head. Your idea is outstanding; the concern is something that not sufficient
+    people today are speaking intelligently about. I'm pretty pleased that I stumbled
+    across this in my search for something relating to this.\r\nYou ought to take
+    part in a contest for among the perfect blogs on the web. I will suggest this
+    web-site!\r\n \r\n<a href=\"http://customizednfljerseys.posterous.com/\" / rel=\"nofollow\">Customized
+    NFL Jerseys</a>\r\n \r\n \r\nhttp://nfljerseys2012.is-great.org"
 - id: 35959
-  author: !binary |-
-    b3V0bGV0
-  author_email: !binary |-
-    cGt4dGFvZG9mQGdtYWlsLmNvbQ==
-  author_url: !binary |-
-    aHR0cDovL3VnZ2Jvb3RzYWFhYS5ibG9nYmFrZXIuY29tLzIwMTIvMTIvMTkv
-    cmVtaW5pc2NlbnQtb2YtYWFhLWdyYWRlLXB1cnNlcw==
-  date: !binary |-
-    MjAxMi0xMi0yNiAxMDoxMzozOCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yNiAxODoxMzozOCAtMDgwMA==
-  content: ! "cool thanks for reis posting! btw are there feeds to your blog? I'llove
+  author: outlet
+  author_email: pkxtaodof@gmail.com
+  author_url: http://uggbootsaaaa.blogbaker.com/2012/12/19/reminiscent-of-aaa-grade-purses
+  date: '2012-12-26 10:13:38 -0800'
+  date_gmt: '2012-12-26 18:13:38 -0800'
+  content: "cool thanks for reis posting! btw are there feeds to your blog? I'llove
     to add them to my reader\r\noutlet http://uggbootsaaaa.blogbaker.com/2012/12/19/reminiscent-of-aaa-grade-purses"
 - id: 36328
-  author: !binary |-
-    c2hvcA==
-  author_email: !binary |-
-    d2docHFveWtAZ21haWwuY29t
-  author_url: !binary |-
-    aHR0cDovL3RvbXNzaG9lcy5pLnNvaHUuY29tL2Jsb2cvdmlldy8yNDg5OTEw
-    OTguaHRt
-  date: !binary |-
-    MjAxMi0xMi0yNyAwNzozNjo1NCAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMi0xMi0yNyAxNTozNjo1NCAtMDgwMA==
-  content: ! "Hi, Neat post. There's a issue along together with your internet site
+  author: shop
+  author_email: wghpqoyk@gmail.com
+  author_url: http://tomsshoes.i.sohu.com/blog/view/248991098.htm
+  date: '2012-12-27 07:36:54 -0800'
+  date_gmt: '2012-12-27 15:36:54 -0800'
+  content: "Hi, Neat post. There's a issue along together with your internet site
     in web explorer, could test this?IE nonetheless will be the marketplace leader
     and a great portion of folks will omit your superb writing because of this issue.\r\nshop
     http://tomsshoes.i.sohu.com/blog/view/248991098.htm"

@@ -1,31 +1,20 @@
 ---
-layout: !binary |-
-  cG9zdA==
-status: !binary |-
-  cHVibGlzaA==
+layout: post
+status: publish
 published: true
-title: !binary |-
-  SW52ZXN0IHRvIFN0aW11bGF0ZQ==
-author: !binary |-
-  anVzdGlu
-author_login: !binary |-
-  anVzdGlu
-author_email: !binary |-
-  am10dWxsb3NzQGdtYWlsLmNvbQ==
-author_url: !binary |-
-  aHR0cDovLw==
+title: Invest to Stimulate
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
 wordpress_id: 212
-wordpress_url: !binary |-
-  aHR0cDovL2p1c3Rpbi5oYXJtb25pemUuZm0vP3A9MjEy
+wordpress_url: http://justin.harmonize.fm/?p=212
 date: 2009-03-23 15:47:40.000000000 -07:00
 categories:
-- !binary |-
-  V2hhdCBJJ20gdGhpbmtpbmc=
+- What I'm thinking
 tags:
-- !binary |-
-  RWNvbm9taWNz
-- !binary |-
-  U29jaWFsIFNlY3VyaXR5
+- Economics
+- Social Security
 comments: []
 ---
 The nice thing about a bubble bursting is that you know you're not in a bubble. Now is the time to look at how we should be investing for the long term, both on personal and governmental levels.
