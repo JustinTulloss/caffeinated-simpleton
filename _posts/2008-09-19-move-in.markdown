@@ -1,15 +1,14 @@
----
-layout: post
-status: publish
-published: true
-title: Move In
-author: justin
-author_login: justin
-author_email: jmtulloss@gmail.com
-author_url: http://
-wordpress_id: 92
-wordpress_url: http://justin.harmonize.fm/index.php/2008/09/move-in/
-date: 2008-09-19 22:56:55.000000000 -07:00
+  ---
+  layout: post
+  status: publish
+  published: true
+  title: Move In
+  author: justin
+  author_login: justin
+  author_email: jmtulloss@gmail.com
+  author_url: http://
+  wordpress_id: 92
+  wordpress_url: http://justin.harmonize.fm/index.php/2008/09/move-in/
 categories:
 - What I'm doing
 tags:

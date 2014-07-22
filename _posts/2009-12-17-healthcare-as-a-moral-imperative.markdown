@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 296
 wordpress_url: http://justin.harmonize.fm/?p=296
-date: 2009-12-17 00:18:36.000000000 -08:00
 categories:
 - Politics
 tags:

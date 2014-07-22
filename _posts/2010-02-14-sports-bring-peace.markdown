@@ -1,15 +1,3 @@
----
-layout: post
-status: publish
-published: true
-title: Sports Bring Peace
-author: justin
-author_login: justin
-author_email: jmtulloss@gmail.com
-author_url: http://
-wordpress_id: 330
-wordpress_url: http://justin.harmonize.fm/?p=330
-date: 2010-02-14 20:35:53.000000000 -08:00
 categories:
 - What I'm thinking
 tags:

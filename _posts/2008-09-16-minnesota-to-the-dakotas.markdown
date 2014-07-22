@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 70
 wordpress_url: http://justin.harmonize.fm/index.php/2008/09/minnesota-to-the-dakotas/
-date: 2008-09-16 10:56:48.000000000 -07:00
 categories:
 - What I'm doing
 tags:

@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 80
 wordpress_url: http://justin.harmonize.fm/index.php/2008/09/through-south-dakota-to-yellowstone/
-date: 2008-09-17 23:26:53.000000000 -07:00
 categories:
 - What I'm doing
 tags:

@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 354
 wordpress_url: http://justin.harmonize.fm/?p=354
-date: 2010-10-18 23:31:08.000000000 -07:00
 categories:
 - Development
 tags:

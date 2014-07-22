@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 153
 wordpress_url: http://justin.harmonize.fm/?p=153
-date: 2009-01-31 20:10:46.000000000 -08:00
 categories:
 - What I'm thinking
 tags:

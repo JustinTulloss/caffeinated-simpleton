@@ -9,7 +9,6 @@ author_email: jmtulloss@gmail.com
 author_url: http://
 wordpress_id: 5
 wordpress_url: http://justin.harmonize.fm/?p=5
-date: 2008-08-16 23:01:36.000000000 -07:00
 categories:
 - What I'm doing
 tags: []
