@@ -95,5 +95,6 @@ After that, you just need to create some code to run.
 ```
 
 - Open `index.html` in your browser and check out your new app!
+- Now that you're up and running, learn how to actually do things by [reading the docs](https://github.com/swannodette/om/wiki)
 
 Stay tuned for more information on how to actually get something interesting working and a production build!
