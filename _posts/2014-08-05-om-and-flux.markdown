@@ -64,14 +64,12 @@ As an example, I've replicated part of the [Flux dispatcher API](http://facebook
       dispatch-pub (pub dispatch-chan (fn [[tag & _]] tag))]
 
   (defn register [tag]
-    (let [sub-chan (chan)]
-      (sub dispatch-pub tag sub-chan)
-      sub-chan))
+    (sub dispatch-pub tag (chan)))
 
   (defn unregister [tag chan]
     (unsub dispatch-pub tag chan))
 
-  (defn dispatch [tag & args]
+  (defn dispatch! [tag & args]
     (apply put! dispatch-chan tag args)))
 ```
 
@@ -95,7 +93,7 @@ In order to notify the world that some action has been taken, you call dispatch.
 
 ;; Then much later, we can dispatch
 ;; For example, let's day a TODO got deleted
-(dispatch :deleted-todo todo-id)
+(dispatch! [:deleted-todo todo-id])
 ```
 
 That will put the `todo-id` onto the dispatch channel (which is internal to the dispatcher), which will in turn publish the id to every bit of code that has registered.
@@ -144,7 +142,7 @@ Then when you're rendering your Om app, you would do something like this.
     app-state
     {:target (. js/document (getElementById "app"))
      :tx-listen (fn [tx-data root-cursor]
-                  (dispatch [:txs tx-data root-cursor]))}))
+                  (dispatch! [:txs tx-data root-cursor]))}))
 ```
 
 As a simpler example, this will just print all state changes to the console.
