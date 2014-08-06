@@ -90,7 +90,8 @@ In order to notify the world that some action has been taken, you call dispatch.
 (let [delete-chan (register :deleted-todo)]
   (go-loop []
     (let [todo-id (<! delete-chan)]
-      (sync-delete-with-server todo-id))))
+      (sync-delete-with-server todo-id))
+    (recur)))
 
 ;; Then much later, we can dispatch
 ;; For example, let's day a TODO got deleted
