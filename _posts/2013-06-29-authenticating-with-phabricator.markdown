@@ -22,7 +22,7 @@ Phabricator install wherever you see it.
 
 ### Prerequisites
  - An arc user
- - A certificate (can be found at [/settings/pane/conduit/](https://secure.phabricator.com/settings/pane/conduit/))
+ - A certificate (can be found at [/settings/panel/conduit/](https://secure.phabricator.com/settings/panel/conduit/))
 
 ### Making the call
 
