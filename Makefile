@@ -2,4 +2,4 @@ deploy:
 	jekyll build && rsync -avz --delete _site/ justin.harmonize.fm:/usr/share/nginx/blog
 
 watch:
-	jekyll serve -w
+	jekyll serve -wD

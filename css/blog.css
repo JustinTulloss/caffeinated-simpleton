@@ -73,3 +73,7 @@ time {
         padding: 1em;
     }
 }
+
+img {
+    max-width: 100%;
+}
