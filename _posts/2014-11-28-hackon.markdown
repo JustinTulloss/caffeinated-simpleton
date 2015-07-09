@@ -1,7 +1,10 @@
-Hackon: A tool for managing dev environment variables
------------------------------------------------------
+---
+layout: post
+category: Development
+title: Hackon&#58; A tool for managing dev environment variables
+---
 
-While flying across the country to visit family this week, I found myself without internet or patience. So I found a small problem and opened up some manpages; the result is [hackon](https://github.com/JustinTulloss/hackon). It's heavily inspired by mkvirtualenv and virtualenv, but it's not nearly as awesome. It is a lot more general though. // TODO: LINK THOSE
+While flying across the country to visit family this week, I found myself without internet or patience. So I found a small problem and opened up some manpages; the result is [hackon](https://github.com/JustinTulloss/hackon). It's heavily inspired by [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/) and [virtualenv](http://virtualenv.readthedocs.org/en/latest/), but it's not nearly as awesome. It is a lot more general though.
 
 In brief, `hackon` is a tool that lets you turn on and off named sets of environment variables. It also lets you temporarily override environment variables.
 
@@ -9,9 +12,9 @@ The problem `hackon` solves is relatively simple. The web app development world 
 
 For instance, if you're deploying your application on [Heroku](http://heroku.com), all configuration is done through environment variables. A lot of these variables can have sensitive information contained in them and therefore are set either through the console or the Heroku CLI. They are not checked into source control. Your code can assume that those variables will be present wherever it's running and fail quickly if they are not.
 
-Docker TODO: LINK THIS is another tool that's all in on environment variables. When you link two containers together, information about the linked containers are injected into the environment in a predictable way. This allows you to assume in your code that you're in a docker-like environment, which allows you to quickly and easily combine a bunch of services together without worrying about how they'll talk to each other. This even works in highly dynamic environments where services are coming and going. TODO: Link this
+[Docker](http://docker.com/) is another tool that's all in on environment variables. When you link two containers together, information about the linked containers are injected into the environment in a predictable way. This allows you to assume in your code that you're in a docker-like environment, which allows you to quickly and easily combine a bunch of services together without worrying about how they'll talk to each other. This even works in [highly dynamic environments where services are coming and going](https://coreos.com/docs/launching-containers/launching/launching-containers-fleet/#run-a-simple-sidekick).
 
-Even the frontend is getting in on the action with tools like envify TOOD: LINK THIS . Envify is great, it allows you to write your code like it's going to run server side (in node.js), but if it's actually being bundled up to run in the browser, all the references to `process.env` are represented by their values.
+Even the frontend is getting in on the action with tools like [envify](https://github.com/hughsk/envify). Envify is great, it allows you to write your code like it's going to run server side (in node.js), but if it's actually being bundled up to run in the browser, all the references to `process.env` are represented by their values.
 
 All these tools mean that no matter where we're deploying and no matter what language we're deploying in, we can configure these things using environment variables. However, I found that as I created more services with more clients connecting to them I needed some help managing the constantly in-flux variables as I added services and dependencies.
 
@@ -35,7 +38,7 @@ There are a few things that we're going to need to configure through the environ
 To manage all this while we're developing, we just run `hackon santas-list`. This will create a new environment for this project. Next we need to add our environment variables.
 
 ```sh
-hackon sethackenv DATABASE_URL="postgres://postgres@postgres/?sslmode=disable" FB_APP_ID=1234567890`
+hackon sethackenv DATABASE_URL="postgres://postgres@postgres/?sslmode=disable" FB_APP_ID=1234567890
 ```
 
 There are some assumptions there that you can modify to match your environment.
@@ -48,6 +51,6 @@ There's a couple more commands for making `hackon` more useful for more complica
 
 ### That's all!
 
-Currently the only other feature is tab-completions that are pretty helpful. They only work in ZSH TODO: LINK THIS (in fact, I'm not sure this works in bash at all), but pull requests from bash users are welcome!
+Currently the only other feature is tab-completions that are pretty helpful. They only work in [ZSH](http://www.zsh.org/) (in fact, I'm not sure this works in bash at all), but pull requests from bash users are welcome!
 
 If you think you might find `hackon` useful, head on over to the [Github repo](https://github.com/JustinTulloss/hackon). It's Apache 2.0 licensed. Comments are welcome, as are [issues](https://github.com/JustinTulloss/hackon/issues).
