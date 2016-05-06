@@ -1,54 +1,26 @@
-  ---
-  layout: post
-  status: publish
-  published: true
-  title: Move In
-  author: justin
-  author_login: justin
-  author_email: jmtulloss@gmail.com
-  author_url: http://
-  wordpress_id: 92
-  wordpress_url: http://justin.harmonize.fm/index.php/2008/09/move-in/
+---
+layout: post
+status: publish
+published: true
+title: Move In
+author: justin
+author_login: justin
+author_email: jmtulloss@gmail.com
+author_url: http://
+wordpress_id: 92
+wordpress_url: http://justin.harmonize.fm/index.php/2008/09/move-in/
 categories:
-- What I'm doing
+  - What I'm doing
 tags:
-- Move to San Francisco
+  - Move to San Francisco
 comments:
-- id: 30
-  author: Dave
-  author_email: dave@davezor.net
-  author_url: http://www.davezor.net
-  date: '2008-09-20 20:25:57 -0700'
-  date_gmt: '2008-09-21 01:25:57 -0700'
-  content: That&#39;s glamorous as hell.  Good luck dude.
-- id: 1592
-  author: Alana
-  author_email: carla_sanc@hotmail.com
-  author_url: http://www.capitalbar.net
-  date: '2012-04-17 03:07:01 -0700'
-  date_gmt: '2012-04-17 11:07:01 -0700'
-  content: this is a great post to check out.http://www.capitalbar.net
-- id: 2047
-  author: Gregorio
-  author_email: mail@rfhcompany.com
-  author_url: http://www.facebook.com/profile.php?id=100003406003892
-  date: '2012-05-22 08:41:12 -0700'
-  date_gmt: '2012-05-22 16:41:12 -0700'
-  content: We definitely need more smart people like you aornud.
-- id: 2089
-  author: Hodgey
-  author_email: madhutson@yahoo.co.uk
-  author_url: http://www.facebook.com/profile.php?id=100003406018034
-  date: '2012-05-23 18:01:21 -0700'
-  date_gmt: '2012-05-24 02:01:21 -0700'
-  content: Haha. I woke up down today. You've cehreed me up!
-- id: 2131
-  author: Teju
-  author_email: info@sickandwired.de
-  author_url: http://www.facebook.com/profile.php?id=100003406025624
-  date: '2012-05-23 21:04:02 -0700'
-  date_gmt: '2012-05-24 05:04:02 -0700'
-  content: Articles like this really grease the sthfas of knowledge.
+  - id: 30
+    author: Dave
+    author_email: dave@davezor.net
+    author_url: http://www.davezor.net
+    date: '2008-09-20 20:25:57 -0700'
+    date_gmt: '2008-09-21 01:25:57 -0700'
+    content: That&#39;s glamorous as hell.  Good luck dude.
 ---
 <img src="http://justin.harmonize.fm/wp-content/uploads/2008/09/pict1918.jpg" width="260" height="195" alt="PICT1918.JPG" style="float:right;" />
 
