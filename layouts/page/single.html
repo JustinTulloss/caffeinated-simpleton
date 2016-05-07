@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caffeinated Simpleton - {{.Title}} </title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+    {{ partial "mixpanel.html" }}
+  </head>
+  <body>
+    {{ partial "header.html" }}
+    <section class="content">
+      {{ .Content }}
+    </section>
+    <script type="text/javascript">mixpanel.track('view.{{lower .Title}}')</script>
+  </body>
+</html>
+

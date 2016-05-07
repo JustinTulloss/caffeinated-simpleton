@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+  <head>
+    <title>Caffeinated Simpleton</title>
+    <meta name="description" content="The personal blog of Justin Tulloss">
+    <meta name="viewport" content="initial-scale=1.0">
+    {{ .Hugo.Generator }}
+    <link rel="alternate"
+          type="application/rss+xml"
+          title="{{ .Site.Title }}"
+          href="{{ .Site.RSSLink }}"
+    >
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+    {{ partial "mixpanel.html" }}
+    <script src="https://www.rdio.com/api/api.js?helper=rdio_helper.html&client_id=2jCEjkotXSEfVh2HexjgTw"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.3/underscore-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/js/hr.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Caffeinated <br /> Simpleton</h1>
+    </header>
+    <section>
+      <nav>
+        <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td><a href="/about/">About</a></td>
+            <td><a href="#posts">Posts</a></td>
+            <td><a href="/talks/">Talks</a></td>
+            <td><a href="https://github.com/JustinTulloss" target="_blank">GitHub</a></td>
+            <td><a href="https://twitter.com/justin_tulloss" target="_blank">Twitter</a></td>
+            <td><a href="https://www.facebook.com/justin.tulloss" target="_blank">Facebook</a></td>
+          </tr>
+        </table>
+      </nav>
+      <ol id="posts">
+        {{ range .Site.Pages }}
+          <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ol>
+    </section>
+    <script type="text/javascript">mixpanel.track('view.index')</script>
+  </body>
+</html>
+

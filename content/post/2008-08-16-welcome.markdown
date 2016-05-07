@@ -1,0 +1,23 @@
+---
+author: justin
+author_email: jmtulloss@gmail.com
+author_login: justin
+author_url: http://
+categories:
+- What I'm doing
+comments: []
+date: 2008-08-16T00:00:00Z
+published: true
+status: publish
+tags: []
+title: Welcome!
+url: /2008/08/16/welcome/
+wordpress_id: 5
+wordpress_url: http://justin.harmonize.fm/?p=5
+---
+
+Welcome to my personal blog! My old personal blog was deleted without warning, so I'm starting a new one here. I'm freeloading off of the harmonize.fm server, but as it's my company's server, and the company is 49% mine, I don't think they'll mind. 
+
+I've started this blog because now that I'm not working on harmonize for ridiculous hours and searching for a job doesn't take huge amounts of time, I have more time to write. In addition, I'm trying to learn Erlang to a much deeper level and I think that I might have some things to say in that process.
+
+I hope you enjoy it!

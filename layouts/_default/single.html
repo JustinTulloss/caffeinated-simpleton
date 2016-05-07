@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+  <head>
+    <title>Caffeinated Simpleton &mdash; {{ .Title }}</title>
+    <link rel="alternate"
+          type="application/rss+xml"
+          title="{{ .Site.Title }}"
+          href="{{ .Site.RSSLink }}"
+    >
+    <link rel="stylesheet" type="text/css" href="/css/blog.css">
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+    {{ partial "mixpanel.html" }}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+  </head>
+  <body>
+    {{ partial "header.html" }}
+    <section class="content">
+      <h1>{{ .Title }}</h1>
+      <time datetime="{{ .Date }}">{{ dateFormat "January 02, 2006" .Date }}</time>
+      <article>{{ .Content }}</article>
+      <div id="disqus_thread"></div>
+      {{ partial "disqus.html" }}
+    </section>
+    <script type="text/javascript">
+      mixpanel.track('view.post', {
+        page_name: "{{ .Title }}",
+        url: "{{ .RelPermalink }}",
+      });
+      mixpanel.track_links('nav.social a', 'click.social_links', function(anchorEl) {
+        return {
+          url: anchorEl.href
+        };
+      });
+    </script>
+  </body>
+</html>

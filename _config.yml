@@ -1,6 +1,0 @@
-highlighter: pygments
-baseUrl: '/'
-markdown: redcarpet
-exclude: ['Makefile']
-name: Caffeinated Simpleton
-url: https://justin.harmonize.fm
